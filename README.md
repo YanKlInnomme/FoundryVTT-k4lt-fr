@@ -1,9 +1,6 @@
-# Module kult-divinity-lost-fr pour Foundry VTT
-Améliorer votre expérience de jeu avec ce module de traduction VF pour la version Kult Divinity Lost 4th Edition d'astarte-horns pour Foundry VTT.
+# Module k4lt-fr pour Foundry VTT
+Découvrez Améliorer votre expérience de jeu avec ce module de traduction VF pour la version Kult Divinity Lost 4th Edition d'astarte-horns pour Foundry VTT.
 
-![Capture d’écran 2022-05-25 102005](https://user-images.githubusercontent.com/100078854/170216934-6d92f928-4d67-4540-b87f-fd48e9e2914a.jpg)
-![Capture d’écran 2022-05-25 102403](https://user-images.githubusercontent.com/100078854/170216982-7555c171-d6bd-4278-9979-839345d2cc5c.jpg)
-![Capture d’écran 2022-05-25 102456](https://user-images.githubusercontent.com/100078854/170216996-e424cca4-67af-409a-b2b4-b7a0c9d74876.jpg)
 
 Vous appréciez ce module, pensez à me soutenir sur Tipeee ! (https://fr.tipeee.com/yank/news) 🖤
 

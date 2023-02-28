@@ -7,7 +7,7 @@ Si vous appréciez le module et que vous avez les moyens de le faire, vous pouve
 ## Prérequis
 
 Afin de fonctionner ce module nécessite les installations préalables suivantes :
- * Le système Kult Divinity Lost 4th Edition d'astarte-horns
+ * Le système 'KULT: Divinity Lost (4th Edition)' (k4lt)
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
 
@@ -20,3 +20,21 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  
 ---------------------------------------------------------------------
 
+# k4lt-fr module for Foundry VTT
+Enhance your gaming experience with this add-on for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.
+
+If you like the module and have the means, you can support me via Tipeee (https://fr.tipeee.com/yank/news) to help me continue this adventure. In any case, have fun and don't hesitate to contact me to give me your opinion or to report any problems.
+
+## Prerequisites
+
+The following requirements are necessary for this module to work :
+ * The 'KULT: Divinity Lost (4th Edition)' system (k4lt)
+ * The Babele module (essential for translation)
+ * Lib-wrapper module (required for Babele)
+
+## Version 1.0.0
+
+ * "Avantages", "Désavantages" et "Sombres secrets" compendiums
+ * French version of the logo updated
+ * KULT Tarot: Lost Divinity (68 Cards)
+ * Translation of the Moves table (file k4lt.moves.json) 

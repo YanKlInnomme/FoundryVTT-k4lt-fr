@@ -1,0 +1,65 @@
+{
+    "id": "k4lt-fr",
+    "title": "Kult DP Traduction Française - Kult DL French Translation",
+    "description": "Module de traduction en langue française pour la version Kult Divinity Lost 4th Edition d'astarte-horns sur Foundry VTT<br>French translation module for the Kult Divinity Lost 4th Edition of astarte-horns on Foundry VTT",
+    "version": "5.0.0",
+    "minimumCoreVersion" : "10",
+    "compatibleCoreVersion":"10.285",
+    "dependencies":
+	[
+		{
+		"name": "babele"
+		},
+		{
+		"name": "lib-wrapper"
+		},
+		{
+		"name": "k4lt",
+		"type": "system"
+		}
+	],
+    "author": "YanK (YanK#8683)",
+    "esmodules": ["babele-register.js"],
+    "scripts": [],
+    "styles": [
+        "css/k4lt-fr.css"
+      ],
+    "packs": [
+      {
+      "name": "avantages",
+      "label": "Avantages",
+      "system": "k4lt",
+      "module": "k4lt-fr",
+      "path": "packs/avantages.db",
+      "entity": "Item"
+    },
+      {
+        "name": "désavantages",
+        "label": "Désavantages",
+        "system": "k4lt",
+        "module": "k4lt-fr",
+        "path": "packs/desavantages.db",
+        "entity": "Item"
+    },
+    {
+      "name": "sombres-secrets",
+      "label": "Sombres secrets",
+      "system": "k4lt",
+      "module": "k4lt-fr",
+      "path": "packs/sombres-secrets.db",
+      "entity": "Item"
+    },
+    {
+      "name": "tarot-de-kult",
+      "label": "Tarot de Kult",
+      "system": "k4lt",
+      "module": "k4lt-fr",
+      "path": "packs/tarot-de-kult.db",
+      "entity": "Cards"
+    }
+    ],
+	"system": ["k4lt"],
+    "url": "https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr",
+    "manifest": "",
+    "download": ""
+}

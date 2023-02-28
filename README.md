@@ -1,6 +1,8 @@
 # Module k4lt-fr pour Foundry VTT
 Améliorer votre expérience de jeu avec ce module complémentaire en version française pour le système de jeu 'KULT: Divinity Lost (4th Edition)' (k4lt) sur Foundry VTT.
 
+![Capture d’écran 2023-02-28 234856](https://user-images.githubusercontent.com/100078854/222000696-219101e0-b0a3-4104-bf0a-d75426751519.jpg)
+![Capture d’écran 2023-02-28 235248](https://user-images.githubusercontent.com/100078854/222000706-a7d0cad1-c7c0-4408-85a0-fc50888242c9.jpg)
 
 Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir via Tipeee (https://fr.tipeee.com/yank/news) pour m'aider à continuer l'aventure. Dans tous les cas, je vous souhaite de vous amuser pleinement, et n'hésitez pas à me contacter pour me donner votre avis ou me signaler tout problème éventuel.
 

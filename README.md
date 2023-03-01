@@ -23,7 +23,7 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
 ---------------------------------------------------------------------
 
 # k4lt-fr module for Foundry VTT
-Enhance your gaming experience with this add-on for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.
+Enhance your gaming experience with this French module for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.
 
 If you like the module and have the means, you can support me via Tipeee (https://fr.tipeee.com/yank/news) to help me continue this adventure. In any case, have fun and don't hesitate to contact me to give me your opinion or to report any problems.
 

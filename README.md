@@ -24,6 +24,13 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
     - Traduction de la table d'Actions (fichier k4lt.moves.json)
     - Suppression de de la bande sonore originale (pour en faire un module à part)
 
+## Crédits Musiques & Bruitages
+
+ * Joseph Sardin - LaSonotheque · https://lasonotheque.org/
+ * Sound Fishing Bruitages · https://www.sound-fishing.net/
+ * BBC Sound Effects · https://sound-effects.bbcrewind.co.uk/
+ * Kevin MacLeod · http://incompetech.com/ · Musiques distribuées sous licence Creative Commons Attribution 4.0. https://creativecommons.org/licenses/by/4.0/
+
 ## Version 4.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
 
  * Correction mineure du compendium "Avantages"
@@ -87,7 +94,14 @@ The following requirements are necessary for this module to work :
     - Translation of the Moves table (file k4lt.moves.json)
     - Removal of the original soundtrack (to make it a separate module)
 
- ## Version 4.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
+## Music & Sound Effects Credits
+
+ * Joseph Sardin - LaSonotheque · https://lasonotheque.org/
+ * Sound Fishing Bruitages · https://www.sound-fishing.net/
+ * BBC Sound Effects · https://sound-effects.bbcrewind.co.uk/
+ * Kevin MacLeod · http://incompetech.com/ · Musiques distribuées sous licence Creative Commons Attribution 4.0. https://creativecommons.org/licenses/by/4.0/
+
+## Version 4.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
 
  * Minor correction of the "Advantages" compendium
  * Addition of the tarot of Kult: Lost Divinity (68 cards)

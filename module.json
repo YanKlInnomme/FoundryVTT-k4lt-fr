@@ -2,7 +2,7 @@
   "id": "k4lt-fr",
   "title": "KULT: Divinity Lost · Extra FR",
   "description": "Enhance your gaming experience with this French module for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.",
-  "version": "5.0.0",
+  "version": "5.5.0",
   "license": "LICENSE",
   "compatibility": {
     "minimum": "10",
@@ -17,15 +17,21 @@
       "discord": "YanK#8683"
     }
   ],
-  "relationships.systems": ["k4lt"],
-  "relationships.requires":	[
-		{"name": "babele"},
-		{"name": "lib-wrapper"},
-		{
-      "name": "k4lt",
-		  "type": "system"
-		}
-	],
+  "relationships": {
+    "systems": [
+      {"id": "k4lt"}
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module"
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      }
+    ]
+  },
   "esmodules": ["babele-register.js"],
   "styles": ["css/k4lt-fr.css"],
   "packs": [
@@ -60,6 +66,14 @@
       "module": "k4lt-fr",
       "path": "packs/tarot-de-kult.db",
       "type": "Cards"
+    },
+    {
+      "name": "scenarios-officiels",
+      "label": "Scénarios officiels",
+      "system": "k4lt",
+      "module": "k4lt-fr",
+      "path": "packs/scenarios-officiels.db",
+      "type": "Adventure"
     }
   ],
     "url": "https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr",

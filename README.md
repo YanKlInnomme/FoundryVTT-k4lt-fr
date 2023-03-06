@@ -15,6 +15,11 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
 
+## Version 5.5.0
+
+ * Mise à jour du manifeste pour une activation correcte des modules requis
+ * Ajout du scénario "La Galerie des Âmes" dans le compendium Aventure "Scénarios officiels"
+
 ## Version 5.0.0
 
  * Mise à jour pour le nouveau système 'k4lt' (https://github.com/YanKlInnomme/FoundryVTT-k4lt)
@@ -26,10 +31,11 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
 
 ## Crédits Musiques & Bruitages
 
- * Joseph Sardin - LaSonotheque · https://lasonotheque.org/
- * Sound Fishing Bruitages · https://www.sound-fishing.net/
  * BBC Sound Effects · https://sound-effects.bbcrewind.co.uk/
+ * Free Sounds Library · https://www.freesoundslibrary.com/
+ * Joseph Sardin - LaSonotheque · https://lasonotheque.org/
  * Kevin MacLeod · http://incompetech.com/ · Musiques distribuées sous licence Creative Commons Attribution 4.0. https://creativecommons.org/licenses/by/4.0/
+ * Sound Fishing Bruitages · https://www.sound-fishing.net/
 
 ## Version 4.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
 
@@ -87,6 +93,11 @@ The following requirements are necessary for this module to work :
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
 
+## Version 5.5.0
+
+ * Updated the manifest for proper activation of required modules
+ * Added the "Gallery of Souls" scenario to the "Official Scenarios" Adventure compendium
+
 ## Version 5.0.0
 
  * Update for the new 'k4lt' system (https://github.com/YanKlInnomme/FoundryVTT-k4lt)
@@ -98,10 +109,11 @@ The following requirements are necessary for this module to work :
 
 ## Music & Sound Effects Credits
 
- * Joseph Sardin - LaSonotheque · https://lasonotheque.org/
- * Sound Fishing Bruitages · https://www.sound-fishing.net/
  * BBC Sound Effects · https://sound-effects.bbcrewind.co.uk/
+ * Free Sounds Library · https://www.freesoundslibrary.com/
+ * Joseph Sardin - LaSonotheque · https://lasonotheque.org/
  * Kevin MacLeod · http://incompetech.com/ · Musiques distribuées sous licence Creative Commons Attribution 4.0. https://creativecommons.org/licenses/by/4.0/
+ * Sound Fishing Bruitages · https://www.sound-fishing.net/
 
 ## Version 4.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
 

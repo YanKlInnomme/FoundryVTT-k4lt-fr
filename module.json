@@ -2,12 +2,12 @@
   "id": "k4lt-fr",
   "title": "KULT: Divinity Lost · Extra FR",
   "description": "Enhance your gaming experience with this French module for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.",
-  "version": "5.5.0",
+  "version": "5.6.0",
   "license": "LICENSE",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10.291",
-    "maximum": "11"
+    "minimum": "11",
+    "verified": "11.299",
+    "maximum": "12"
   },
   "authors": [
     {
@@ -36,44 +36,39 @@
   "styles": ["css/k4lt-fr.css"],
   "packs": [
     {
-    "name": "avantages",
     "label": "Avantages",
+    "name": "avantages",
+    "type": "Item",
     "system": "k4lt",
-    "module": "k4lt-fr",
-    "path": "packs/avantages.db",
-    "type": "Item"
+    "path": "packs/avantages"
     },
     {
-      "name": "désavantages",
       "label": "Désavantages",
+      "name": "désavantages",
+      "type": "Item",
       "system": "k4lt",
-      "module": "k4lt-fr",
-      "path": "packs/desavantages.db",
-      "type": "Item"
+      "path": "packs/desavantages"
     },
     {
-      "name": "sombres-secrets",
       "label": "Sombres secrets",
+      "name": "sombres-secrets",
+      "type": "Item",
       "system": "k4lt",
-      "module": "k4lt-fr",
-      "path": "packs/sombres-secrets.db",
-      "type": "Item"
+      "path": "packs/sombres-secrets"
     },
     {
-      "name": "tarot-de-kult",
       "label": "Tarot de Kult",
+      "name": "tarot-de-kult",
+      "type": "Cards",
       "system": "k4lt",
-      "module": "k4lt-fr",
-      "path": "packs/tarot-de-kult.db",
-      "type": "Cards"
+      "path": "packs/tarot-de-kult"
     },
     {
-      "name": "scenarios-officiels",
       "label": "Scénarios officiels",
+      "name": "scenarios-officiels",
+      "type": "Adventure",
       "system": "k4lt",
-      "module": "k4lt-fr",
-      "path": "packs/scenarios-officiels.db",
-      "type": "Adventure"
+      "path": "packs/scenarios-officiels"
     }
   ],
     "url": "https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr",

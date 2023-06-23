@@ -17,6 +17,9 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
 
+## Version 5.6.1
+ * Correction du bug de duplication des actions sur les fiches de PJ des scénarios
+
 ## Version 5.6.0
  * Mise à jour suite à la sortie la version 11 de Foundry VTT
  * Migration des compendiums 'avantages', 'desavantages', 'scenarios-officiels', 'sombres-secrets' et 'tarot-de-kult' de NeDB vers LevelDB (NeDB est mort, vive LevelDB)
@@ -101,6 +104,9 @@ The following requirements are necessary for this module to work :
  * The 'KULT: Divinity Lost (4th Edition)' system (k4lt)
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
+
+## Version 5.6.1
+ * Fixed bug duplicating actions on scenario PJ sheets
 
 ## Version 5.6.0
  * Updated following the release of Foundry VTT version 11

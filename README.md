@@ -3,10 +3,12 @@ Améliorer votre expérience de jeu avec ce module complémentaire en version fr
 
 Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost autorisé par la politique de contenu d'Helmgast (https://helmgast.se/en/meta/fan-content-policy).
 
-![Capture d’écran 2023-02-28 234856](https://user-images.githubusercontent.com/100078854/222000696-219101e0-b0a3-4104-bf0a-d75426751519.jpg)
-![Capture d’écran 2023-02-28 235248](https://user-images.githubusercontent.com/100078854/222000706-a7d0cad1-c7c0-4408-85a0-fc50888242c9.jpg)
-![image](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/cbb9260d-9bf1-437e-9a63-72069a88ae86)
-![image](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/de1e7b78-11ee-4314-a738-ec9a9bd20de9)
+![Capture d’écran 2023-06-29 151621](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/81483cdc-7706-4c81-91d9-f6b14c2c5165)
+![Capture d’écran 2023-06-29 151737](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/f1abd228-0030-4aad-8b45-a6a23ef0ea3d)
+![Capture d’écran 2023-06-29 152120](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/d2f26869-e70a-4bd7-abdf-a835bd741c6f)
+![Capture d’écran 2023-06-29 152402](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/d3035bc9-0d0c-46b1-b1cb-072a0934c05d)
+![Capture d’écran 2023-06-29 152252](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/646aa798-fa53-4932-bccf-6abe02faa5a5)
+![Capture d’écran 2023-06-29 170837](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/5c6385e1-1451-4d0d-a9b6-df78fd2d0e4e)
 
 Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir via Tipeee (https://fr.tipeee.com/yank/news) pour m'aider à continuer l'aventure. Dans tous les cas, je vous souhaite de vous amuser pleinement, et n'hésitez pas à me contacter pour me donner votre avis ou me signaler tout problème éventuel.
 

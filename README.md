@@ -19,6 +19,11 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
 
+## Version 5.6.2
+ * Corrections des fiches PJs des scénarios officiels (Liste des actions)
+ * Corrections des scènes des scénarios officiels (Réactivation des miniatures)
+ * Correction d'un lien brisé vers une image sur une indication de carte (Scène 7 RdC)
+
 ## Version 5.6.1
  * Correction du bug de duplication des actions sur les fiches de PJ des scénarios
 
@@ -106,6 +111,11 @@ The following requirements are necessary for this module to work :
  * The 'KULT: Divinity Lost (4th Edition)' system (k4lt)
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
+
+## Version 5.6.2
+ * Corrections to official scenario PJ sheets (Action list)
+ * Corrections to official scenario scenes (Reactivation of thumbnails)
+ * Fixed broken link to image on map indication (Scene 7 RoC)
 
 ## Version 5.6.1
  * Fixed bug duplicating actions on scenario PJ sheets

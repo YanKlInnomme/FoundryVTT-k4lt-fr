@@ -19,6 +19,14 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
 
+## Version 5.7.0
+ * Correction de la traduction du compendium 'Actions' notamment pour l'action 'Influencer autrui' qui était incomplète
+ * Remise en forme de l'ensemble du compendium 'Avantages' (prise en compte de la zone 'options')
+ * Ajout dans le compendium 'Désavantages' des désavantages liés aux Illuminés
+ * Ajout des compendiums 'Capacités' et 'Limitations' permettant la création aisée d'Illuminé·e
+ * Ajout des liens Boutique FR, Dépot du module et Tipeee dans l'onglet 'Paramètres' 
+
+
 ## Version 5.6.2
  * Corrections des fiches PJs des scénarios officiels (Liste des actions)
  * Corrections des scènes des scénarios officiels (Réactivation des miniatures)
@@ -111,6 +119,13 @@ The following requirements are necessary for this module to work :
  * The 'KULT: Divinity Lost (4th Edition)' system (k4lt)
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
+
+## Version 5.7.0
+ * Corrected the translation of the 'Actions' compendium, in particular for the 'Influence Others' action, which was incomplete
+ * Reworked the entire Advantages compendium (including the Options area)
+ * Added Enlightened Disadvantages to the Disadvantages compendium.
+ * Added 'Abilities' and 'Limitations' compendiums for easy creation of Enlightened.
+ * Boutique FR, Dépot du module and Tipeee links added to the 'Parameters' tab. 
 
 ## Version 5.6.2
  * Corrections to official scenario PJ sheets (Action list)

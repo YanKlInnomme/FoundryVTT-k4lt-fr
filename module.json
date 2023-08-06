@@ -2,11 +2,11 @@
   "id": "k4lt-fr",
   "title": "KULT: Divinity Lost · Extra FR",
   "description": "Enhance your gaming experience with this French module for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.",
-  "version": "5.6.2",
+  "version": "5.7.0",
   "license": "LICENSE",
   "compatibility": {
     "minimum": "11",
-    "verified": "11.304",
+    "verified": "11.307",
     "maximum": "12"
   },
   "authors": [
@@ -32,7 +32,7 @@
       }
     ]
   },
-  "esmodules": ["babele-register.js"],
+  "esmodules": ["k4lt-fr.js"],
   "styles": ["css/k4lt-fr.css"],
   "packs": [
     {
@@ -49,6 +49,20 @@
       "system": "k4lt",
       "path": "packs/desavantages"
     },
+    {
+      "label": "Capacités",
+      "name": "capacites",
+      "type": "Item",
+      "system": "k4lt",
+      "path": "packs/capacites"
+      },
+      {
+        "label": "Limitations",
+        "name": "limitations",
+        "type": "Item",
+        "system": "k4lt",
+        "path": "packs/limitations"
+      },
     {
       "label": "Sombres secrets",
       "name": "sombres-secrets",

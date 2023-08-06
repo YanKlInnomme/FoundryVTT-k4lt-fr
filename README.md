@@ -24,7 +24,8 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Remise en forme de l'ensemble du compendium 'Avantages' (prise en compte de la zone 'options')
  * Ajout dans le compendium 'Désavantages' des désavantages liés aux Illuminés
  * Ajout des compendiums 'Capacités' et 'Limitations' permettant la création aisée d'Illuminé·e
- * Ajout des liens Boutique FR, Dépot du module et Tipeee dans l'onglet 'Paramètres' 
+ * Suppression d'un token 'Lizabeth' sur le scène 9 du scénario 'La Galerie des Âmes'
+ * Ajout des liens Boutique FR, Dépot et Tipeee dans l'onglet 'Paramètres' 
 
 
 ## Version 5.6.2
@@ -121,11 +122,12 @@ The following requirements are necessary for this module to work :
  * Lib-wrapper module (required for Babele)
 
 ## Version 5.7.0
- * Corrected the translation of the 'Actions' compendium, in particular for the 'Influence Others' action, which was incomplete
+ * Corrected the translation of the 'Actions' compendium, in particular for the 'Influencer autrui' action, which was incomplete
  * Reworked the entire Advantages compendium (including the Options area)
  * Added Enlightened Disadvantages to the Disadvantages compendium.
- * Added 'Abilities' and 'Limitations' compendiums for easy creation of Enlightened.
- * Boutique FR, Dépot du module and Tipeee links added to the 'Parameters' tab. 
+ * Added 'Capacités' and 'Limitations' compendiums for easy creation of Enlightened.
+ * Deletion of token 'Lizabeth' in scene 9 of 'La Galerie des Âmes' scenario
+ * Store FR, Deposit and Tipeee links added to 'Settings' tab
 
 ## Version 5.6.2
  * Corrections to official scenario PJ sheets (Action list)

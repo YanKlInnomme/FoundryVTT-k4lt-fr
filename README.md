@@ -9,6 +9,7 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost a
 ![Capture d’écran 2023-06-29 152402](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/d3035bc9-0d0c-46b1-b1cb-072a0934c05d)
 ![Capture d’écran 2023-06-29 152252](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/646aa798-fa53-4932-bccf-6abe02faa5a5)
 ![Capture d’écran 2023-06-29 170837](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/5c6385e1-1451-4d0d-a9b6-df78fd2d0e4e)
+![Capture d’écran 2023-08-06 180713](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/a5b0f271-cd2d-4448-96f3-c8dabdea56d7)
 
 Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir via Tipeee (https://fr.tipeee.com/yank/news) pour m'aider à continuer l'aventure. Dans tous les cas, je vous souhaite de vous amuser pleinement, et n'hésitez pas à me contacter pour me donner votre avis ou me signaler tout problème éventuel.
 

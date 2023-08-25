@@ -19,7 +19,7 @@ Hooks.on("renderSettings", (app, html) => {
   lotdDiv.append(helpButton);
   helpButton.on("click", (ev) => {
     ev.preventDefault();
-    window.open("https://arkhane-asylum.fr/categorie/kult/", "_blank");
+    window.open("https://arkhane-asylum.fr/shop/?v=1029", "_blank");
   });
 
   let dicordButton = $(

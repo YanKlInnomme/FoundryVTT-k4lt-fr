@@ -20,6 +20,9 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
 
+## Version 5.7.1
+ * Mise à jour du logo d'Arkhane Asylum Publishing et des différents liens concernés (Accès Boutique, Scénario : La Galerie des Âmes)
+
 ## Version 5.7.0
  * Correction de la traduction du compendium 'Actions' notamment pour l'action 'Influencer autrui' qui était incomplète
  * Remise en forme de l'ensemble du compendium 'Avantages' (prise en compte de la zone 'options')
@@ -121,6 +124,9 @@ The following requirements are necessary for this module to work :
  * The 'KULT: Divinity Lost (4th Edition)' system (k4lt)
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
+
+## Version 5.7.1
+ * Updated Arkhane Asylum Publishing logo and links (Shop Access, Scenario: Gallery of Souls)
 
 ## Version 5.7.0
  * Corrected the translation of the 'Actions' compendium, in particular for the 'Influencer autrui' action, which was incomplete

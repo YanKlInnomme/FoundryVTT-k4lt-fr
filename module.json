@@ -2,33 +2,44 @@
   "id": "k4lt-fr",
   "title": "KULT: Divinity Lost · Extra FR",
   "description": "Enhance your gaming experience with this French module for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.",
-  "version": "5.7.2",
+  "version": "6.0.0",
   "license": "LICENSE",
   "compatibility": {
     "minimum": "11",
-    "verified": "11.308",
+    "verified": "11.315",
     "maximum": "12"
   },
   "authors": [
     {
       "name": "YanK",
-      "url": "https://fr.tipeee.com/yank",
+      "url": "https://www.buymeacoffee.com/yank",
       "email": "yanklinnomme@gmail.com",
-      "discord": "YanK#8683"
+      "discord": "yanklinnomme"
     }
   ],
   "relationships": {
     "systems": [
-      {"id": "k4lt"}
+      {
+        "id": "k4lt",
+        "type": "system",
+        "compatibility": {}
+      }
     ],
     "requires": [
       {
         "id": "babele",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       },
       {
         "id": "lib-wrapper",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "k4lt-assets",
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },

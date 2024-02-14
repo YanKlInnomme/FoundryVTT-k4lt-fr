@@ -1,3 +1,7 @@
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-k4lt%2Fmaster%2Fmodule.json&query=%24.compatibility.verified&label=foundry%20vtt&color=%23ee9b3a) ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-k4lt%2Fmaster%2Fmodule.json&query=%24.version&label=version&color=%230f2f2b) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/YanKlInnomme/FoundryVTT-k4lt/total) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-raw/YanKlInnomme/FoundryVTT-k4lt) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed-raw/YanKlInnomme/FoundryVTT-k4lt) ![GitHub forks](https://img.shields.io/github/forks/YanKlInnomme/FoundryVTT-k4lt) ![GitHub Repo stars](https://img.shields.io/github/stars/YanKlInnomme/FoundryVTT-k4lt)
+
+**See below for the English version**
+
 # Module k4lt-fr pour Foundry VTT
 Améliorer votre expérience de jeu avec ce module complémentaire en version française pour le système de jeu 'KULT: Divinity Lost (4th Edition)' (k4lt) sur Foundry VTT.
 
@@ -11,7 +15,7 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost a
 ![Capture d’écran 2023-06-29 170837](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/5c6385e1-1451-4d0d-a9b6-df78fd2d0e4e)
 ![Capture d’écran 2023-08-06 180713](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/a5b0f271-cd2d-4448-96f3-c8dabdea56d7)
 
-Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir via Tipeee (https://fr.tipeee.com/yank/news) pour m'aider à continuer l'aventure. Dans tous les cas, je vous souhaite de vous amuser pleinement, et n'hésitez pas à me contacter pour me donner votre avis ou me signaler tout problème éventuel.
+Si vous appréciez le système et que vous avez les moyens de le faire, vous pouvez si vous le souhaitez m'offrir un café (https://www.buymeacoffee.com/yank) pour me marquer votre soutien et m'aider à poursuivre le développement. Dans tous les cas, je vous souhaite de vous amuser pleinement, et n'hésitez pas à me contacter pour me donner votre avis ou me signaler tout problème éventuel.
 
 ## Prérequis
 
@@ -119,7 +123,7 @@ Enhance your gaming experience with this French module for the 'KULT: Divinity L
 
 This digital adaptation is unofficial content of KULT: Divinity Lost, allowed by the content policy of Helmgast (https://helmgast.se/en/meta/fan-content-policy).
 
-If you like the module and have the means, you can support me via Tipeee (https://fr.tipeee.com/yank/news) to help me continue this adventure. In any case, have fun and don't hesitate to contact me to give me your opinion or to report any problems.
+If you like the module and have the means to do so, you can buy me a coffee (https://www.buymeacoffee.com/yank) to show your support and help me continue development. In any case, I hope you have a great time, and please don't hesitate to contact me to give me your opinion or report any problems.
 
 ## Prerequisites
 

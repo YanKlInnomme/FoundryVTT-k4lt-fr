@@ -13,30 +13,30 @@ Hooks.on("renderSettings", (app, html) => {
   html.find("#settings-game").after(lotdSection);
   let lotdDiv = $(`<div></div>`);
   lotdSection.after(lotdDiv);
-  let helpButton = $(
-    `<button><i class="fa-solid fa-cart-shopping"></i> Kult · Arkhane Asylum Publishing</button>`
+  let shopButton = $(
+    `<button><i class="fa-solid fa-cart-shopping"></i> Kult · Arkhane Asylum Publishing <sup><i class="fa-light fa-up-right-from-square"></i></sup></button>`
   );
-  lotdDiv.append(helpButton);
-  helpButton.on("click", (ev) => {
+  lotdDiv.append(shopButton);
+  shopButton.on("click", (ev) => {
     ev.preventDefault();
     window.open("https://arkhane-asylum.fr/shop/?v=1029", "_blank");
   });
 
-  let dicordButton = $(
-    `<button><i class="fab fa-github"></i> Dépôt du module</button>`
+  let githubButton = $(
+    `<button><i class="fab fa-github"></i> Dépôt du module <sup><i class="fa-light fa-up-right-from-square"></i></sup></button>`
   );
-  lotdDiv.append(dicordButton);
-  dicordButton.on("click", (ev) => {
+  lotdDiv.append(githubButton);
+  githubButton.on("click", (ev) => {
     ev.preventDefault();
     window.open("https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr", "_blank");
   });
 
-  let patreonButton = $(
-    `<button><i class="fa-solid fa-heart fa-beat fa-xs"></i> Soutenez-moi via Tipeee</button>`
+  let coffeeButton = $(
+    `<button><i class="fa-regular fa-mug-hot fa-bounce"></i> Offrez-moi un café <sup><i class="fa-light fa-up-right-from-square"></i></sup></button>`
   );
-  lotdDiv.append(patreonButton);
-  patreonButton.on("click", (ev) => {
+  lotdDiv.append(coffeeButton);
+  coffeeButton.on("click", (ev) => {
     ev.preventDefault();
-    window.open("https://fr.tipeee.com/yank", "_blank");
+    window.open("https://www.buymeacoffee.com/yank", "_blank");
   });
 });

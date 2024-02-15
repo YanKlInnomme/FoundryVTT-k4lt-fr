@@ -1,4 +1,4 @@
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-k4lt-fr%2Fmaster%2Fmodule.json&query=%24.compatibility.verified&label=foundry%20vtt&color=%23ee9b3a) ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-k4lt-fr%2Fmaster%2Fmodule.json&query=%24.version&label=version&color=%230f2f2b) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/YanKlInnomme/FoundryVTT-k4lt-fr/total) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-raw/YanKlInnomme/FoundryVTT-k4lt-fr) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed-raw/YanKlInnomme/FoundryVTT-k4lt-fr) ![GitHub forks](https://img.shields.io/github/forks/YanKlInnomme/FoundryVTT-k4lt-fr) ![GitHub Repo stars](https://img.shields.io/github/stars/YanKlInnomme/FoundryVTT-k4lt-fr)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-k4lt-fr%2Fmaster%2Fmodule.json&query=%24.compatibility.verified&label=foundry%20vtt&color=%23ee9b3a) ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-k4lt-fr%2Fmaster%2Fmodule.json&query=%24.version&label=version&color=%230f2f2b) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/YanKlInnomme/FoundryVTT-k4lt-fr/total) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-raw/YanKlInnomme/FoundryVTT-k4lt-fr) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed-raw/YanKlInnomme/FoundryVTT-k4lt-fr) ![GitHub forks](https://img.shields.io/github/forks/YanKlInnomme/FoundryVTT-k4lt-fr) ![GitHub Repo stars](https://img.shields.io/github/stars/YanKlInnomme/FoundryVTT-k4lt-fr) <a href="https://www.buymeacoffee.com/yank">![Static Badge](https://img.shields.io/badge/buy_me_a_coffee-FFDD00?logo=Buy%20Me%20A%20Coffee&logoColor=black)</a>
 
 **See below for the English version**
 
@@ -15,7 +15,7 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost a
 ![Capture d’écran 2023-06-29 170837](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/5c6385e1-1451-4d0d-a9b6-df78fd2d0e4e)
 ![Capture d’écran 2023-08-06 180713](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/a5b0f271-cd2d-4448-96f3-c8dabdea56d7)
 
-Si vous appréciez le système et que vous avez les moyens de le faire, vous pouvez si vous le souhaitez m'offrir un café (https://www.buymeacoffee.com/yank) pour me marquer votre soutien et m'aider à poursuivre le développement. Dans tous les cas, je vous souhaite de vous amuser pleinement, et n'hésitez pas à me contacter pour me donner votre avis ou me signaler tout problème éventuel.
+Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir en m'offrant un café sur Buy Me a Coffee (https://www.buymeacoffee.com/yank). Votre geste serait grandement apprécié et contribuerait à soutenir le développement continu. Quoi qu'il en soit, je vous souhaite une expérience enrichissante et divertissante. N'hésitez pas à me contacter pour partager vos commentaires ou signaler tout problème éventuel.
 
 ## Prérequis
 
@@ -23,6 +23,11 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le système 'KULT: Divinity Lost (4th Edition)' (k4lt)
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
+ * Le module k4lt-assets (contenant les ressources nécessaires)
+
+## Version 6.0.0
+ * Création du module 'k4lt-assets' et restructuration globale afin de scinder le module 'k4lt-fr' afin d'en faciliter la maintenance
+ * Corrections mineures
 
 ## Version 5.7.2
  * Mise à jour du fichier main.yaml
@@ -123,7 +128,7 @@ Enhance your gaming experience with this French module for the 'KULT: Divinity L
 
 This digital adaptation is unofficial content of KULT: Divinity Lost, allowed by the content policy of Helmgast (https://helmgast.se/en/meta/fan-content-policy).
 
-If you like the module and have the means to do so, you can buy me a coffee (https://www.buymeacoffee.com/yank) to show your support and help me continue development. In any case, I hope you have a great time, and please don't hesitate to contact me to give me your opinion or report any problems.
+If you appreciate the module and have the means to do so, you can support me by offering me a coffee on Buy Me a Coffee (https://www.buymeacoffee.com/yank). Your gesture would be greatly appreciated and would help support ongoing development. In any case, I wish you an enriching and entertaining experience. Please don't hesitate to contact me to share your comments or report any problems.
 
 ## Prerequisites
 
@@ -131,6 +136,11 @@ The following requirements are necessary for this module to work :
  * The 'KULT: Divinity Lost (4th Edition)' system (k4lt)
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
+ * The k4lt-assets module (containing the necessary resources)
+
+## Version 6.0.0
+ * Creation of the 'k4lt-assets' module and global restructuring to split the 'k4lt-en' module for easier maintenance.
+ * Minor corrections
 
 ## Version 5.7.2
  * main.yaml file updated

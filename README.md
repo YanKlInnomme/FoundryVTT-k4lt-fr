@@ -5,8 +5,6 @@
 # Module k4lt-fr pour Foundry VTT
 Améliorer votre expérience de jeu avec ce module complémentaire en version française pour le système de jeu 'KULT: Divinity Lost (4th Edition)' (k4lt) sur Foundry VTT.
 
-Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost autorisé par la politique de contenu d'Helmgast (https://helmgast.se/en/meta/fan-content-policy).
-
 ![Capture d’écran 2023-06-29 151621](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/81483cdc-7706-4c81-91d9-f6b14c2c5165)
 ![Capture d’écran 2023-06-29 151737](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/f1abd228-0030-4aad-8b45-a6a23ef0ea3d)
 ![Capture d’écran 2023-06-29 152120](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/d2f26869-e70a-4bd7-abdf-a835bd741c6f)
@@ -24,6 +22,22 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
  * Le module Babele (L'indispensable pour faire de la traduction)
  * Le module Lib-wrapper (Requis par Babele)
  * Le module k4lt-assets (contenant les ressources nécessaires)
+
+## Licences
+
+Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, autorisé par la [politique de contenu d'Helmgast](https://helmgast.se/en/meta/fan-content-policy). En outre, ce projet inclut :
+
+- **Contenu et logo** : [Kult Divinity Lost] (https://kultdivinitylost.com/) est © 2021 Cabinet Licensing LLC. Tous droits réservés. Les parties de ce projet protégées par ce copyright ne peuvent être distribuées commercialement ou librement. Cela inclut les illustrations, le logo et le texte couverts par le droit d'auteur.
+
+- **Bande sonore originale** : [Kult Divinity Lost OST](https://helmgast.bandcamp.com/album/kult-divinity-lost-original-game-soundtrack) est © 2018 Helmgast AB. Tous droits réservés. Les pistes audio sont protégées par le droit d'auteur et ne peuvent être distribuées commercialement ou librement.
+
+- **Code source** : Tout le code source _(javascript, css, etc.)_ est sous licence [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+- **Foundry VTT** : Le projet est créé conformément à l'[accord de licence limitée de Foundry VTT concernant le développement de modules](https://foundryvtt.com/article/license/).
+
+- **Icônes** : Les icônes du dossier `img/icons/` sont une gracieuseté de [Game-icons.net](https://game-icons.net/) et sont sous licence [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+
+- **Polices de caractères** : Les polices utilisées dans ce projet ont leurs propres licences.
 
 ## Version 6.0.0
  * Création du module 'k4lt-assets' et restructuration globale afin de scinder le module 'k4lt-fr' afin d'en faciliter la maintenance

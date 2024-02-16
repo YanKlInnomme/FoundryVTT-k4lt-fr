@@ -27,17 +27,11 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
 
 Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, autorisé par la [politique de contenu d'Helmgast](https://helmgast.se/en/meta/fan-content-policy). En outre, ce projet inclut :
 
-- **Contenu et logo** : [Kult Divinity Lost] (https://kultdivinitylost.com/) est © 2021 Cabinet Licensing LLC. Tous droits réservés. Les parties de ce projet protégées par ce copyright ne peuvent être distribuées commercialement ou librement. Cela inclut les illustrations, le logo et le texte couverts par le droit d'auteur.
-
-- **Bande sonore originale** : [Kult Divinity Lost OST](https://helmgast.bandcamp.com/album/kult-divinity-lost-original-game-soundtrack) est © 2018 Helmgast AB. Tous droits réservés. Les pistes audio sont protégées par le droit d'auteur et ne peuvent être distribuées commercialement ou librement.
+- **Contenu et logo** : [Kult Divinity Lost] (https://kultdivinitylost.com/) est © 2021 Cabinet Licensing LLC et la traduction française est © 2021 [Arkhane Asylum Publishing](https://arkhane-asylum.fr/). Tous droits réservés. Les parties de ce projet protégées par ce copyright ne peuvent être distribuées commercialement ou librement. Cela inclut les illustrations, le logo et le texte couverts par le droit d'auteur.
 
 - **Code source** : Tout le code source _(javascript, css, etc.)_ est sous licence [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 - **Foundry VTT** : Le projet est créé conformément à l'[accord de licence limitée de Foundry VTT concernant le développement de modules](https://foundryvtt.com/article/license/).
-
-- **Icônes** : Les icônes du dossier `img/icons/` sont une gracieuseté de [Game-icons.net](https://game-icons.net/) et sont sous licence [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
-
-- **Polices de caractères** : Les polices utilisées dans ce projet ont leurs propres licences.
 
 ## Version 6.0.0
  * Création du module 'k4lt-assets' et restructuration globale afin de scinder le module 'k4lt-fr' afin d'en faciliter la maintenance
@@ -57,7 +51,6 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
  * Suppression d'un token 'Lizabeth' sur le scène 9 du scénario 'La Galerie des Âmes'
  * Ajout des liens Boutique FR, Dépot et Tipeee dans l'onglet 'Paramètres' 
 
-
 ## Version 5.6.2
  * Corrections des fiches PJs des scénarios officiels (Liste des actions)
  * Corrections des scènes des scénarios officiels (Réactivation des miniatures)
@@ -74,12 +67,10 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
  * Ajout d'un nouveau scénario officiel 'Oakwood Heights VF'
 
 ## Version 5.5.0
-
  * Mise à jour du manifeste pour une activation correcte des modules requis
  * Ajout du scénario "La Galerie des Âmes" dans le compendium Aventure "Scénarios officiels"
 
 ## Version 5.0.0
-
  * Mise à jour pour le nouveau système 'k4lt' (https://github.com/YanKlInnomme/FoundryVTT-k4lt)
     - Compendiums "Avantages", "Désavantages" et "Sombres secrets"
     - Mise à jour en version française du logo
@@ -88,7 +79,6 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
     - Suppression de de la bande sonore originale (pour en faire un module à part)
 
 ## Crédits Musiques & Bruitages
-
  * BBC Sound Effects · https://sound-effects.bbcrewind.co.uk/
  * Free Sounds Library · https://www.freesoundslibrary.com/
  * Joseph Sardin - LaSonotheque · https://lasonotheque.org/
@@ -96,7 +86,6 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
  * Sound Fishing Bruitages · https://www.sound-fishing.net/
 
 ## Version 4.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
-
  * Correction mineure du compendium "Avantages"
  * Ajout du tarot de Kult: Divinité Perdue (68 lames)
 
@@ -105,7 +94,6 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
  * Renommage des fichiers de la bande sonore originale Kult Divinité Perdue (/mp3)
 
 ## Version 3.5.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
-
  * Correctif graphique: Position des Webcams (kult-divinity-lost.css)
  * Correctif de la bande sonore originale Kult Divinité Perdue (kult-divinity-lost-ost.db)
  * Correctif de traduction (fr.json)
@@ -115,23 +103,19 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
  * Mise à jour pour intégration à la bibliothèque officielle de Foundry VTT
  
 ## Version 3.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
-
  * Mise à jour de transition du système (passage de kult4e à kult-divinity-lost)
  * Ajout d'un exemple de PJ : Rebecca Cooper 2
 
 ## Version 2.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult4e-fr)
-
  * Mise à jour graphique du logo et de la pause
  * Ajout des compendiums "Avantages", "Désavantages" et "Sombres secrets"
  * Ajout d'un exemple de PJ : Rebecca Cooper
  * Ajout de la bande sonore originale Kult Divinité Perdue (source: https://helmgast.bandcamp.com/album/kult-divinity-lost-original-game-soundtrack)
 
 ## Version 1.0.1 (https://github.com/YanKlInnomme/FoundryVTT-kult4e-fr)
-
  * Mise à jour pour intégration à la bibliothèque officielle de Foundry VTT
  
 ## Version 1.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult4e-fr)
-
  * Traduction des variables du système (fichier fr.json)
  * Traduction de la table d'Actions (fichier kult-divinity-lost.moves.json) 
  
@@ -140,9 +124,17 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
 # k4lt-fr module for Foundry VTT
 Enhance your gaming experience with this French module for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.
 
-This digital adaptation is unofficial content of KULT: Divinity Lost, allowed by the content policy of Helmgast (https://helmgast.se/en/meta/fan-content-policy).
-
 If you appreciate the module and have the means to do so, you can support me by offering me a coffee on Buy Me a Coffee (https://www.buymeacoffee.com/yank). Your gesture would be greatly appreciated and would help support ongoing development. In any case, I wish you an enriching and entertaining experience. Please don't hesitate to contact me to share your comments or report any problems.
+
+## Licenses
+
+This digital adaptation is unofficial content from KULT: Divinity Lost, licensed under the [Helmgast Content Policy](https://helmgast.se/en/meta/fan-content-policy). In addition, this project includes:
+
+- **Content and logo**: [Kult Divinity Lost] (https://kultdivinitylost.com/) is © 2021 Cabinet Licensing LLC and the French translation is © 2021 [Arkhane Asylum Publishing](https://arkhane-asylum.fr/). All rights reserved. Portions of this project protected by this copyright may not be distributed commercially or freely. This includes illustrations, logo and text covered by copyright.
+
+- **Source code**: All source code _(javascript, css, etc.)_ is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+- **Foundry VTT**: The project is created in accordance with the [Foundry VTT Limited License Agreement for Module Development](https://foundryvtt.com/article/license/).
 
 ## Prerequisites
 
@@ -191,7 +183,6 @@ The following requirements are necessary for this module to work :
  * Added the "Gallery of Souls" scenario to the "Official Scenarios" Adventure compendium
 
 ## Version 5.0.0
-
  * Update for the new 'k4lt' system (https://github.com/YanKlInnomme/FoundryVTT-k4lt)
     - "Avantages", "Désavantages" et "Sombres secrets" compendiums
     - French version of the logo updated
@@ -200,7 +191,6 @@ The following requirements are necessary for this module to work :
     - Removal of the original soundtrack (to make it a separate module)
 
 ## Music & Sound Effects Credits
-
  * BBC Sound Effects · https://sound-effects.bbcrewind.co.uk/
  * Free Sounds Library · https://www.freesoundslibrary.com/
  * Joseph Sardin - LaSonotheque · https://lasonotheque.org/
@@ -208,41 +198,33 @@ The following requirements are necessary for this module to work :
  * Sound Fishing Bruitages · https://www.sound-fishing.net/
 
 ## Version 4.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
-
  * Minor correction of the "Advantages" compendium
  * Addition of the tarot of Kult: Lost Divinity (68 cards)
 
 ## Version 3.5.1 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
-
  * Renaming of the original Kult Divinity Lost soundtrack files (/mp3)
 
 ## Version 3.5.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
-
  * Graphic correction: Webcams position (kult-divinity-lost.css)
  * Correction of the original soundtrack Kult Divinity Lost (kult-divinity-lost.db)
  * Translation correction (fr.json)
 
 ## Version 3.0.1 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
-
  * Updated for integration into the official Foundry VTT library
 
 ## Version 3.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
-
  * System transition update (from kult4e to kult-divinity-lost)
  * Added a sample PJ: Rebecca Cooper 2
 
 ## Version 2.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult4e-fr)
-
  * Graphic update of the logo and the pause
  * Added "Advantages", "Disadvantages" and "Dark Secrets" compendiums
  * Added a sample player character: Rebecca Cooper
  * Added the original soundtrack Kult Divinity Lost (source: https://helmgast.bandcamp.com/album/kult-divinity-lost-original-game-soundtrack)
 
 ## Version 1.0.1 (https://github.com/YanKlInnomme/FoundryVTT-kult4e-fr)
-
  * Updated for integration into the official Foundry VTT library
  
 ## Version 1.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult4e-fr)
-
  * Translation of the system variables (fr.json file)
  * Translation of the Actions table (file kult-divinity-lost.moves.json) 

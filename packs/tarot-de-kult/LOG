@@ -1,3 +1,7 @@
-2024/02/15-11:04:37.472 640 Recovering log #35
-2024/02/15-11:04:37.475 640 Delete type=0 #35
-2024/02/15-11:04:37.475 640 Delete type=3 #34
+2024/02/16-01:35:54.079 7284 Recovering log #37
+2024/02/16-01:35:54.082 7284 Delete type=0 #37
+2024/02/16-01:35:54.082 7284 Delete type=3 #36
+2024/02/16-01:56:41.422 7c6c Level-0 table #41: started
+2024/02/16-01:56:41.422 7c6c Level-0 table #41: 0 bytes OK
+2024/02/16-01:56:41.423 7c6c Delete type=0 #39
+2024/02/16-01:56:41.424 7c6c Manual compaction at level-0 from '!cards!eK36g7vuHr2UE1EU' @ 72057594037927935 : 1 .. '!cards.cards!ubQVbq4PMkNhxf2E.ymU4ZRM1TGZaAZKO' @ 0 : 0; will stop at (end)

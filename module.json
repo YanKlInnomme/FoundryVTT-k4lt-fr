@@ -47,41 +47,6 @@
   "styles": ["css/k4lt-fr.css"],
   "packs": [
     {
-    "label": "Avantages",
-    "name": "avantages",
-    "type": "Item",
-    "system": "k4lt",
-    "path": "packs/avantages"
-    },
-    {
-      "label": "Désavantages",
-      "name": "désavantages",
-      "type": "Item",
-      "system": "k4lt",
-      "path": "packs/desavantages"
-    },
-    {
-      "label": "Capacités",
-      "name": "capacites",
-      "type": "Item",
-      "system": "k4lt",
-      "path": "packs/capacites"
-      },
-      {
-        "label": "Limitations",
-        "name": "limitations",
-        "type": "Item",
-        "system": "k4lt",
-        "path": "packs/limitations"
-      },
-    {
-      "label": "Sombres secrets",
-      "name": "sombres-secrets",
-      "type": "Item",
-      "system": "k4lt",
-      "path": "packs/sombres-secrets"
-    },
-    {
       "label": "Tarot de Kult",
       "name": "tarot-de-kult",
       "type": "Cards",
@@ -89,7 +54,7 @@
       "path": "packs/tarot-de-kult"
     },
     {
-      "label": "Scénarios officiels",
+      "label": "Scénarios Officiels",
       "name": "scenarios-officiels",
       "type": "Adventure",
       "system": "k4lt",

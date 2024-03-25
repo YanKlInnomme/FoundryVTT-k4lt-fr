@@ -1,0 +1,101 @@
+{
+  "label": "Limitations",
+  "mapping": {
+    "name": "name",
+    "effect": "system.effect",
+    "options": "system.options",
+    "completesuccess": "system.completesuccess",
+    "partialsuccess": "system.partialsuccess",
+    "failure": "system.failure"
+  },
+  "entries": {
+    "Bloodthirst": {
+      "name": "Soif de Sang",
+      "effect": "<p>Vous devez boire du sang humain pour survivre. Si vous n'avez pas bu l'&amp;eacute;quivalent du sang d'un adulte ou de trois enfants en l'espace de deux semaines, vous souffrez d'une <strong>Blessure Critique</strong> due au d&amp;eacute;p&amp;eacute;rissement, qui ne peut &amp;ecirc;tre soign&amp;eacute;e qu'en buvant le sang dont vous avez besoin, voire plus. Si vous restez une semaine de plus sans manger, vous tombez dans le coma. La semaine suivante, vous mourez, &amp;agrave; moins que quelqu'un ne vous donne du sang humain. Boire du sang sans causer de dommages est une Action n&amp;eacute;cessitant d'<strong>Agir sous la Pression</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Bound to Higher Power": {
+      "name": "Lié·e à une Puissance Supérieure",
+      "effect": "<p>En tant que disciple, vous &amp;ecirc;tes li&amp;eacute;&amp;middot;e &amp;agrave; un&amp;middot;e Archonte ou &amp;agrave; un&amp;middot;e Ange de la Mort, et vous devez respecter et faire prolif&amp;eacute;rer les principes de cette Puissance Sup&amp;eacute;rieure. <em>Quand vous enfreignez les principes de votre Puissance Sup&amp;eacute;rieure</em>, vous provoquez la col&amp;egrave;re de votre Puissance Sup&amp;eacute;rieure et vous vous exposez &amp;agrave; des repr&amp;eacute;sailles - <strong>Lancez +0</strong>:</p>",
+      "options": "",
+      "completesuccess": "<p>Vous recevez une vision de votre Puissance Sup&amp;eacute;rieure qui vous r&amp;eacute;primande, mais vous laisse partir avec un avertissement.</p>",
+      "partialsuccess": "<p>Vous avez une vision de votre Puissance Sup&amp;eacute;rieure qui vous demande de faire p&amp;eacute;nitence pour vos p&amp;eacute;ch&amp;eacute;s. Si vous refusez cette p&amp;eacute;nitence, la Puissance Sup&amp;eacute;rieure vous punit comme si vous aviez obtenu un &amp;eacute;chec (-9). Les options de p&amp;eacute;nitence sont les suivantes (au choix du ou de la MJ):</p>\n<ul>\n<li>Vous devez choisir et offrir un sacrifice vivant &amp;agrave; votre Puissance Sup&amp;eacute;rieure. Ce sacrifice peut &amp;ecirc;tre l'un des ennemis de la Puissance Sup&amp;eacute;rieure, l'un de vos partisans ou quelqu'un qui vous est cher. La victime est contrainte de servir la Puissance Sup&amp;eacute;rieure &amp;agrave; vie, sous peine de voir sa vie s'achever.</li>\n<li>Vous devez accomplir quelque chose qui renforce le principe de votre Puissance Sup&amp;eacute;rieure, au choix du ou de la MJ.</li>\n<li>Vous devez &amp;ecirc;tre mis &amp;agrave; l'&amp;eacute;preuve lors d'un proc&amp;egrave;s pour prouver votre d&amp;eacute;votion &amp;agrave; la Puissance Sup&amp;eacute;rieure. Le ou la MJ d&amp;eacute;cide de la mani&amp;egrave;re de proc&amp;eacute;der, mais elle doit &amp;ecirc;tre dangereuse.</li>\n</ul>",
+      "failure": "<p>Votre Puissance Sup&amp;eacute;rieure vous punit. Le ou la MJ choisit une option:</p>\n<ul>\n<li>La Puissance Sup&amp;eacute;rieure exige un sacrifice de sang qu'elle choisit elle-m&amp;ecirc;me.</li>\n<li>La Puissance Sup&amp;eacute;rieure vous marque, afin que tous puissent t&amp;eacute;moigner de vos p&amp;eacute;ch&amp;eacute;s (par exemple, des stigmates, une partie difforme du corps, de la chair en d&amp;eacute;composition, un symbole marqu&amp;eacute; au fer rouge sur votre visage, des yeux non naturels, ou une calvitie).</li>\n<li>La Puissance Sup&amp;eacute;rieure vous confie une mission et vous retire les capacit&amp;eacute;s qu'elle vous a conf&amp;eacute;r&amp;eacute;es jusqu'&amp;agrave; ce que vous l'ayez accomplie.</li>\n</ul>"
+    },
+    "Cannibalism": {
+      "name": "Cannibalisme",
+      "effect": "<p>Vous devez consommer de la chair humaine pour survivre. Si vous n'avez pas mang&amp;eacute; l'&amp;eacute;quivalent d'un adulte ou de trois enfants en l'espace de deux semaines, vous souffrez d'une <strong>Blessure Critique</strong> due au d&amp;eacute;p&amp;eacute;rissement, qui ne peut &amp;ecirc;tre soign&amp;eacute;e qu'en mangeant la chair dont vous avez besoin, voire plus. Si vous restez une semaine de plus sans manger, vous tombez dans le coma. La semaine suivante, vous mourez, &amp;agrave; moins que quelqu'un ne vous nourrisse de chair humaine.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Controlled by External Force": {
+      "name": "Contrôlé·e par une Force Extérieure",
+      "effect": "<p>Vous avez conclu un pacte avec un d&eacute;mon ou une Puissance Sup&eacute;rieure (<em>voir Chapitre 21 - Pactes et magie</em>). Il peut s'agir d'un&middot;e n&eacute;pharite, d'un&middot;e ange, d'un dieu ou d&eacute;esse oubli&eacute;e, voire d'un&middot;e Archonte ou d'un&middot;e Ange de la Mort. Si le pacte est rompu d'une mani&egrave;re ou d'une autre, vous pouvez perdre vos pouvoirs, redevenir humain&middot;e ou &ecirc;tre an&eacute;anti.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Field of Expertise": {
+      "name": "Domaine d'Expertise",
+      "effect": "Les <p><strong>Domaines d'Expertise</strong> indiquent les aspects de la magie de la Mort que le ou la mage comprend. <em>Chaque fois que le ou la Mage de la Mort </em><strong>Pratique un Rituel</strong><em> dans un domaine qui ne lui est pas familier</em>, l'option \"Le rituel ne devient pas instable\" ne peut pas &ecirc;tre choisie.</p>\n<p>&Agrave; la cr&eacute;ation du personnage, choisissez 1 <strong>Domaine d'Expertise</strong> pour votre <em>Mage de la Mort</em>:</p>\n<ul>\n<li>Communiquer avec les morts.</li>\n<li>Ouvrir des portails vers l'Inferno.</li>\n<li>Invoquer.</li>\n<li>Contr&ocirc;ler les vivants.</li>\n<li>Lier et exorciser.</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Hunting Instincts": {
+      "name": "Instincts de Chasseur",
+      "effect": "<p>Vous &ecirc;tes pouss&eacute;&middot;e par l'instinct &agrave; chasser et &agrave; tuer un type particulier de proie. D&eacute;cidez quelle proie vous recherchez; par exemple, des enfants de cinq ans, des meurtriers, des officiers de police, des chanteurs, etc. <em>Lorsque votre proie est &agrave; port&eacute;e de main</em>, vous le sentez instinctivement et devez <strong>lancez +Volont&eacute;</strong>:</p>",
+      "options": "",
+      "completesuccess": "<p>Vous gardez vos <strong>Instincts de Chasseur</strong> &agrave; distance.</p>",
+      "partialsuccess": "<p>Si vous choisissez de r&eacute;sister &agrave; la traque de votre proie, cela vous &eacute;puisera mentalement. Vous perdez alors en <strong>Stabilit&eacute; (-1)</strong>.</p>",
+      "failure": "<p>Vous devez avoir votre proie maintenant. Si vous n'y arrivez pas, vous commencez &agrave; vous sentir mal et vous perdez en <strong>Stabilit&eacute; (-4)</strong>.</p>"
+    },
+    "Inhuman Appearance": {
+      "name": "Apparence Inhumaine",
+      "effect": "<p>Vous avez une apparence totalement inhumaine et devez porter un d&eacute;guisement pour pouvoir vivre avec les autres. Par exemple, votre peau peut pourrir et se d&eacute;tacher, les parties de votre corps sont difformes, vos membres sont d&eacute;form&eacute;s, des objets m&eacute;caniques ont &eacute;t&eacute; int&eacute;gr&eacute;s sous votre peau, ou vous avez des traits d'insectes ou d'araign&eacute;es. Lorsque les humains per&ccedil;oivent votre v&eacute;ritable apparence, ils sont pris de d&eacute;go&ucirc;t, de peur et de panique.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Sensitivity": {
+      "name": "Sensibilité",
+      "effect": "<p>Vous &ecirc;tes particuli&egrave;rement sensible &agrave; un &eacute;l&eacute;ment. Vous n'aimez pas vous trouver &agrave; proximit&eacute; de cet &eacute;l&eacute;ment, et si vous subissez un <strong>Blessure</strong> impliquant votre sensibilit&eacute;, vous recevez <strong>+2 Blessures</strong> suppl&eacute;mentaires. Choisissez une option:</p>\n<ul>\n<li>Feu.</li>\n<li>&Eacute;lectricit&eacute;.</li>\n<li>Fer (pas l'acier).</li>\n<li>Argent.</li>\n<li>Soleil (prendre <strong>2 Blessures</strong> en cas d'exposition directe &agrave; la lumi&egrave;re du soleil sur la peau nue).</li>\n<li>Eau (prendre <strong>2 Blessures</strong> en cas d'exposition &agrave; l'eau sur la peau nue).</li>\n<li>Bois.</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Soul Thirst": {
+      "name": "Soif d'Âme",
+      "effect": "<p>Vous devez vous nourrir de la force vitale des gens pour survivre. La consommation de l'&acirc;me d'une personne se produit g&eacute;n&eacute;ralement lors d'un rapport sexuel, ou en embrassant/touchant une personne endormie ou inconsciente. Pour survivre, vous devez d&eacute;vorer l'&eacute;quivalent d'une &acirc;me humaine par semaine (<strong>10 points de Stabilit&eacute;</strong>). Il peut s'agir d'une victime que vous d&eacute;vorez enti&egrave;rement - laissant dans votre sillage une enveloppe apathique - ou de plusieurs victimes &agrave; qui vous retirez un peu de leur force vitale. Toute personne soumise &agrave; la <strong>Soif d'&Acirc;me</strong> sans &ecirc;tre d&eacute;vor&eacute;e perd progressivement sa force vitale, devenant p&acirc;le et d&eacute;prim&eacute;e (<strong>-1</strong> &agrave; <strong>-9</strong> de <strong>Stabilit&eacute;</strong>). Lorsque la <strong>Stabilit&eacute;</strong> de la victime atteint <strong>0 (bris&eacute;e)</strong>, vous d&eacute;vorez les derniers restes de son &acirc;me. Si vous ne parvenez pas &agrave; d&eacute;vorer l'&eacute;quivalent d'une &acirc;me humaine chaque semaine, vous perdez un nombre de points de <strong>Stabilit&eacute;</strong> &eacute;gal &agrave; celui vous fait d&eacute;faut (par exemple, s'il vous manque <strong>3 points de Stabilit&eacute;</strong> pour vous nourrir &agrave; la fin de la semaine, vous perdez <strong>3 points de Stabilit&eacute;</strong>). Si votre </strong>Stabilit&eacute;</strong> atteint <strong>0</strong>, vous devenez un&middot;e fant&ocirc;me &eacute;th&eacute;r&eacute;&middot;e jusqu'&agrave; ce que vous puissiez &agrave; nouveau d&eacute;vorer des &acirc;mes humaines.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Symbol Bondage": {
+      "name": "Lien Symbolique",
+      "effect": "<p>Vous &ecirc;tes li&eacute; &agrave; un symbole. Il peut s'agir d'un bijou, d'un b&acirc;timent ou d'un tatouage sur le corps de quelqu'un d'autre. Chaque fois que le symbole est endommag&eacute;, vous souffrez de blessures solidaires. Si le symbole est d&eacute;truit, vous &ecirc;tes &eacute;galement an&eacute;anti. Tant que le symbole reste intact, vous ne pouvez pas vraiment mourir; si c'est le cas, vous ressuscitez. Cependant, si quelqu'un d&eacute;couvre le symbole, il peut prendre le contr&ocirc;le sur vous et m&ecirc;me vous invoquer pour ex&eacute;cuter ses ordres. De plus, tant que cette personne poss&egrave;de le symbole, vous ne pouvez pas lui faire de mal.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Uncontrolled Shapeshifting": {
+      "name": "Métamorphose Incontrôlée",
+      "effect": "<p>Lorsque vos &eacute;motions sont exacerb&eacute;es, vous vous transformez en une b&ecirc;te animale. Collaborez avec le ou la MJ pour d&eacute;crire en d&eacute;tail la forme monstrueuse que vous prenez. Choisissez l'&eacute;motion qui d&eacute;clenche le ph&eacute;nom&egrave;ne (d&eacute;sir, col&egrave;re, chagrin, jalousie, peur...). <em>Chaque fois que vous ressentez cette &eacute;motion ou que vous vivez des &eacute;v&eacute;nements traumatisants</em>, <strong>lancez +Volont&eacute;</strong>:</p>",
+      "options": "",
+      "completesuccess": "<p>Vous conservez votre forme humaine.</p>",
+      "partialsuccess": "<p>Vous adoptez des caract&eacute;ristiques inhumaines.</p>",
+      "failure": "<p>Vous &ecirc;tes d&eacute;form&eacute;&middot;e en quelque chose d'enti&egrave;rement inhumain. Le ou la MJ prend le contr&ocirc;le de votre personnage jusqu'&agrave; ce que l'effet se dissipe, au maximum une sc&egrave;ne compl&egrave;te apr&egrave;s votre transformation.</p>"
+    }
+  }
+}

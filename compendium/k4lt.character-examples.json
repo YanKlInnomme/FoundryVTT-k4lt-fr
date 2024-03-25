@@ -1,0 +1,23 @@
+{
+  "label": "Exemples de Personnages",
+  "mapping": {
+    "name": "name",
+    "whoareyou": "system.whoareyou",
+    "whatyouholddear": "system.whatyouholddear",
+    "thingsinyourpossession": "system.thingsinyourpossession",
+    "relationtotheothercharacters": "system.relationtotheothercharacters",
+    "dramatichooks": "system.dramatichooks",
+    "notes": "system.notes"
+  },
+  "entries": {
+    "Rebecca Cooper": {
+      "name": "Rebecca Cooper",
+      "whoareyou": "<p>Rebecca Cooper est la propriétaire de \"L'&eacute;moi des mots\", une prestigieuse librairie de livres anciens. Occultiste et passionnée de livres rares, elle est titulaire d'un doctorat en langues et littératures anciennes, bien qu'elle évite de mentionner son parcours universitaire dans sa boutique.</p>\n<p>Sa passion pour l'occultisme et les mystères des textes anciens se reflète dans les livres rares disponibles à \"L'&eacute;moi des mots\". La librairie sert de sanctuaire à celles et ceux qui partagent son amour pour les connaissances oubliées et la sagesse ancienne. </p>\n<p>Si vous souhaitez explorer des découvertes obscures et des manuscrits anciens, visitez \"L'&eacute;moi des mots\" et laissez Rebecca vous guider dans le royaume fascinant du langage et de la mystique.</p>",
+      "whatyouholddear": "",
+      "thingsinyourpossession": "",
+      "relationtotheothercharacters": "",
+      "dramatichooks": "",
+      "notes": ""
+    }
+  }
+}

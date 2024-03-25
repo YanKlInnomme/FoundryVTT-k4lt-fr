@@ -1,0 +1,325 @@
+{
+  "label": "Désavantages",
+  "mapping": {
+    "name": "name",
+    "effect": "system.effect",
+    "options": "system.options",
+    "completesuccess": "system.completesuccess",
+    "partialsuccess": "system.partialsuccess",
+    "failure": "system.failure"
+  },
+  "entries": {
+    "Bad Reputation": {
+      "name": "Mauvaise Réputation",
+      "effect": "<p>Pour une raison ou une autre, vous avez attir&eacute; la d&eacute;sapprobation, voire l'animosit&eacute; du public. Peut-&ecirc;tre avez-vous fait l'objet d'une couverture m&eacute;diatique en tant que p&eacute;dophile ou meurtrier&middot;&egrave;re, &agrave; tort ou &agrave; raison. <em>Lors de la premi&egrave;re session de jeu et &agrave; chaque fois que vous attirez l'attention du public</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous vous fondez dans la masse. Personne ne vous cherche.</p>",
+      "partialsuccess": "<p>Vous &ecirc;tes reconnu&middot;e. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action repr&eacute;sentant la fa&ccedil;on dont votre mauvaise r&eacute;putation vous colle &agrave; la peau. Par exemple, les gens peuvent r&eacute;agir avec peur et suspicion &agrave; votre &eacute;gard, une foule de lyncheurs se forme pour vous traduire en justice, vos biens sont vandalis&eacute;s, vos alli&eacute;s se retournent contre vous et vous pouvez perdre votre emploi, vos contrats et vos relations.</p>",
+      "failure": "<p>Plusieurs personnes vous ont reconnu. La col&egrave;re et la peur contr&ocirc;lent leurs actions. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action repr&eacute;sentant la fa&ccedil;on dont votre mauvaise r&eacute;putation vous colle &agrave; la peau. Par exemple, les gens peuvent r&eacute;agir avec peur et suspicion &agrave; votre &eacute;gard, une foule de lyncheurs se forme pour vous traduire en justice, vos biens sont vandalis&eacute;s, vos alli&eacute;s se retournent contre vous et vous pouvez perdre votre emploi, vos contrats et vos relations.</p>"
+    },
+    "Branded *": {
+      "name": "Marqué·e du Sceau *",
+      "effect": "<p><span style=\"text-decoration: underline;\"><strong>Ce d&eacute;savantage n'est disponible que pour l'arch&eacute;type Mage de la Mort.</strong></span></p>\n<p>La magie de la Mort vous a marqu&eacute; et maintenant les morts sont attir&eacute;s par vous comme les papillons de nuit par la flamme. <em>Lors de la premi&egrave;re s&eacute;ance et &agrave; chaque fois que vous utilisez la magie</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous &eacute;vitez les entit&eacute;s poursuivantes.</p>",
+      "partialsuccess": "<p>Une entit&eacute; s'est accroch&eacute;e &agrave; vous. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action repr&eacute;sentant les entit&eacute;s. Une entit&eacute; peut poss&eacute;der un proche du personnage, se r&eacute;v&eacute;ler &agrave; lui, le d&eacute;fier ou le traquer. Un portail peut s'ouvrir vers le royaume de la Mort. Une ou plusieurs entit&eacute;s peuvent essayer de les tromper ou de les attirer dans le royaume de la Mort, ou un &ecirc;tre malveillant peut prendre possession d'eux.</p>",
+      "failure": "<p>Plusieurs entit&eacute;s, ou un &ecirc;tre de mort tr&egrave;s puissant, sont &agrave; vos trousses. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action repr&eacute;sentant les entit&eacute;s. Une entit&eacute; peut poss&eacute;der un proche du personnage, se r&eacute;v&eacute;ler &agrave; lui, le d&eacute;fier ou le traquer. Un portail peut s'ouvrir vers le royaume de la Mort. Une ou plusieurs entit&eacute;s peuvent essayer de les tromper ou de les attirer dans le royaume de la Mort, ou un &ecirc;tre malveillant peut prendre possession d'eux.</p>"
+    },
+    "Broken": {
+      "name": "Brisé·e",
+      "effect": "<p>Une exp&eacute;rience pass&eacute;e a tellement bris&eacute;&middot;e votre psychisme que vous n'arrivez pas &agrave; vous en remettre. Par cons&eacute;quent, votre <strong>Stabilit&eacute;</strong> ne peut jamais d&eacute;passer le stade <em>En d&eacute;tresse</em> (6).</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Competitor": {
+      "name": "Concurrent·e",
+      "effect": "<p>Vous avez un concurrent ou une concurrente dans le monde criminel, dont le cr&eacute;neau d'activit&eacute; est similaire au v&ocirc;tre. <em>Chaque fois que vous n&eacute;gligez de prot&eacute;ger vos int&eacute;r&ecirc;ts ou que vous &ecirc;tes distrait par autre chose</em>, <strong>lancez +0</strong> pour voir si votre concurrent ou votre concurrente a r&eacute;ussi &agrave; nuire &agrave; votre entreprise .</p>",
+      "options": "",
+      "completesuccess": "<p>Vous &ecirc;tes &agrave; l'abri de votre concurrent ou concurrente, pour le moment.</p>",
+      "partialsuccess": "<p>Vous avez &eacute;t&eacute; n&eacute;gligent&middot;e. Votre concurrent ou concurrente peut se retourner contre vous. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour votre concurrent ou concurrente. Par exemple, votre concurrent ou concurrente peut prendre le contr&ocirc;le de certaines de vos affaires, apprendre l'un de vos secrets, saboter l'un de vos actifs, ou encore blesser ou acheter une personne qui vous est ch&egrave;re et en qui vous avez confiance.</p>",
+      "failure": "<p>Vous offrez &agrave; votre concurrent ou concurrente une occasion en or pour agir &agrave; l'encontre de vos int&eacute;r&ecirc;ts. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour votre concurrent ou concurrente. Par exemple, votre concurrent ou concurrente peut prendre le contr&ocirc;le de certaines de vos affaires, apprendre l'un de vos secrets, saboter l'un de vos actifs, ou encore blesser ou acheter une personne qui vous est ch&egrave;re et en qui vous avez confiance.</p>"
+    },
+    "Condemned": {
+      "name": "Condamné·e",
+      "effect": "<p><strong>Temps</strong>: OOOOOOOOOO</p>\n<p>Votre destin est d&eacute;j&agrave; scell&eacute;. Peut-&ecirc;tre &ecirc;tes-vous en train de mourir d'une maladie, avez-vous &eacute;t&eacute; promis&middot;e en sacrifice &agrave; un dieu oubli&eacute;, ou avez-vous vendu votre &acirc;me &agrave; une entit&eacute; qui attend de vous tra&icirc;ner en enfer lorsque votre temps sera &eacute;coul&eacute;. <em>Au d&eacute;but de chaque session de jeu</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Il vous reste encore un peu de temps.</p>",
+      "partialsuccess": "<p>Votre destin approche. Le ou la MJ choisit l'une des options suivantes:</p>\n<ul>\n<li>Le joueur marque 1 Temps.</li>\n<li>Vous &ecirc;tes tortur&eacute;&middot;e par des r&ecirc;ves ou des visions de votre sort. R&eacute;duire la <strong>Stabilit&eacute; (-2)</strong>.</li>\n<li>Vous &ecirc;tes hant&eacute;&middot;e par l'entit&eacute; ou l'&eacute;v&eacute;nement qui a scell&eacute; votre destin.</li>\n<li>Une personne de votre entourage est affect&eacute;e n&eacute;gativement par votre destin&eacute;e.</li>\n<li>Quelque chose vous donne un faux espoir d'&eacute;chapper &agrave; votre destin.</li>\n</ul>\n<p>Lorsque vous &ecirc;tes enfin &agrave; court de Temps, vous rencontrez votre destin funeste.</p>",
+      "failure": "<p>Votre fin approche. Le ou la MJ choisit deux options dans la liste ci-dessous ou marque 2 Temps.</p>\n<ul>\n<li>Le joueur marque 1 Temps.</li>\n<li>Vous &ecirc;tes tortur&eacute;&middot;e par des r&ecirc;ves ou des visions de votre sort. R&eacute;duire la <strong>Stabilit&eacute; (-2)</strong>.</li>\n<li>Vous &ecirc;tes hant&eacute;&middot;e par l'entit&eacute; ou l'&eacute;v&eacute;nement qui a scell&eacute; votre destin.</li>\n<li>Une personne de votre entourage est affect&eacute;e n&eacute;gativement par votre destin&eacute;e.</li>\n<li>Quelque chose vous donne un faux espoir d'&eacute;chapper &agrave; votre destin.</li>\n</ul>\n<p>Lorsque vous &ecirc;tes enfin &agrave; court de Temps, vous rencontrez votre destin funeste.</p>"
+    },
+    "Creator *": {
+      "name": "Créateur·rice *",
+      "effect": "<p><span style=\"text-decoration: underline;\"><strong>Ce d&eacute;savantage n'est disponible que pour l'arch&eacute;type Abomination.</strong></span></p>\n<p>Vous &ecirc;tes le r&eacute;sultat d'une terrible exp&eacute;rience ou d'un rituel inhumain de votre cr&eacute;ateur ou cr&eacute;atrice. Vous avez r&eacute;ussi &agrave; vous &eacute;chapper, mais il ou elle est toujours &agrave; votre recherche. <em>Lors de la premi&egrave;re s&eacute;ance et &agrave; chaque fois que vous vous montrez sous votre vrai jour &agrave; quelqu'un</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous &ecirc;tes &agrave; l'abri de votre cr&eacute;ateur ou cr&eacute;atrice.</p>",
+      "partialsuccess": "<p>Votre cr&eacute;ateur ou cr&eacute;atrice a rep&eacute;r&eacute; votre trace. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour votre cr&eacute;ateur ou cr&eacute;atrice. Par exemple, votre cr&eacute;ateur ou cr&eacute;atrice peut envoyer des hommes de main ou d'autres exp&eacute;riences pour vous ramener, cibler quelqu'un &agrave; qui vous tenez, vous donner un ordre et attendre de vous que vous l'ex&eacute;cutiez, ou vous fournir des informations inattendues sur votre origine ou votre but.</p>",
+      "failure": "<p>Vous vous &ecirc;tes expos&eacute;&middot;e &agrave; votre cr&eacute;ateur ou cr&eacute;atrice. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour votre cr&eacute;ateur ou cr&eacute;atrice. Par exemple, votre cr&eacute;ateur ou cr&eacute;atrice peut envoyer des hommes de main ou d'autres exp&eacute;riences pour vous ramener, cibler quelqu'un &agrave; qui vous tenez, vous donner un ordre et attendre de vous que vous l'ex&eacute;cutiez, ou vous fournir des informations inattendues sur votre origine ou votre but.</p>"
+    },
+    "Cursed": {
+      "name": "Maudit·e",
+      "effect": "<p>Vous &ecirc;tes maudit&middot;e. <em>Lors de la premi&egrave;re s&eacute;ance et &agrave; chaque fois que vous &ecirc;tes confront&eacute; au surnaturel</em>, <strong>lancez +0</strong> pour voir dans quelle mesure la mal&eacute;diction vous touche .</p>",
+      "options": "",
+      "completesuccess": "<p>Vous &eacute;vitez temporairement l'influence de la mal&eacute;diction.</p>",
+      "partialsuccess": "<p>Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action au titre de la mal&eacute;diction. Par exemple, vous ou quelqu'un qui vous est cher avez un accident, quelque chose qui vous appartient vous a &eacute;t&eacute; vol&eacute;, vous avez des visions terrifiantes, ou vous &ecirc;tes forc&eacute; de faire certaines actions avec le risque de cons&eacute;quences d&eacute;sastreuses si vous les refusez.</p>",
+      "failure": "<p>Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action au titre de la mal&eacute;diction. Par exemple, vous ou quelqu'un qui vous est cher avez un accident, quelque chose qui vous appartient vous a &eacute;t&eacute; vol&eacute;, vous avez des visions terrifiantes, ou vous &ecirc;tes forc&eacute; de faire certaines actions avec le risque de cons&eacute;quences d&eacute;sastreuses si vous les refusez.</p>"
+    },
+    "Depression": {
+      "name": "Dépression",
+      "effect": "<p>Vous luttez constamment contre la d&eacute;pression, qui est aggrav&eacute;e par l'abattement et le d&eacute;couragement. <em>En cas d'&eacute;chec personnel</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous gardez le contr&ocirc;le.</p>",
+      "partialsuccess": "<p>Vous ressentez une anxi&eacute;t&eacute; passag&egrave;re, une perte de confiance en vous ou un manque de volont&eacute;. Vous obtenez <em>-1 &agrave; votre prochain lancer</em>.</p>",
+      "failure": "<p>Vous succombez au sentiment de d&eacute;sespoir ou vous vous bl&acirc;mez et vous vous punissez; vous perdez en <strong>Stabilit&eacute; (-2)</strong>. Votre l&eacute;thargie et vos pulsions autodestructrices ne dispara&icirc;tront pas tant que vous n'aurez pas calm&eacute; votre d&eacute;pression avec des m&eacute;dicaments, des drogues ou de l'alcool.</p>"
+    },
+    "Drug Addict": {
+      "name": "Toxicomane",
+      "effect": "<p>Vous &ecirc;tes d&eacute;pendant&middot;e &agrave; des drogues dures; citez-en au moins une. <em>Lors de la premi&egrave;re session de jeu et &agrave; chaque fois que vous avez fait usage de drogues ou que vous avez l'occasion d'en faire usage</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous ma&icirc;trisez l'envie, pour l'instant.</p>",
+      "partialsuccess": "<p>Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour votre addiction. Par exemple, vous ne pouvez pas r&eacute;sister &agrave; l'usage de drogues, ne plus en avoir, vous vous endettez aupr&egrave;s d'une personne dangereuse, vous mettez en danger sous l'influence de drogues, ou vous ruinez quelque chose d'important pour vous - comme une relation - sous l'influence de drogues.</p>",
+      "failure": "<p>Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour votre addiction. Par exemple, vous ne pouvez pas r&eacute;sister &agrave; l'usage de drogues, ne plus en avoir, vous vous endettez aupr&egrave;s d'une personne dangereuse, vous mettez en danger sous l'influence de drogues, ou vous ruinez quelque chose d'important pour vous - comme une relation - sous l'influence de drogues.</p>"
+    },
+    "Experiment Gone Wrong": {
+      "name": "Expérience Ratée",
+      "effect": "<p>Vous avez r&eacute;alis&eacute; une exp&eacute;rience scientifique qui a mal tourn&eacute;. L'exp&eacute;rience a donn&eacute; naissance &agrave; quelque chose de non naturel, qui s'est &eacute;chapp&eacute; et a disparu sans laisser de traces. R&eacute;cemment, le r&eacute;sultat de votre exp&eacute;rience vous a retrouv&eacute;, r&eacute;apparaissant dans votre vie et vous obligeant &agrave; lui &eacute;chapper ou &agrave; l'affronter. <em>Lors de la premi&egrave;re session et lorsque la situation semble sous contr&ocirc;le</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Votre exp&eacute;rience vous laisse tranquille.</p>",
+      "partialsuccess": "<p>Votre exp&eacute;rience vous suit de pr&egrave;s. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action au nom de l'exp&eacute;rience. Par exemple, l'exp&eacute;rience vous donne une piste sur la V&eacute;rit&eacute;, sabote ou perturbe vos recherches, exige quelque chose de vous sous la menace de repr&eacute;sailles, ou enl&egrave;ve quelqu'un &agrave; qui vous tenez - pouvant le ramener mort ou transform&eacute;.</p>",
+      "failure": "<p>Votre exp&eacute;rience est dans votre entourage et agit contre vous. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action au nom de l'exp&eacute;rience. Par exemple, l'exp&eacute;rience vous donne une piste sur la V&eacute;rit&eacute;, sabote ou perturbe vos recherches, exige quelque chose de vous sous la menace de repr&eacute;sailles, ou enl&egrave;ve quelqu'un &agrave; qui vous tenez - pouvant le ramener mort ou transform&eacute;.</p>"
+    },
+    "Fanatic": {
+      "name": "Fanatique",
+      "effect": "<p>Vous &ecirc;tes un fervent ou une fervente adepte d'une id&eacute;ologie. Vous interpr&eacute;tez le monde entier en fonction de votre id&eacute;ologie, qui ne doit pas &ecirc;tre remise en question. <em>Chaque fois que quelqu'un remet en question votre id&eacute;ologie</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous pouvez ma&icirc;triser vos &eacute;motions.</p>",
+      "partialsuccess": "<p>Vous &ecirc;tes en col&egrave;re, confus ou frustr&eacute;&middot;e. Vous prenez <em>-1 &agrave; votre prochain lancer</em>.</p>",
+      "failure": "<p>Vous &ecirc;tes oblig&eacute;&middot;e de choisir entre prendre des mesures pour changer la personne ou la situation afin qu'elle adh&egrave;re &agrave; votre id&eacute;ologie, ou perdre en <strong>Stabilit&eacute; (-2)</strong>.</p>"
+    },
+    "Greedy": {
+      "name": "Cupide",
+      "effect": "<p>Vous &ecirc;tes anim&eacute;&middot;e par un d&eacute;sir inextinguible d'argent et de richesse, et vous &ecirc;tes pr&ecirc;t&middot;e &agrave; sacrifier votre sant&eacute;, votre famille et vos amis pour combler ce vide int&eacute;rieur. <em>Lorsqu'une occasion d'accro&icirc;tre votre richesse se pr&eacute;sente</em>, <strong>lancez +0</strong> pour savoir si vous ma&icirc;trisez votre d&eacute;sir.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous ma&icirc;trisez votre avidit&eacute;.</p>",
+      "partialsuccess": "<p>Le gouffre noir &agrave; l'int&eacute;rieur hurle pour en avoir plus. Tant que l'occasion existe et que vous ne la saisissez pas, vous subissez un <em>-1 &agrave; tous vos lancers</em>.</p>",
+      "failure": "<p>Vous devez profiter de chaque occasion pour accro&icirc;tre votre richesse, ou perdre en <strong>Stabilit&eacute; (-2)</strong>.</p>"
+    },
+    "Guilt": {
+      "name": "Culpabilité",
+      "effect": "<p>Vous portez une lourde culpabilit&eacute; pour vos p&eacute;ch&eacute;s pass&eacute;s, ayant caus&eacute; du tort &agrave; une ou plusieurs personnes par vos actions ou votre inaction. <em>Lors de la premi&egrave;re session de jeu et chaque fois que tout semble aller bien</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Votre culpabilit&eacute; ne vous pr&eacute;occupe pas pour le moment.</p>",
+      "partialsuccess": "<p>On vous rappelle votre culpabilit&eacute;. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action li&eacute;e &agrave; votre culpabilit&eacute;. Par exemple, les parents des personnes que vous avez bless&eacute;es vous recherchent, les d&eacute;mons et autres cr&eacute;atures sont attir&eacute;s par votre culpabilit&eacute;, les morts vous hantent par des cauchemars ou des visions, ou vous &ecirc;tes victime d'anxi&eacute;t&eacute; et de doute de vous-m&ecirc;me.</p>",
+      "failure": "<p>Votre culpabilit&eacute; vous rattrape. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action li&eacute;e &agrave; votre culpabilit&eacute;. Par exemple, les parents des personnes que vous avez bless&eacute;es vous recherchent, les d&eacute;mons et autres cr&eacute;atures sont attir&eacute;s par votre culpabilit&eacute;, les morts vous hantent par des cauchemars ou des visions, ou vous &ecirc;tes victime d'anxi&eacute;t&eacute; et de doute de vous-m&ecirc;me.</p>"
+    },
+    "Harassed": {
+      "name": "Harcelé·e",
+      "effect": "<p>Pour une raison ou une autre, personnelle ou non, les gens ont tendance &agrave; vous harceler; les autorit&eacute;s en particulier. <em>Lors de la premi&egrave;re session de jeu et chaque fois que vous attirez l'attention sur vous</em>, <strong>lancez +0</strong> pour voir si vous &ecirc;tes harcel&eacute;&middot;e.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous r&eacute;ussissez &agrave; &eacute;viter le harc&egrave;lement.</p>",
+      "partialsuccess": "<p>Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour les harceleurs. Par exemple, quelqu'un d&eacute;truit votre propri&eacute;t&eacute; ou vos biens, vous &ecirc;tes malmen&eacute;&middot;e et attaqu&eacute;&middot;e par des personnes ayant des pr&eacute;jug&eacute;s &agrave; votre &eacute;gard, les autorit&eacute;s vous retirent quelque chose par la force (droits, propri&eacute;t&eacute;, biens), quelqu'un &agrave; qui vous tenez est l&eacute;s&eacute; parce qu'il vous fr&eacute;quente, ou vous &ecirc;tes priv&eacute;&middot;e de vos droits fondamentaux en raison de votre identit&eacute;.</p>",
+      "failure": "<p>Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour les harceleurs. Par exemple, quelqu'un d&eacute;truit votre propri&eacute;t&eacute; ou vos biens, vous &ecirc;tes malmen&eacute;&middot;e et attaqu&eacute;&middot;e par des personnes ayant des pr&eacute;jug&eacute;s &agrave; votre &eacute;gard, les autorit&eacute;s vous retirent quelque chose par la force (droits, propri&eacute;t&eacute;, biens), quelqu'un &agrave; qui vous tenez est l&eacute;s&eacute; parce qu'il vous fr&eacute;quente, ou vous &ecirc;tes priv&eacute;&middot;e de vos droits fondamentaux en raison de votre identit&eacute;.</p>"
+    },
+    "Haunted": {
+      "name": "Hanté·e",
+      "effect": "<p>Vous &ecirc;tes hant&eacute;&middot;e par des forces surnaturelles. Avec l'aide du ou de la MJ, d&eacute;terminez la nature de ce qui vous hante. <em>Lors de la premi&egrave;re s&eacute;ance et &agrave; chaque fois que vous &ecirc;tes distrait&middot;e ou affaibli&middot;e</em>, <strong>lancez +0</strong> pour voir si l'entit&eacute; acquiert un ascendant sur vous.</p>",
+      "options": "",
+      "completesuccess": "<p>L'entit&eacute; vous laisse tranquille.</p>",
+      "partialsuccess": "<p>Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour l'entit&eacute;. Par exemple, elle vous demande un service et vous menace de repr&eacute;sailles si vous refusez, l'entit&eacute; poss&egrave;de votre corps pour la nuit, ou l'entit&eacute; r&eacute;v&egrave;le un indice de ce qu'elle est et de ce qu'elle veut de vous.</p>",
+      "failure": "<p>Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour l'entit&eacute;. Par exemple, elle vous demande un service et vous menace de repr&eacute;sailles si vous refusez, l'entit&eacute; poss&egrave;de votre corps pour la nuit, ou l'entit&eacute; r&eacute;v&egrave;le un indice de ce qu'elle est et de ce qu'elle veut de vous.</p>"
+    },
+    "Infirm": {
+      "name": "Malade",
+      "effect": "<p>Vous souffrez d'une maladie ou d'un &eacute;tat physique dangereux, tel qu'une maladie cardiaque, de l'hypertension, une ob&eacute;sit&eacute; morbide ou un ulc&egrave;re gastrique grave. <em>Lorsque vous &ecirc;tes soumis &agrave; un stress physique ou psychologique important</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Votre &eacute;tat de sant&eacute; est sous contr&ocirc;le.</p>",
+      "partialsuccess": "<p>Votre pathologie se d&eacute;clenche, provoquant douleur et h&eacute;b&eacute;tude (<em>-1 &agrave; tous les lancers jusqu'&agrave; la fin de la sc&egrave;ne</em>).</p>",
+      "failure": "<p>Votre &eacute;tat s'aggrave et met votre vie en danger (<strong>Subir des Blessures</strong> avec <strong>2 D&eacute;g&acirc;ts</strong>).</p>"
+    },
+    "Involuntary Medium": {
+      "name": "Médium Involontaire",
+      "effect": "<p>Tu es un canal ouvert pour tous les esprits ou entit&eacute;s d&eacute;moniaques qui d&eacute;sirent un m&eacute;dium pour parler ou qui ont besoin d'un corps pour l'utiliser &agrave; leurs fins. <em>Lorsque vous rencontrez des entit&eacute;s spirituelles ou visitez des lieux hant&eacute;s</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous r&eacute;sistez &agrave; la possession.</p>",
+      "partialsuccess": "<p>L'entit&eacute; exerce une influence sur vous. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour l'&ecirc;tre qui vous poss&egrave;de. Par exemple, l'entit&eacute; peut vous donner une vision, utiliser votre corps, communiquer avec vous ou par votre interm&eacute;diaire, essayer de nuire &agrave; quelqu'un d'autre par votre interm&eacute;diaire, vous suivre sans &ecirc;tre vue, exiger quelque chose de vous ou vous entra&icirc;ner dans une autre dimension.</p>",
+      "failure": "<p>L'entit&eacute; prend le contr&ocirc;le sur vous. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour l'&ecirc;tre qui vous poss&egrave;de. Par exemple, l'entit&eacute; peut vous donner une vision, utiliser votre corps, communiquer avec vous ou par votre interm&eacute;diaire, essayer de nuire &agrave; quelqu'un d'autre par votre interm&eacute;diaire, vous suivre sans &ecirc;tre vue, exiger quelque chose de vous ou vous entra&icirc;ner dans une autre dimension.</p>"
+    },
+    "Jealousy": {
+      "name": "Jalousie",
+      "effect": "<p>Il y a quelqu'un qui a la vie que vous voudriez avoir, et vous feriez n'importe quoi pour &ecirc;tre &agrave; sa place. <em>Chaque fois que vous rencontrez l'objet de votre jalousie ou son entourage (biens, famille, amis, etc.)</em>, <strong>lancez +0</strong> pour voir si vous pouvez garder votre sang-froid.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous ma&icirc;trisez votre jalousie.</p>",
+      "partialsuccess": "<p>Vous &ecirc;tes afflig&eacute;&middot;e par la jalousie et prenez <em>-1 &agrave; vos lancers</em> tant que vous restez dans le voisinage du sujet et que vous ne r&eacute;primez pas vos d&eacute;sirs.</p>",
+      "failure": "<p>La jalousie s'empare de vous. Vous devez <strong>Garder le Contr&ocirc;le</strong> pour vous abstenir de nuire, de d&eacute;truire ou de voler le sujet de votre jalousie.</p>"
+    },
+    "Liar": {
+      "name": "Menteur·euse",
+      "effect": "<p>Vous &ecirc;tes un menteur compulsif ou une menteuse compulsive, qui invente des histoires &agrave; chaque occasion, surtout lorsque cela vous est b&eacute;n&eacute;fique. <em>Au d&eacute;but de chaque session</em>, <strong>lancez +0</strong> pour voir dans quel p&eacute;trin vos mensonges vous ont mis cette fois-ci.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous avez r&eacute;ussi &agrave; ne pas vous emm&ecirc;ler les pinceaux dans vos mensonges.</p>",
+      "partialsuccess": "<p>Vous avez dit un mensonge de trop. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue chaque fois qu'un PJ rencontre quelqu'un qu'il conna&icirc;t pour lui demander: \"Sur quoi as-tu menti avec cette personne?\" ou pour inventer un mensonge g&ecirc;nant que le PJ a racont&eacute; dans le pass&eacute;.</p>",
+      "failure": "<p>Votre tissu de mensonges s'est compl&egrave;tement d&eacute;chir&eacute;. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue chaque fois qu'un PJ rencontre quelqu'un qu'il conna&icirc;t pour lui demander: \"Sur quoi as-tu menti avec cette personne?\" ou pour inventer un mensonge g&ecirc;nant que le PJ a racont&eacute; dans le pass&eacute;.</p>"
+    },
+    "Lost Identity": {
+      "name": "Identité Perdue",
+      "effect": "<p>Votre v&eacute;ritable identit&eacute; a &eacute;t&eacute; perdue dans le cadre d'un programme d'agent secret militaire ou priv&eacute;. Vous ne vous souvenez de rien de votre vie avant votre recrutement. R&eacute;cemment, des souvenirs de votre v&eacute;ritable identit&eacute; ont commenc&eacute; &agrave; vous revenir. Lors de la premi&egrave;re session de jeu et &agrave; chaque fois que vous rencontrez quelque chose li&eacute; &agrave; votre pass&eacute; enfoui, lancez +0.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous refoulez votre v&eacute;ritable identit&eacute;, en restant dans le pr&eacute;sent.</p>",
+      "partialsuccess": "<p>Votre v&eacute;ritable identit&eacute; vous rattrape. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour d&eacute;voiler votre v&eacute;ritable identit&eacute;. Par exemple, vous reconnaissez des personnes ou des lieux inconnus, des organisations ou des individus de votre vie pass&eacute;e entrent en contact avec vous, votre ancienne identit&eacute; influence vos sch&eacute;mas de pens&eacute;e ou vos actions, ou vous souffrez de flashbacks traumatisants.</p>",
+      "failure": "<p>Votre v&eacute;ritable identit&eacute; refait surface. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour d&eacute;voiler votre v&eacute;ritable identit&eacute;. Par exemple, vous reconnaissez des personnes ou des lieux inconnus, des organisations ou des individus de votre vie pass&eacute;e entrent en contact avec vous, votre ancienne identit&eacute; influence vos sch&eacute;mas de pens&eacute;e ou vos actions, ou vous souffrez de flashbacks traumatisants.</p>"
+    },
+    "Marked": {
+      "name": "Marqué·e",
+      "effect": "<p>Vous &ecirc;tes marqu&eacute;&middot;e par les t&eacute;n&egrave;bres. Cette marque peut prendre la forme d'un tatouage int&eacute;gral, d'une partie de corps d&eacute;moniaque telle qu'un bras vestigial, un &#339;il ou une bouche suppl&eacute;mentaire, des pi&egrave;ces de machine int&eacute;gr&eacute;es &agrave; votre chair, ou d'autres manifestations similaires. Chaque fois que vous faites consciemment du mal &agrave; quelqu'un, lancez +0.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous avez toujours le contr&ocirc;le.</p>",
+      "partialsuccess": "<p>Vous nourrissez les t&eacute;n&egrave;bres. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour les t&eacute;n&egrave;bres qui vivent &agrave; l'int&eacute;rieur de vous. Par exemple, les t&eacute;n&egrave;bres se nourrissent de votre &eacute;nergie vitale pour se maintenir, vous obligent &agrave; commettre un meurtre pour reconstituer leur &eacute;nergie vitale, prennent en charge votre corps et ne vous laissent que des fragments de m&eacute;moire de ce qui s'est pass&eacute;, vous obligent &agrave; faire du mal &agrave; quelqu'un de votre entourage, ou transforment temporairement votre corps en quelque chose d'inhumain. Il se peut que vous deviez <strong>Garder le Contr&ocirc;le</strong> pour r&eacute;sister &agrave; l'influence des t&eacute;n&egrave;bres.</p>",
+      "failure": "<p>Les t&eacute;n&egrave;bres prennent le contr&ocirc;le sur vous. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour les t&eacute;n&egrave;bres qui vivent &agrave; l'int&eacute;rieur de vous. Par exemple, les t&eacute;n&egrave;bres se nourrissent de votre &eacute;nergie vitale pour se maintenir, vous obligent &agrave; commettre un meurtre pour reconstituer leur &eacute;nergie vitale, prennent en charge votre corps et ne vous laissent que des fragments de m&eacute;moire de ce qui s'est pass&eacute;, vous obligent &agrave; faire du mal &agrave; quelqu'un de votre entourage, ou transforment temporairement votre corps en quelque chose d'inhumain. Il se peut que vous deviez <strong>Garder le Contr&ocirc;le</strong> pour r&eacute;sister &agrave; l'influence des t&eacute;n&egrave;bres.</p>"
+    },
+    "Mental Compulsion": {
+      "name": "Trouble compulsif",
+      "effect": "<p>Vous &ecirc;tes fix&eacute;&middot;e sur une id&eacute;e ou une action particuli&egrave;re, au point qu'elle a un impact consid&eacute;rable sur votre vie. Choisissez une compulsion lorsque vous prenez ce d&eacute;savantage. <em>Dans les situations o&ugrave; vous pourriez &ecirc;tre distrait par votre compulsion</em>, <strong>lancez +0</strong>:</p>\n<p><em><strong>Liste des compulsions possibles:</strong></em></p>\n<ul>\n<li>Ablutomanie (Nettoyage, Hygi&egrave;ne)</li>\n<li>Arithmomanie (Comptage)</li>\n<li>Trichomanie (V&eacute;rification)</li>\n<li>Taxinomie (Organisation)</li>\n<li>Hypermn&eacute;sie (M&eacute;morisation)</li>\n<li>Pyromanie (Feu)</li>\n<li>Cleptomanie (Larcin)</li>\n<li>Blasph&eacute;manie (Injures)</li>\n<li>Al&egrave;thomanie (Dire la v&eacute;rit&eacute;)</li>\n<li>Hyperphagie (Manger)</li>\n<li>Thanatomanie (Mort)</li>\n</ul>",
+      "options": "",
+      "completesuccess": "<p>Vous contr&ocirc;lez vos compulsions et pouvez vous concentrer sur d'autres choses.</p>",
+      "partialsuccess": "<p>Vous devenez distrait&middot;e et prenez <em>&amp;-1 &agrave; tous vos lancers</em> jusqu'&agrave; ce que vous vous soyez retir&eacute;&middot;e de la situation ou que vous ayez succomb&eacute; &agrave; votre compulsion, en prenant toutes les mesures qu'elle exige de vous.</p>",
+      "failure": "<p>Vous devenez compl&egrave;tement obs&eacute;d&eacute;&middot;e par votre compulsion. Si vous vous concentrez sur autre chose, vous perdez en <strong>Stabilit&eacute; (-2)</strong>.</p>"
+    },
+    "Nemesis": {
+      "name": "Némésis",
+      "effect": "<p>Par un acte terrible, vous vous &ecirc;tes fait un ennemi qui fait tout ce qui est en son pouvoir pour se venger. D&eacute;cidez qui est votre ennemi jur&eacute; et ce que vous avez fait pour m&eacute;riter sa vengeance. <em>Lors de la premi&egrave;re session de jeu et &agrave; chaque fois que vous baissez votre garde</em>, <strong>lancez +0</strong> pour voir si votre ennemi jur&eacute; agit contre vous.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous &ecirc;tes &agrave; l'abri de votre ennemi jur&eacute; pour le moment.</p>",
+      "partialsuccess": "<p>Vous avez &eacute;t&eacute; n&eacute;gligent et votre n&eacute;m&eacute;sis se retourne contre vous. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action en faveur de votre n&eacute;m&eacute;sis. Par exemple, votre ennemi jur&eacute; peut vous attaquer lorsque vous &ecirc;tes seul&middot;e, utiliser les secrets qu'il a d&eacute;couverts pour vous soutirer de l'argent, vous intimider, engager des hommes de main pour vous capturer, ou attaquer quelqu'un ou quelque chose qui vous est cher.</p>",
+      "failure": "<p>Vous avez compromis votre position et votre ennemi jur&eacute; vous attaque de plein fouet. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action en faveur de votre n&eacute;m&eacute;sis. Par exemple, votre ennemi jur&eacute; peut vous attaquer lorsque vous &ecirc;tes seul&middot;e, utiliser les secrets qu'il a d&eacute;couverts pour vous soutirer de l'argent, vous intimider, engager des hommes de main pour vous capturer, ou attaquer quelqu'un ou quelque chose qui vous est cher.</p>"
+    },
+    "Nightmares": {
+      "name": "Cauchemars",
+      "effect": "<p>Vous souffrez de cauchemars r&eacute;currents, probablement li&eacute;s &agrave; vos Sombres Secrets. <em>Pendant toute sc&egrave;ne o&ugrave; vous dormez</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous dormez en paix.</p>",
+      "partialsuccess": "<p>Les cauchemars vous tourmentent. Le ou la MJ peut effectuer une Action pour vos cauchemars. Par exemple, vous n'arrivez pas &agrave; dormir durant la nuit (<em>-1 &agrave; vos lancers</em> jusqu'&agrave; ce que vous dormiez), quelque chose vous ram&egrave;ne &agrave; la r&eacute;alit&eacute;, les cauchemars vous donnent un aper&ccedil;u de la V&eacute;rit&eacute;, ou vous &ecirc;tes oblig&eacute;&middot;e de g&eacute;rer un traumatisme (<strong>Garder le Contr&ocirc;le</strong>) lorsque vous vous r&eacute;veillez.</p>",
+      "failure": "<p>Les cauchemars prennent compl&egrave;tement le dessus. Vous &ecirc;tes prisonnier du r&ecirc;ve jusqu'&agrave; ce que vous trouviez un moyen de vous r&eacute;veiller, et tout ce qui s'y passe affecte directement votre corps endormi.</p>"
+    },
+    "Oath of Revenge": {
+      "name": "Serment de Vengeance",
+      "effect": "<p>Vous avez jur&eacute; de venger une injustice impardonnable. D&eacute;cidez qui est le sujet de votre vengeance et ce qu'il vous a fait. Il peut s'agir d'un seul individu, de personnes partageant un certain trait de caract&egrave;re ou de membres d'une organisation. <em>Chaque fois que la cible de votre vengeance (ou quelqu'un/quelque chose qui lui est associ&eacute;) appara&icirc;t</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous restez ma&icirc;tre de votre nature vengeresse et pouvez agir de mani&egrave;re rationnelle.</p>",
+      "partialsuccess": "<p>Vous ne pouvez pas vous concentrer sur autre chose que la cible de votre vengeance. Obtenez <em>-1 &agrave; vos lancers</em> jusqu'&agrave; ce que l'implication de la cible dans la sc&egrave;ne prenne fin.</p>",
+      "failure": "<p>Vous devenez obs&eacute;d&eacute; et ne pouvez agir que pour assouvir votre vengeance. Pour faire quoi que ce soit d'autre, vous devez effectuer un lancer pour <strong>Garder le Contr&ocirc;le</strong>. Votre obsession ne peut &ecirc;tre apais&eacute;e tant que la cible reste dans la m&ecirc;me sc&egrave;ne que vous.</p>"
+    },
+    "Object of Desire": {
+      "name": "Objet de Désir",
+      "effect": "<p>Il y a quelque chose de sp&eacute;cial en vous. Vous suscitez chez les autres des d&eacute;sirs profonds et malsains qu'ils ne parviennent pas &agrave; ma&icirc;triser. <em>Lors de la premi&egrave;re session de jeu et &agrave; chaque fois que vous rencontrez une ou plusieurs nouvelles personnes</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Le d&eacute;sir n'est pas &eacute;veill&eacute; &agrave; ce moment-l&agrave;.</p>",
+      "partialsuccess": "<p>Quelqu'un vous convoite. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour enflammer les d&eacute;sirs d'une personne, influen&ccedil;ant ainsi son comportement. Par exemple, quelqu'un peut &ecirc;tre afflig&eacute; d'une passion incontr&ocirc;lable pour vous, essayer de vous forcer la main, vous proposer avec insistance, devenir intens&eacute;ment jaloux de vous, ou se faire du mal ou faire du mal &agrave; quelqu'un d'autre &agrave; cause du d&eacute;sir qu'il &eacute;prouve pour vous.</p>",
+      "failure": "<p>Un fort d&eacute;sir est &eacute;veill&eacute; chez une ou plusieurs personnes. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour enflammer les d&eacute;sirs d'une personne, influen&ccedil;ant ainsi son comportement. Par exemple, quelqu'un peut &ecirc;tre afflig&eacute; d'une passion incontr&ocirc;lable pour vous, essayer de vous forcer la main, vous proposer avec insistance, devenir intens&eacute;ment jaloux de vous, ou se faire du mal ou faire du mal &agrave; quelqu'un d'autre &agrave; cause du d&eacute;sir qu'il &eacute;prouve pour vous.</p>"
+    },
+    "Obsession": {
+      "name": "Obsession",
+      "effect": "<p>Vous avez d&eacute;couvert une conspiration ou un ph&eacute;nom&egrave;ne surnaturel, et vous ne pouvez pas vous emp&ecirc;cher d'aller au fond des choses. <em>Lors de la premi&egrave;re session de jeu et &agrave; chaque fois que vous rencontrez un &eacute;l&eacute;ment li&eacute; &agrave; votre obsession</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous surmontez votre obsession pour le moment.</p>",
+      "partialsuccess": "<p>Votre obsession influence votre comportement. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour que votre obsession s'insinue dans votre vie quotidienne. Vous pouvez &ecirc;tre forc&eacute; de choisir entre vous consacrer &agrave; votre obsession ou perdre en Stabilit&eacute;. Vous pouvez oublier des t&acirc;ches importantes, manquer des r&eacute;unions ou n&eacute;gliger vos relations interpersonnelles pour vous concentrer uniquement sur votre obsession. Votre obsession peut m&ecirc;me influencer vos r&ecirc;ves, vous donnant des visions et des r&eacute;v&eacute;lations. &Agrave; son tour, le sujet de votre obsession peut &eacute;galement prendre conscience de vos agissements et tenter de mettre un terme &agrave; vos recherches.</p>",
+      "failure": "<p>L'obsession prend le dessus. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour que votre obsession s'insinue dans votre vie quotidienne. Vous pouvez &ecirc;tre forc&eacute; de choisir entre vous consacrer &agrave; votre obsession ou perdre en Stabilit&eacute;. Vous pouvez oublier des t&acirc;ches importantes, manquer des r&eacute;unions ou n&eacute;gliger vos relations interpersonnelles pour vous concentrer uniquement sur votre obsession. Votre obsession peut m&ecirc;me influencer vos r&ecirc;ves, vous donnant des visions et des r&eacute;v&eacute;lations. &Agrave; son tour, le sujet de votre obsession peut &eacute;galement prendre conscience de vos agissements et tenter de mettre un terme &agrave; vos recherches.</p>"
+    },
+    "Owned": {
+      "name": "Propriété Privée",
+      "effect": "<p>Vous &eacute;tiez, de gr&eacute; ou de force, la propri&eacute;t&eacute; priv&eacute;e d'une personne dangereuse. Depuis votre &eacute;vasion, votre ancien propri&eacute;taire vous recherche. D&eacute;cidez qui est votre ancien propri&eacute;taire. <em>Lors de la premi&egrave;re session de jeu et chaque fois que vous attirez l'attention sur vous en public</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Pour l'instant, vous &ecirc;tes en s&eacute;curit&eacute;.</p>",
+      "partialsuccess": "<p>Votre ancien propri&eacute;taire a rep&eacute;r&eacute; votre trace. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour votre ancien propri&eacute;taire. Par exemple, il appara&icirc;t &agrave; l'improviste pour vous convaincre de revenir, envoie des hommes de main &agrave; vos trousses, kidnappe ou blesse quelqu'un &agrave; qui vous tenez, vous menace directement, d&eacute;truit quelque chose d'important pour vous, essaie de vous mutiler pour que personne d'autre ne veuille de vous, ou vous tue carr&eacute;ment pour que personne d'autre ne puisse vous avoir.</p>",
+      "failure": "<p>Votre propri&eacute;taire vous retrouve. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour votre ancien propri&eacute;taire. Par exemple, il appara&icirc;t &agrave; l'improviste pour vous convaincre de revenir, envoie des hommes de main &agrave; vos trousses, kidnappe ou blesse quelqu'un &agrave; qui vous tenez, vous menace directement, d&eacute;truit quelque chose d'important pour vous, essaie de vous mutiler pour que personne d'autre ne veuille de vous, ou vous tue carr&eacute;ment pour que personne d'autre ne puisse vous avoir.</p>"
+    },
+    "Persecutors *": {
+      "name": "Persécuteur·rices *",
+      "effect": "<p><span style=\"text-decoration: underline;\"><strong>Ce d&eacute;savantage n'est disponible que pour l'arch&eacute;type Revenant&middot;e.</strong></span></p>\n<p>Vous &ecirc;tes chass&eacute; par un groupe ou une organisation de personnes qui ont jur&eacute; d'&eacute;radiquer votre esp&egrave;ce. <em>Lors de la premi&egrave;re session et &agrave; chaque fois que vous r&eacute;v&eacute;lez votre vraie nature &agrave; des t&eacute;moins humains</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous &ecirc;tes &agrave; l'abri de vos pers&eacute;cuteur&middot;rices, pour le moment.</p>",
+      "partialsuccess": "<p>Vous avez laiss&eacute; une piste &agrave; vos pers&eacute;cuteur&middot;rices. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour vos pers&eacute;cuteur&middot;rices. Ils ou elles peuvent vous tendre un pi&egrave;ge, rep&eacute;rer votre cachette, infiltrer votre entourage, capturer l'un de vos alli&eacute;s, voler ou d&eacute;truire un objet qui vous appartient, surgir &agrave; l'improviste ou faire cause commune avec l'un de vos autres ennemis.</p>",
+      "failure": "<p>Vos pers&eacute;cuteur&middot;rices vous ont retrouv&eacute;. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour vos pers&eacute;cuteur&middot;rices. Ils ou elles peuvent vous tendre un pi&egrave;ge, rep&eacute;rer votre cachette, infiltrer votre entourage, capturer l'un de vos alli&eacute;s, voler ou d&eacute;truire un objet qui vous appartient, surgir &agrave; l'improviste ou faire cause commune avec l'un de vos autres ennemis.</p>"
+    },
+    "Phobia": {
+      "name": "Phobie",
+      "effect": "<p>Vous avez une peur irr&eacute;sistible de quelque chose. Choisissez le stimulus qui vous fait peur. <em>Chaque fois que vous &ecirc;tes confront&eacute;&middot;e &agrave; l'objet de votre phobie</em>, vous devez <strong>Garder le Contr&ocirc;le</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Protégé *": {
+      "name": "Protégé·e *",
+      "effect": "<p><span style=\"text-decoration: underline;\"><strong>Ce d&eacute;savantage n'est disponible que pour l'arch&eacute;type Disciple.</strong></span></p>\n<p>Vous aviez autrefois un ou une apprentie que vous avez initi&eacute;e &agrave; la V&eacute;rit&eacute; avant qu'elle ne disparaisse. Il ou elle a peut-&ecirc;tre &eacute;t&eacute; enlev&eacute;e par une Puissance Sup&eacute;rieure, ou bien elle s'est retourn&eacute;e contre vous et est partie de son propre chef. Votre prot&eacute;g&eacute;&middot;e demeure un point faible pour vous et a le potentiel de vous infliger de grands pr&eacute;judices, directement ou indirectement. Au choix, la <strong>Relation</strong> que vous avez avec votre Prot&eacute;g&eacute;&middot;e est &agrave; <strong>+1</strong> ou <strong>+2</strong>. <em>Lors de la premi&egrave;re session et &agrave; tout moment lorsque vous avez satisfait aux Principes fondamentaux</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Rien ne se passe.</p>",
+      "partialsuccess": "<p>Votre prot&eacute;g&eacute;&middot;e fait une apparition. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action li&eacute;e &agrave; votre prot&eacute;g&eacute;&middot;e. Par exemple, quelqu'un vous soutire de l'argent en mena&ccedil;ant de faire du mal &agrave; votre prot&eacute;g&eacute;&middot;e, ou votre prot&eacute;g&eacute;&middot;e peut revenir pour vous demander de l'aide, saboter l'un de vos plans, (menacer de) r&eacute;v&eacute;ler l'un de vos secrets, voler quelque chose qui vous appartient, ou vous calomnier.</p>",
+      "failure": "<p>Votre prot&eacute;g&eacute;&middot;e vous met dans une situation compliqu&eacute;e. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action li&eacute;e &agrave; votre prot&eacute;g&eacute;&middot;e. Par exemple, quelqu'un vous soutire de l'argent en mena&ccedil;ant de faire du mal &agrave; votre prot&eacute;g&eacute;&middot;e, ou votre prot&eacute;g&eacute;&middot;e peut revenir pour vous demander de l'aide, saboter l'un de vos plans, (menacer de) r&eacute;v&eacute;ler l'un de vos secrets, voler quelque chose qui vous appartient, ou vous calomnier.</p>"
+    },
+    "Rationalist": {
+      "name": "Scientiste",
+      "effect": "<p>Vous refusez de croire &agrave; tout ce qui n'est pas valid&eacute; par la science moderne, m&ecirc;me lorsque c'est sous vos yeux. En plus des effets habituels, <em>chaque fois que vous tentez de </em><strong>Voir &agrave; travers l'Illusion</strong><em> et &agrave; chaque fois que l'Illusion se brise</em>, le ou la MJ peut choisir une option:</p>\n<ul>\n<li>Votre pr&eacute;sence nourrit l'Illusion, la rendant plus puissante et imp&eacute;n&eacute;trable.</li>\n<li>Votre psych&eacute; d&eacute;sorient&eacute;e commence &agrave; cr&eacute;er des images miroir de lieux et de personnes familiers dans l'Illusion.</li>\n<li>Vous attirez des entit&eacute;s extradimensionnelles.</li>\n<li>Vous niez consciemment ce que vous voyez, m&ecirc;me &agrave; votre propre pr&eacute;judice.</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Repressed Memories": {
+      "name": "Souvenirs Refoulés",
+      "effect": "<p>Vous avez refoul&eacute; un &eacute;v&eacute;nement particuli&egrave;rement d&eacute;sagr&eacute;able de votre pass&eacute;, mais son souvenir remonte parfois &agrave; la surface. Il peut s'agir d'un crime ou d'une chose horrible que vous avez faite, subie ou dont vous avez &eacute;t&eacute; t&eacute;moin. Le MJ d&eacute;cide de la nature de votre souvenir refoul&eacute;, g&eacute;n&eacute;ralement en fonction de vos Sombres Secrets. <em>Dans les situations associ&eacute;es &agrave; vos souvenirs refoul&eacute;s</em>, <strong>lancez +0</strong> pour d&eacute;terminer si les souvenirs refont surface.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous continuez &agrave; refouler les souvenirs.</p>",
+      "partialsuccess": "<p>Les souvenirs refont partiellement surface, sous forme de flashbacks et/ou d'hallucinations. Vous devez <strong>Garder le Contr&ocirc;le</strong>.</p>",
+      "failure": "<p>Vous &ecirc;tes submerg&eacute;&middot;e par vos souvenirs refoul&eacute;s, vous vous y perdez compl&egrave;tement. Le ou la MJ effectue une Action violente et vous perdez en <strong>Stabilit&eacute; (-2)</strong>.</p>"
+    },
+    "Rival": {
+      "name": "Rival·e",
+      "effect": "<p>Vous avez un rival ambitieux ou une rivale, pr&ecirc;t &agrave; tout pour &ecirc;tre &agrave; votre place. Choisissez qui est ce ou cette rivale. <em>Lors de la premi&egrave;re session de jeu et chaque fois que vous faites une erreur ou que vous baissez votre garde</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Tout est clair; votre rival&middot;e ne prend aucune mesure &agrave; votre encontre.</p>",
+      "partialsuccess": "<p>Vous avez donn&eacute; une chance &agrave; votre rival&middot;e. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action au nom de votre rival&middot;e. Par exemple, le ou la rivale peut rallier une personne importante &agrave; sa cause, saboter l'un de vos projets, vous extorquer des preuves nuisibles &agrave; votre r&eacute;putation ou prendre des mesures d&eacute;sesp&eacute;r&eacute;es pour se d&eacute;barrasser d&eacute;finitivement de vous.</p>",
+      "failure": "<p>Vous avez donn&eacute; &agrave; votre rival&middot;e tout ce dont il ou elle avait besoin pour vous &eacute;branler compl&egrave;tement. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action au nom de votre rival&middot;e. Par exemple, le ou la rivale peut rallier une personne importante &agrave; sa cause, saboter l'un de vos projets, vous extorquer des preuves nuisibles &agrave; votre r&eacute;putation ou prendre des mesures d&eacute;sesp&eacute;r&eacute;es pour se d&eacute;barrasser d&eacute;finitivement de vous.</p>"
+    },
+    "Schizophrenia": {
+      "name": "Schizophrénie",
+      "effect": "<p>Vous souffrez d'&eacute;pisodes psychotiques r&eacute;currents et d'hallucinations terrifiantes. <em>Lors de la premi&egrave;re session de jeu et &agrave; chaque fois que vous traversez des &eacute;preuves &eacute;prouvantes</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous gardez le contr&ocirc;le de votre folie.</p>",
+      "partialsuccess": "<p>Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour votre schizophr&eacute;nie. Par exemple, une de vos hallucinations prend une forme physique, vous consid&eacute;rez votre environnement actuel comme hostile, vous &ecirc;tes afflig&eacute;&middot;e par des hallucinations terrifiantes, vous &ecirc;tes soumis&middot;e &agrave; des visions obscures (vraies ou fausses), ou quelqu'un dans votre entourage s'av&egrave;re ne pas &ecirc;tre r&eacute;el.</p>",
+      "failure": "<p>La schizophr&eacute;nie vous envahit. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour votre schizophr&eacute;nie. Par exemple, une de vos hallucinations prend une forme physique, vous consid&eacute;rez votre environnement actuel comme hostile, vous &ecirc;tes afflig&eacute;&middot;e par des hallucinations terrifiantes, vous &ecirc;tes soumis&middot;e &agrave; des visions obscures (vraies ou fausses), ou quelqu'un dans votre entourage s'av&egrave;re ne pas &ecirc;tre r&eacute;el.</p>"
+    },
+    "Sexual Neurosis": {
+      "name": "Névrose Sexuelle",
+      "effect": "<p>Votre sexualit&eacute; est une force destructrice et contr&ocirc;lante dans votre vie. Vous recherchez compulsivement des rencontres sexuelles superficielles et &ecirc;tes pr&ecirc;t&middot;e &agrave; accomplir des actes d&eacute;gradants - voire &agrave; commettre des crimes - pour satisfaire vos fantasmes. <em>Chaque fois que vous avez l'occasion d'avoir des relations sexuelles consenties ou de profiter d'une personne vuln&eacute;rable &agrave; vos avances</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous pouvez contr&ocirc;ler vos pulsions.</p>",
+      "partialsuccess": "<p>Choisissez entre avoir des relations sexuelles avec la personne ou perdre en <strong>Stabilit&eacute; (-1)</strong>.</p>",
+      "failure": "<p>Vous ne pouvez pas r&eacute;sister &agrave; l'envie d'avoir des relations sexuelles avec la personne et le ou la MJ choisit une option:</p>\n<ul>\n<li>Vous blessez ou &ecirc;tes bless&eacute;&middot;e par votre partenaire sexuel (physiquement ou psychologiquement).</li>\n<li>Les fronti&egrave;res entre les dimensions sont affaiblies; une entit&eacute; de l'au-del&agrave; capte votre odeur ou celle de votre amant.</li>\n<li>Votre partenaire sexuel devient obs&eacute;d&eacute; par vous et commence &agrave; vous harceler.</li>\n</ul>"
+    },
+    "Stalker": {
+      "name": "Harceleur",
+      "effect": "<p>Vous &ecirc;tes traqu&eacute;&middot;e par un ennemi sans visage. Toute personne que vous rencontrez peut &ecirc;tre l'un de ses serviteurs - ou m&ecirc;me le harceleur lui-m&ecirc;me. Personne n'est digne de confiance. Vous devez constamment changer d'adresse et &ecirc;tre vigilant&middot;e &agrave; tout moment pour &eacute;viter de laisser des traces qu'ils pourraient suivre. <em>Lors de la premi&egrave;re session de jeu et &agrave; chaque fois que vous exposez votre position actuelle</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous &ecirc;tes en s&eacute;curit&eacute; pour l'instant.</p>",
+      "partialsuccess": "<p>Vos ennemis sont &agrave; vos trousses. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour vos poursuivants. Par exemple, un associ&eacute; de confiance a &eacute;t&eacute; pay&eacute; par eux, l'un de vos proches ou alli&eacute;s dispara&icirc;t, quelque chose que vous essayez de faire est sap&eacute; par vos ennemis, ou ils essaient activement de vous faire du mal.</p>",
+      "failure": "<p>Vos ennemis vous ont rattrap&eacute;. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour vos poursuivants. Par exemple, un associ&eacute; de confiance a &eacute;t&eacute; pay&eacute; par eux, l'un de vos proches ou alli&eacute;s dispara&icirc;t, quelque chose que vous essayez de faire est sap&eacute; par vos ennemis, ou ils essaient activement de vous faire du mal.</p>"
+    },
+    "Victim of Passion": {
+      "name": "Victime de la Passion",
+      "effect": "<p>Vous avez une passion d&eacute;bordante pour quelqu'un ou quelque chose, et vous cherchez &agrave; le poss&eacute;der &agrave; tout prix. <em>Lors de la premi&egrave;re session de jeu et &agrave; chaque fois que vous rencontrez le sujet de vos passions (ou quelque chose qui y ressemble)</em>, <strong>lancez +0</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous ma&icirc;trisez votre passion.</p>",
+      "partialsuccess": "<p>La passion s'&eacute;veille en vous. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour que votre passion oriente vos actions. Par exemple, vous &eacute;prouvez un d&eacute;sir incontr&ocirc;lable pour le sujet de votre passion - vous devez le rechercher ou r&eacute;duire votre <strong>Stabilit&eacute; (-2)</strong>, votre d&eacute;sir entra&icirc;ne le sujet de votre passion dans vos r&ecirc;ves (peut-&ecirc;tre en l'emprisonnant), votre passion est teint&eacute;e de jalousie et de col&egrave;re - ce qui vous donne envie de la contr&ocirc;ler et de l'endommager (Garder le Contr&ocirc;le pour r&eacute;sister), votre d&eacute;sir vous rend faible vis-&agrave;-vis de l'objectif de cette passion (<em>-1 &agrave; tous vos lancers</em> lorsque vous partagez la m&ecirc;me sc&egrave;ne), ou votre passion peut attirer des cr&eacute;atures de luxure souhaitant s'en nourrir ou faire des pactes avec vous.</p>",
+      "failure": "<p>Vous &ecirc;tes compl&egrave;tement sous l'emprise de votre passion. Le ou la MJ gagne 3 Retenues.</p>\n<pLe ou la MJ peut d&eacute;penser une Retenue pour que votre passion oriente vos actions. Par exemple, vous &eacute;prouvez un d&eacute;sir incontr&ocirc;lable pour le sujet de votre passion - vous devez le rechercher ou r&eacute;duire votre <strong>Stabilit&eacute; (-2)</strong>, votre d&eacute;sir entra&icirc;ne le sujet de votre passion dans vos r&ecirc;ves (peut-&ecirc;tre en l'emprisonnant), votre passion est teint&eacute;e de jalousie et de col&egrave;re - ce qui vous donne envie de la contr&ocirc;ler et de l'endommager (Garder le Contr&ocirc;le pour r&eacute;sister), votre d&eacute;sir vous rend faible vis-&agrave;-vis de l'objectif de cette passion (<em>-1 &agrave; tous vos lancers</em> lorsque vous partagez la m&ecirc;me sc&egrave;ne), ou votre passion peut attirer des cr&eacute;atures de luxure souhaitant s'en nourrir ou faire des pactes avec vous.</p>"
+    },
+    "Wanted": {
+      "name": "Recherché·e",
+      "effect": "<p>Vous &ecirc;tes recherch&eacute;&middot;e par les autorit&eacute;s - locales, &eacute;tatiques ou f&eacute;d&eacute;rales - pour des d&eacute;lits que vous avez commis. <em>Chaque fois que vous attirez l'attention sur vous ou que vous oubliez de faire profil bas</em>, <strong>lancez +0</strong> pour savoir si vous avez &eacute;t&eacute; d&eacute;couvert.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous &ecirc;tes en s&eacute;curit&eacute;, pour l'instant.</p>",
+      "partialsuccess": "<p>Vous avez commis une erreur. Le ou la MJ gagne 1 Retenue.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour les autorit&eacute;s. Par exemple, votre photo d'identit&eacute; appara&icirc;t aux informations t&eacute;l&eacute;vis&eacute;es et dans les journaux, les forces de l'ordre tentent de vous pi&eacute;ger et de vous attraper, ou les autorit&eacute;s d&eacute;tiennent et interrogent quelqu'un &agrave; qui vous tenez, confisquent vos biens, ou montent vos amis/famille contre vous.</p>",
+      "failure": "<p>Tous les regards sont braqu&eacute;s sur vous. Le ou la MJ gagne 3 Retenues.</p>\n<p>Le ou la MJ peut d&eacute;penser une Retenue pour effectuer une Action pour les autorit&eacute;s. Par exemple, votre photo d'identit&eacute; appara&icirc;t aux informations t&eacute;l&eacute;vis&eacute;es et dans les journaux, les forces de l'ordre tentent de vous pi&eacute;ger et de vous attraper, ou les autorit&eacute;s d&eacute;tiennent et interrogent quelqu'un &agrave; qui vous tenez, confisquent vos biens, ou montent vos amis/famille contre vous.</p>"
+    }
+  }
+}

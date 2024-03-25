@@ -1,0 +1,245 @@
+{
+  "label": "Capacités",
+  "mapping": {
+    "name": "name",
+    "effect": "system.effect",
+    "options": "system.options",
+    "completesuccess": "system.completesuccess",
+    "partialsuccess": "system.partialsuccess",
+    "failure": "system.failure"
+  },
+  "entries": {
+    "A Second Chance": {
+      "name": "Seconde Chance",
+      "effect": "<p>Vous avez appris un ancien rituel. <em>Lorsque vous mourrez, vous pouvez choisir de poss&eacute;der le corps d'une victime humaine</em>. Vous devez avoir pr&eacute;par&eacute; la victime &agrave; l'avance et elle doit &ecirc;tre enferm&eacute;e dans votre sanctuaire. L'&acirc;me originelle de votre victime ne quitte pas son corps, elle est simplement r&eacute;prim&eacute;e. Vous obtenez le D&eacute;savantage <strong>Hant&eacute;&middot;e</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Adept *": {
+      "name": "Adepte *",
+      "effect": "<p><span style=\"text-decoration: underline;\"><strong>Cette capacit&eacute; n'est disponible qu'apr&egrave;s avoir acquis les capacit&eacute;s Initi&eacute;&middot;e et Compagnon&middot;e.</strong></span></p>\n<p>Vous commencez &agrave; mieux conna&icirc;tre votre &eacute;cole de magie. Choisissez 1 nouveau <strong>Domaine d'Expertise</strong>.</p>\n<p><strong>Capacit&eacute; de l'Adepte</strong>: <em>Powerful</em>.</p>\n<p>Lorsque vous <strong>Ex&eacute;cutez un Rituel</strong>, vous pouvez choisir cette option:</p>\n<ul>\n<li>Le rituel touche plusieurs &ecirc;tres.</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Bewitching": {
+      "name": "Envoûtant·e",
+      "effect": "<p>Vous exercez une forte attraction sur les gens. <em>Lorsque vous utilisez vos pouvoirs pour manipuler quelqu'un</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Faites en sorte que votre victime vous appr&eacute;cie. Elle prend <strong>+1 Relation</strong> &agrave; votre &eacute;gard.</li>\n<li><strong>Influencez</strong> votre victime comme si vous obteniez un succ&egrave;s (<strong>15+</strong>).</li>\n<li>Faites en sorte que votre victime vous d&eacute;sire.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; trois options.</p>",
+      "partialsuccess": "<p>Choisissez jusqu'&agrave; deux options.</p>",
+      "failure": "<p>Choisissez une option, mais vous faites aussi en sorte que votre victime devienne obs&eacute;d&eacute;e par vous. Elle mourra d'envie de vous rencontrer &agrave; nouveau et fera tout son possible pour y parvenir.</p>"
+    },
+    "Commanding Voice": {
+      "name": "Voix de Commandement",
+      "effect": "<p>Vous pouvez commander des personnes et des cr&eacute;atures. <em>Lorsque vous donnez un ordre &agrave; une cr&eacute;ature intelligente non joueuse</em>, <strong>lancez +&Acirc;me -Niveau de magie de la cr&eacute;ature</strong>:</p><hr>\n<p><em>Lorsque vous donnez un ordre &agrave; un PJ</em>, il doit <strong>Garder le Contr&ocirc;le</strong>. S'il &eacute;choue, il est incapable de r&eacute;sister &agrave; l'ordre.</p>",
+      "options": "",
+      "completesuccess": "<p>La personne ou la cr&eacute;ature doit ob&eacute;ir &agrave; votre ordre, &agrave; moins que cela ne lui cause un pr&eacute;judice direct.</p>",
+      "partialsuccess": "<p>La personne ou la cr&eacute;ature doit ob&eacute;ir &agrave; votre ordre, sauf si cela l'expose &agrave; un danger.</p>",
+      "failure": "<p>La personne ou la cr&eacute;ature agit de mani&egrave;re impr&eacute;visible. Le ou la MJ d&eacute;termine si elle r&eacute;siste &agrave; l'ordre, si elle le comprend mal, si elle ex&eacute;cute mal vos instructions, si elle se met en col&egrave;re contre vous ou si elle ex&eacute;cute votre ordre, mais acquiert un lien magique avec vous qu'elle exploitera plus tard.</p>"
+    },
+    "Dark Aura": {
+      "name": "Aura Obscure",
+      "effect": "<p>Vous &ecirc;tes entour&eacute;&middot;e d'une aura sombre d'influence corruptrice et d'id&eacute;es sinistres. <em>Lorsque vous laissez votre aura toucher une autre personne</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p>Options:</p>\n<ul>\n<li>Vous apprenez l'une des faiblesses de votre cible. Prenez <em>+2 &agrave; vos lancers</em> contre elle lorsque vous exploitez cette faiblesse.</li>\n<li>Vous pouvez sentir l'&acirc;me de votre cible et savoir si elle a &eacute;t&eacute; marqu&eacute;e ou entach&eacute;e par des forces surnaturelles.</li>\n<li>Vous maudissez votre cible. Son corps commence &agrave; se d&eacute;composer, ce qui se traduit par une <strong>Blessure S&eacute;rieuse</strong> qui ne peut &ecirc;tre soign&eacute;e tant qu'elle n'a pas trouv&eacute; le moyen de briser la mal&eacute;diction.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez deux options.</p>",
+      "partialsuccess": "<p>Choisissez une option.</p>",
+      "failure": "<p>Choisissez une option, mais vous laissez une trace de votre aura &agrave; la personne affect&eacute;e qui gagne un lien magique avec vous.</p>"
+    },
+    "Dark Vision": {
+      "name": "Vision Nocturne",
+      "effect": "<p>Vous voyez aussi bien dans l'obscurit&eacute; que dans la lumi&egrave;re. <em>Lorsque vous utilisez les t&eacute;n&egrave;bres contre votre ennemi</em>, <strong>lancez +Perception</strong>.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<ul>\n<li><em>Attaquer dans l'obscurit&eacute;</em>: Vous pouvez attaquer un adversaire &agrave; l'improviste, mais en r&eacute;v&eacute;lant votre position.</li>\n<li><em>Plonger dans l'ombre</em>: Vous disparaissez dans l'obscurit&eacute;.</li>\n<li><em>Ne faire qu'un avec l'obscurit&eacute;</em>: Vous vous cachez si bien que personne ne peut vous trouver.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez 3 Atouts. Vous pouvez en conserver jusqu'&agrave; deux pour plus tard.</p>",
+      "partialsuccess": "<p>Choisissez 2 Atouts. Vous pouvez en conserver un pour plus tard.</p>",
+      "failure": "<p>Choisissez 1 Atout, mais les t&eacute;n&egrave;bres ne sont pas aussi s&ucirc;res que vous le pensiez au d&eacute;part. Le ou la MJ effectue une Action.</p>"
+    },
+    "Divine Strength": {
+      "name": "Force Divine",
+      "effect": "<p>Vous pouvez laisser votre Puissance Sup&eacute;rieure vous impr&eacute;gner de sa force. <em>Lorsque vous canalisez la force de votre Puissance Sup&eacute;rieure</em>, vous b&eacute;n&eacute;ficiez de +2 &agrave; <strong>Subir des Blessures</strong> et toutes vos attaques sont &agrave; <strong>+2 D&eacute;g&acirc;ts</strong> pour la dur&eacute;e de la sc&egrave;ne. Jusqu'&agrave; ce que ce pouvoir divin se dissipe, il se manifeste physiquement dans votre corps; par exemple, vos yeux deviennent tout noirs, vous rayonnez d'une aura dor&eacute;e ou des ombres d'ailes apparaissent dans votre dos... (c'est le joueur ou la joueuse qui d&eacute;crit).</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Ethereal": {
+      "name": "Éthéré·e",
+      "effect": "<p>Vous pouvez transformer votre corps en une fine brume fantomatique. <em>Lorsque vous prenez votre forme &eacute;th&eacute;r&eacute;e</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<ul>\n<li><em>Mouvement fantomatique</em>: Franchir un obstacle physique tel qu'une personne, un mur ou une porte.</li>\n<li><em>Les armes me traversent</em>: &Eacute;viter compl&egrave;tement les <strong>D&eacute;g&acirc;ts</strong> physiques.</li>\n<li><em>Insaisissable</em>: Se lib&eacute;rer d'une emprise, d'une servitude ou d'autres objets physiques qui vous emprisonnent.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez 3 Atouts. Vous pouvez en conserver jusqu'&agrave; deux pour plus tard.</p>",
+      "partialsuccess": "<p>Choisissez 2 Atouts. Vous pouvez en conserver un pour plus tard.</p>",
+      "failure": "<p>Choisissez 1 Atout mais vous attirez des esprits ou d'autres cr&eacute;atures &eacute;th&eacute;r&eacute;es. Le ou la MJ effectue une Action.</p>"
+    },
+    "Experienced": {
+      "name": "Expérimenté·e",
+      "effect": "<p>Vous avez v&eacute;cu des exp&eacute;riences et acquis des comp&eacute;tences dans votre vie avant d'&ecirc;tre Illumin&eacute;&middot;e. Choisissez 1 Avantage d'un Arch&eacute;type Conscient.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Immunity": {
+      "name": "Immunité",
+      "effect": "<p>Vous &ecirc;tes immunis&eacute;&middot;e contre un effet &eacute;l&eacute;mentaire mortel pour les humains normaux. <em>Lorsque vous &ecirc;tes soumis&middot;e &agrave; cet &eacute;l&eacute;ment</em>, seuls vos v&ecirc;tements, votre mat&eacute;riel et vos autres accessoires subissent des dommages. Choisissez une option:</p>\n<ul>\n<li>Feu.</li>\n<li>&Eacute;lectricit&eacute;.</li>\n<li>Radioactivit&eacute;.</li>\n<li>Froid.</li>\n<li>Produits chimiques (acides/poisons/m&eacute;dicaments).</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Improviser": {
+      "name": "Rituel Improvisé",
+      "effect": "<p>Vous ne subissez pas de p&eacute;nalit&eacute;s lorsque vous <strong>Pratiquez un Rituel</strong> et que vous &ecirc;tes en dehors de votre sanctuaire.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Initiate": {
+      "name": "Initié·e",
+      "effect": "<p>Vous &ecirc;tes un amateur ou une amatrice qui a r&eacute;cemment commenc&eacute; &agrave; exp&eacute;rimenter la magie.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Invulnerability": {
+      "name": "Invulnérabilité",
+      "effect": "<p>Vous &ecirc;tes invuln&eacute;rable &agrave; un type particulier de blessure. <em>Lorsque vous subissez ce type de blessure</em>, vous obtenez +3 &agrave; votre lancer de <strong>Subir des Blessures</strong>. Choisissez une option:</p>\n<ul>\n<li>Armes &agrave; feu.</li>\n<li>Armes tranchantes et perforantes.</li>\n<li>Armes de matraquage et d&eacute;g&acirc;ts d'&eacute;crasement.</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Journeyman *": {
+      "name": "Compagnon·e *",
+      "effect": "<p><span style=\"text-decoration: underline;\"><strong>Cette capacit&eacute; n'est disponible qu'apr&egrave;s avoir acquis la capacit&eacute; Initi&eacute;&middot;e.</strong></span></p>\n<p>Vos &eacute;tudes et exp&eacute;riences dans votre &eacute;cole de magie vous ont permis d'acqu&eacute;rir de nouvelles connaissances. Choisissez 1 nouveau <strong>Domaine d'Expertise</strong>.</p>\n<p><strong>Capacit&eacute; du ou de la Compagnon&middot;e</strong>: <em>Cercle de protection</em></p>\n<p>Lorsque vous <strong>Pratiquez un Rituel</strong>, vous pouvez choisir cette option:</p>\n<ul>\n<li>Vous &ecirc;tes prot&eacute;g&eacute;&middot;e des cr&eacute;atures et &eacute;nergies magiques tant que vous restez dans le cercle de protection.</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Manipulate the Illusion": {
+      "name": "Manipuler l'Illusion",
+      "effect": "<p>Vous pouvez manipuler l'Illusion et l'utiliser contre les &ecirc;tres et &eacute;nergies extradimensionnels - que ce soit sur le plan d&eacute;fensif ou offensif. Si votre action est en conflit direct avec un &ecirc;tre dot&eacute; de capacit&eacute;s magiques, vous subissez une p&eacute;nalit&eacute; au lancer &eacute;gale &agrave; son niveau d'expertise magique. <em>Lorsque vous</em> <strong>Manipulez l'Illusion</strong> <em>pour dissiper une force magique, r&eacute;voquer une entit&eacute; ou fermer un portail</em>, <strong>lancez +&Acirc;me -Niveau magique de la cr&eacute;ature</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous permettez &agrave; la force &eacute;crasante de l'Illusion d'annuler la magie ou de r&eacute;primer l'&ecirc;tre.</p>",
+      "partialsuccess": "<p>Vous permettez &agrave; la force &eacute;crasante de l'Illusion d'annuler la magie ou de r&eacute;primer l'&ecirc;tre, mais il y a des complications inattendues, comme le fait que la magie ou l'&ecirc;tre ait le temps de vous affecter en premier, ou que votre effort de force attire une attention ind&eacute;sirable.</p>",
+      "failure": "<p>L'Illusion vous rejette temporairement. Vous pouvez &ecirc;tre submerg&eacute;&middot;e, transport&eacute;&middot;e ailleurs ou vous devenez la cible d'&ecirc;tres qui vous voient maintenant clairement. Le ou la MJ effectue une Action.</p>"
+    },
+    "Master *": {
+      "name": "Maître·sse *",
+      "effect": "<p><span style=\"text-decoration: underline;\"><strong>Cette capacit&eacute; n'est disponible qu'apr&egrave;s avoir acquis les capacit&eacute;s Initi&eacute;&middot;e, Compagnon&middot;e et Adepte.</strong></span></p>\n<p>Vous &ecirc;tes l'une des rares personnes en vie &agrave; poss&eacute;der des capacit&eacute;s magiques semblables &agrave; celles des &ecirc;tres des royaumes surnaturels. Choisissez 1 nouveau <strong>Domaine d'Expertise</strong>. De plus, vous pouvez toujours choisir un effet suppl&eacute;mentaire lorsque vous <strong>Pratiquez un Rituel</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Master of Rites": {
+      "name": "Maître des Rituels",
+      "effect": "<p>Vous avez re&ccedil;u la capacit&eacute; d'accomplir des rituels consacr&eacute;s &agrave; votre Puissance Sup&eacute;rieure. La mani&egrave;re dont ces rituels sont effectu&eacute;s d&eacute;pend de vous, mais ils prennent g&eacute;n&eacute;ralement beaucoup de temps et doivent &ecirc;tre accomplis dans un lieu sanctifi&eacute; par votre Puissance Sup&eacute;rieure. <em>Lorsque vous effectuez un rituel destin&eacute; &agrave; renforcer l'influence de votre Puissance Sup&eacute;rieure ou &agrave; louer sa puissance</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; deux options &agrave; n'importe quel moment de la sc&egrave;ne suivante.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Impr&eacute;gnez un groupe de PNJ humains (consentants ou non) du principe de votre Puissance Sup&eacute;rieure. Ils sont d&eacute;sormais vos disciples.</li>\n<li>Asservissez une personne se trouvant &agrave; proximit&eacute; aux principes de votre Puissance Sup&eacute;rieure. Un PNJ est tenu d'agir conform&eacute;ment &agrave; ce principe. Un PJ qui ne r&eacute;ussit pas &agrave; <strong>Garder le Contr&ocirc;le</strong> devient li&eacute; &agrave; ce principe, et gagne <strong>+1 Stabilit&eacute;</strong> lorsqu'il agit en accord avec le principe, et <strong>-1 Stabilit&eacute;</strong> lorsqu'il agit en opposition avec lui. Un PJ peut briser ce lien mental en utilisant la magie li&eacute;e au domaine de la Puissance Sup&eacute;rieure ou en tuant le Disciple.</li>\n<li>R&eacute;pandez l'influence de votre Puissance Sup&eacute;rieure dans la soci&eacute;t&eacute; locale. Prenez +2 la prochaine fois que vous utiliserez une capacit&eacute; appropri&eacute;e en lien avec votre Puissance Sup&eacute;rieure.</li>\n<li>Invoquez votre Puissance Sup&eacute;rieure et demandez-lui quelque chose. Elle peut se r&eacute;v&eacute;ler &agrave; vous par des visions, des incarnations ou par l'interm&eacute;diaire de ses pr&ecirc;tres (qu'il s'agisse d'anges ou de n&eacute;pharites). Le ou la MJ d&eacute;termine si vous pouvez obtenir ce que vous demandez et, le cas &eacute;ch&eacute;ant, ce qui vous est demand&eacute; en retour.</li>\n</ul>",
+      "partialsuccess": "<p>Choisissez une option &agrave; n'importe quel moment de la sc&egrave;ne suivante.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Impr&eacute;gnez un groupe de PNJ humains (consentants ou non) du principe de votre Puissance Sup&eacute;rieure. Ils sont d&eacute;sormais vos disciples.</li>\n<li>Asservissez une personne se trouvant &agrave; proximit&eacute; aux principes de votre Puissance Sup&eacute;rieure. Un PNJ est tenu d'agir conform&eacute;ment &agrave; ce principe. Un PJ qui ne r&eacute;ussit pas &agrave; <strong>Garder le Contr&ocirc;le</strong> devient li&eacute; &agrave; ce principe, et gagne <strong>+1 Stabilit&eacute;</strong> lorsqu'il agit en accord avec le principe, et <strong>-1 Stabilit&eacute;</strong> lorsqu'il agit en opposition avec lui. Un PJ peut briser ce lien mental en utilisant la magie li&eacute;e au domaine de la Puissance Sup&eacute;rieure ou en tuant le Disciple.</li>\n<li>R&eacute;pandez l'influence de votre Puissance Sup&eacute;rieure dans la soci&eacute;t&eacute; locale. Prenez +2 la prochaine fois que vous utiliserez une capacit&eacute; appropri&eacute;e en lien avec votre Puissance Sup&eacute;rieure.</li>\n<li>Invoquez votre Puissance Sup&eacute;rieure et demandez-lui quelque chose. Elle peut se r&eacute;v&eacute;ler &agrave; vous par des visions, des incarnations ou par l'interm&eacute;diaire de ses pr&ecirc;tres (qu'il s'agisse d'anges ou de n&eacute;pharites). Le ou la MJ d&eacute;termine si vous pouvez obtenir ce que vous demandez et, le cas &eacute;ch&eacute;ant, ce qui vous est demand&eacute; en retour.</li>\n</ul>",
+      "failure": "<p>Le rituel a &eacute;chou&eacute; pour une raison quelconque. Le ou la MJ effectue une Action.</p>"
+    },
+    "Memories of Past Lives": {
+      "name": "Souvenirs de Vies Antérieures",
+      "effect": "<p>Choisissez 1 Avantage d'un Arch&eacute;type Conscient.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Mind Manipulator": {
+      "name": "Manipulateur·rice d'Esprit",
+      "effect": "<p>Vous pouvez vous immiscer dans l'esprit des gens afin d'y trouver des informations ou d'y implanter de faux souvenirs. <em>Lorsque vous vous imposez dans la t&ecirc;te de quelqu'un</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Recherchez dans ses souvenirs un &eacute;v&eacute;nement sp&eacute;cifique. Vous vivez ce souvenir comme si c'&eacute;tait le v&ocirc;tre.</li>\n<li>Demandez &agrave; la personne ses pens&eacute;es de surface &agrave; ce moment pr&eacute;cis.</li>\n<li>Recherchez des informations sp&eacute;cifiques que la personne devrait conna&icirc;tre.</li>\n<li>Installez un faux souvenir. Il s'estompera et dispara&icirc;tra au bout de quelques heures, mais il semblera r&eacute;el jusqu'&agrave; ce moment-l&agrave;.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; trois options.</p>",
+      "partialsuccess": "<p>Choisissez jusqu'&agrave; deux options.</p>",
+      "failure": "<p>Choisissez une option, mais vous ouvrez &eacute;galement votre esprit &agrave; la personne que vous lisez. Elle choisit &eacute;galement une option qu'elle utilisera contre vous.</p>"
+    },
+    "Natural Weapons": {
+      "name": "Armes Naturelles",
+      "effect": "<p>Votre corps est dot&eacute; d'armes naturelles. Il peut s'agir de griffes, de crocs, de tentacules, de cornes, de membres blind&eacute;s ou de modifications technologiques, telles que des lames de couteau int&eacute;gr&eacute;es. <em>Lorsque vous</em> <strong>Engagez un Combat</strong> <em>au corps &agrave; corps avec vos armes naturelles</em>, vous infligez <strong>3 D&eacute;g&acirc;ts</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Opener of Ways": {
+      "name": "Ouvreur·euse de Voies",
+      "effect": "<p>Vous pouvez ouvrir des portails temporaires vers la r&eacute;sidence de votre Puissance Sup&eacute;rieure. Si l'Illusion est faible dans votre environnement actuel, vous pouvez en ouvrir un imm&eacute;diatement; sinon, le processus prend du temps. <em>Lorsque vous ouvrez un portail</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Le portail est stable et le reste tout au long de la sc&egrave;ne ou jusqu'&agrave; ce que vous le fermiez. Si vous vous aventurez &agrave; travers le portail, vous pouvez le recr&eacute;er &agrave; volont&eacute; pour revenir au m&ecirc;me endroit.</p>",
+      "partialsuccess": "<p>Le portail ne reste ouvert que quelques minutes, apr&egrave;s quoi il se referme. Si vous vous aventurez &agrave; travers le portail, vous devez en ouvrir un nouveau pour revenir.</p>",
+      "failure": "<p>Le portail est instable; il peut se refermer &agrave; tout moment, mener &agrave; un endroit ind&eacute;termin&eacute;, interf&eacute;rer avec l'Illusion ou attirer les gardiens de l'Illusion. Le ou la MJ effectue une Action.</p>"
+    },
+    "Quick": {
+      "name": "Rapide",
+      "effect": "<p>Vous &ecirc;tes incroyablement rapide. <em>Lorsque vous lib&eacute;rez votre capacit&eacute; &agrave; atteindre une vitesse fulgurante</em>, <strong>lancez +R&eacute;flexes</strong>.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<ul>\n<li><em>Interruption imm&eacute;diate</em>: Agissez avant que quelqu'un d'autre ne termine son action.</li>\n<li><em>Fluidit&eacute; de mouvement</em>: Transportez-vous instantan&eacute;ment entre deux intervalles de port&eacute;e avant que quiconque ne puisse r&eacute;agir; par exemple, passez de l'horizon &agrave; la pi&egrave;ce, ou de la rue au bras.</li>\n<li><em>Attaquer &agrave; la vitesse de l'&eacute;clair</em>: Engager quelqu'un en combat (rapproch&eacute;) si rapidement qu'il n'a pas la possibilit&eacute; d'<strong>&Eacute;viter les D&eacute;g&acirc;ts</strong>.</li>\n<li><em>Coup d'&eacute;clat</em>: Engagez le combat avec une cible suppl&eacute;mentaire, en plus du nombre de cibles que l'attaque permet normalement.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez 3 Atouts. Vous pouvez en conserver deux pour plus tard.</p>",
+      "partialsuccess": "<p>Choisissez 2 Atouts. Vous pouvez en garder un pour plus tard.</p>",
+      "failure": "<p>Choisissez 1 Atout, mais vous attirez des complications ind&eacute;sirables. Le ou la MJ effectue une Action.</p>"
+    },
+    "Regenerate": {
+      "name": "Régénération",
+      "effect": "<p>Votre corps gu&eacute;rit anormalement vite. Les <strong>Blessures S&eacute;rieuses</strong> disparaissent compl&egrave;tement en quelques heures et les <strong>Blessures Critiques</strong> gu&eacute;rissent en un jour. Toutefois, les blessures graves peuvent laisser de vilaines cicatrices et des tissus difformes.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Summoner": {
+      "name": "Invocateur·rice",
+      "effect": "<p>Vous avez la possibilit&eacute; d'invoquer l'un des serviteurs de votre Puissance Sup&eacute;rieure pour qu'il vous aide &agrave; accomplir une t&acirc;che. Les Archontes sont servis par des cr&eacute;atures originaires de Metropolis, tandis que les Anges de la Mort sont servis par des cr&eacute;atures de l'Inferno. Vous pouvez invoquer un groupe de cr&eacute;atures de moindre importance, comme des purgatides ou des frontaliers, ou invoquer un &ecirc;tre plus puissant. Si la cr&eacute;ature invoqu&eacute;e poss&egrave;de des capacit&eacute;s magiques, vous subissez une p&eacute;nalit&eacute; au lancer, &eacute;gale &agrave; son niveau d'expertise magique. <em>Lorsque vous invoquez une cr&eacute;ature servante</em>, <strong>lancez +&Acirc;me -Niveau de magie de la cr&eacute;ature</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous invoquez la ou les cr&eacute;atures, qui ob&eacute;iront &agrave; vos ordres pendant un jour.</p>",
+      "partialsuccess": "<p>Vous convoquez la ou les cr&eacute;atures, qui ob&eacute;iront &agrave; vos ordres pendant une sc&egrave;ne ou ex&eacute;cuteront un ordre unique qui prendra plus de temps. Vous n'avez pas un contr&ocirc;le total sur les cr&eacute;atures, qui agiront de leur propre chef et interpr&eacute;teront vos ordres comme elles l'entendent.</p>",
+      "failure": "<p>Vous invoquez la ou les cr&eacute;atures, qui ne sont pas du tout sous votre pouvoir, mais agissent selon leurs propres caprices.</p>"
+    },
+    "Talisman": {
+      "name": "Talisman",
+      "effect": "<p>Vous avez d&eacute;couvert un talisman auquel est li&eacute; un esprit, par exemple une main momifi&eacute;e, une poup&eacute;e ou une photographie jaunie. Le talisman peut vous guider dans le royaume de la Mort. <em>Lorsque vous laissez le talisman vous guider</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Choisissez trois options.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Trouver une localisation pr&eacute;cise dans le royaume de la Mort.</li>\n<li>Trouvez un portail pour retourner sur les terres des vivants.</li>\n<li>Aiguisez vos sens contre les influences du royaume de la Mort ou la magie de ses habitants.</li>\n</ul>",
+      "partialsuccess": "<p>Choisissez une option.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Trouver une localisation pr&eacute;cise dans le royaume de la Mort.</li>\n<li>Trouvez un portail pour retourner sur les terres des vivants.</li>\n<li>Aiguisez vos sens contre les influences du royaume de la Mort ou la magie de ses habitants.</li>\n</ul>",
+      "failure": "<p>Le talisman vous laisse tomber. Le ou la MJ effectue une Action.</p>"
+    },
+    "Telekinesis": {
+      "name": "Télékinésie",
+      "effect": "<p>Vous pouvez d&eacute;placer des objets par la force de votre esprit, mais plus ils sont grands, plus l'effort mental est important. <em>Lorsque vous utilisez la t&eacute;l&eacute;kin&eacute;sie comme arme</em>, vous pouvez effectuer les attaques suivantes:</p>\n<ul>\n<li><span style=\"text-decoration: underline;\">Lancer un petit objet</span> [1] [Port&eacute;e: pi&egrave;ce, par exemple verre, vase, bouteille].</li>\n<li><span style=\"text-decoration: underline;\">Lancer un objet de taille moyenne</span> [2] [Port&eacute;e: pi&egrave;ce, diminue la <strong>Stabilit&eacute; (-1)</strong>, par exemple, t&eacute;l&eacute;vision, table, fauteuil].</li>\n<li><span style=\"text-decoration: underline;\">Lancer un objet de grande taille</span> [3] [Port&eacute;e: pi&egrave;ce, diminue la <strong>Stabilit&eacute; (-2)</strong>, par exemple, voiture, conteneur de marchandises].</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Templars": {
+      "name": "Templier·ères",
+      "effect": "<p>Vous avez un groupe de guerriers ou de guerri&egrave;res d&eacute;vou&eacute;&middot;es &agrave; vous et &agrave; votre Puissance Sup&eacute;rieure. Donnez-leur un nom et d&eacute;crivez comment ils ou elles sont arm&eacute;&middot;es. Les templier&middot;&egrave;res sont fanatiquement loyaux&middot;ales, tant que vous agissez en accord avec les principes de la Puissance qu'ils ou elles servent. Avec les Templier&middot;&egrave;res &agrave; vos c&ocirc;t&eacute;s, vous &ecirc;tes consid&eacute;r&eacute; comme un gang de taille moyenne (<strong>3 D&eacute;g&acirc;ts</strong>), et vous pouvez demander &agrave; vos Templier&middot;&egrave;res d'accepter des risques et d'infliger des <strong>D&eacute;g&acirc;ts</strong> lorsque vous attaquez. <em>Lorsque vous envoyez vos templier&middot;&egrave;res en mission</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Si l'ex&eacute;cution de la mission est raisonnablement dans le domaine de leurs capacit&eacute;s, ils accomplissent leurs t&acirc;ches sans aucune faille et exactement selon les instructions re&ccedil;ues.</p>",
+      "partialsuccess": "<p>La mission subit une complication quelconque. Peut-&ecirc;tre que tout se passe bien mais qu'il y a des retomb&eacute;es inattendues par la suite, ou que les choses ne se sont pas d&eacute;roul&eacute;es comme vous l'aviez pr&eacute;vu.</p>",
+      "failure": "<p>Quelque chose ne va pas. La mission ne s'est peut-&ecirc;tre pas d&eacute;roul&eacute;e comme pr&eacute;vu, de graves probl&egrave;mes en ont d&eacute;coul&eacute;, ou certains ou tous les templier&middot;&egrave;res ont &eacute;t&eacute; bless&eacute;&middot;es, captur&eacute;&middot;es ou tu&eacute;&middot;es.</p>"
+    },
+    "Unnaturally Strong": {
+      "name": "Force contre Nature",
+      "effect": "<p>Vous &ecirc;tes extr&ecirc;mement fort&middot;e. Des actions telles que plier des barres de fer, enfoncer des portes ou soulever des centaines de kilos ne vous posent aucun probl&egrave;me. Vous obtenez <strong>+1 D&eacute;g&acirc;t</strong> &agrave; toutes les attaques au corps &agrave; corps, et une fois que vous avez maintenu quelqu'un lors du combat au corps &agrave; corps, vous pouvez choisir cette option d'attaque:</p>\n<ul>\n<li><span style=\"text-decoration: underline;\">&Eacute;craser</span> [4] [Port&eacute;e: bras, la victime doit d&eacute;j&agrave; &ecirc;tre maintenue].</li>\n</ul>\n<p>Vous &ecirc;tes &eacute;galement capable de soulever et de lancer des objets lourds en tant qu'attaque &agrave; distance:</p>\n<ul>\n<li><span style=\"text-decoration: underline;\">Lancer un objet lourd</span> [3] [Port&eacute;e: pi&egrave;ce].</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Unyielding": {
+      "name": "Inébranlable",
+      "effect": "<p>En vous renfor&ccedil;ant et en diminuant votre <strong>Stabilit&eacute; (-1)</strong>, vous obtenez <em>+2 &agrave; tous vos lancers</em> pour <strong>Garder le Contr&ocirc;le</strong> et r&eacute;sister &agrave; une influence magique au cours de cette sc&egrave;ne.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    }
+  }
+}

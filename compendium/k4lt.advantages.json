@@ -1,0 +1,1027 @@
+{
+  "label": "Avantages",
+  "mapping": {
+    "name": "name",
+    "effect": "system.effect",
+    "options": "system.options",
+    "completesuccess": "system.completesuccess",
+    "partialsuccess": "system.partialsuccess",
+    "failure": "system.failure"
+  },
+  "folders": {
+    "Charisma": "Charisme",
+    "Coolness": "Sang-froid",
+    "Reason": "Logique",
+    "Soul": "Âme"
+  },
+  "entries": {
+    "Academic Network": {
+      "name": "Réseau Universitaire",
+      "effect": "<p>Vous avez des contacts universitaires dans le monde entier. <em>Quand il est utile de conna&icirc;tre quelqu'un dans une universit&eacute;</em>, indiquer le nom de la personne, son domaine d'&eacute;tudes et la mani&egrave;re dont vous avez fait connaissance, puis <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>La personne est un ami (<strong>Relation +1</strong>).</p>",
+      "partialsuccess": "<p>La personne est une connaissance (<strong>Relation +0</strong>).</p>",
+      "failure": "<p>Vous vous connaissez, mais il y a une vieille inimiti&eacute; entre vous deux (<strong>Relation +0</strong>).</p>"
+    },
+    "Access the Dark Net": {
+      "name": "Accéder au Dark Net",
+      "effect": "<p><em>Chaque fois que vous cherchez sur le Dark Net des informations interdites, des objets rares ou des mythes</em>, <strong>lancez +Perception</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous d&eacute;couvrez ce que vous recherchez et pouvez choisir une option:</p>\n<ul>\n<li>Vous d&eacute;couvrez un portail vers une autre dimension, ainsi qu'un chemin qui vous permettra d'y revenir plus tard.</li>\n<li>Vous entrez en contact avec quelqu'un; ou quelque chose; qui peut vous aider, &agrave; un prix raisonnable.</li>\n<li>Vous trouvez quelque chose de pr&eacute;cieux ou d'important, en plus de ce que vous cherchiez. Le ou la MJ vous dira de quoi il s'agit.</li>\n</ul>",
+      "partialsuccess": "<p>Vous trouvez ce que vous cherchez, mais vous &ecirc;tes &eacute;galement expos&eacute;&middot;e &agrave; des stimuli r&eacute;pugnants et effrayants. Vous devez lancer <strong>Garder le Contr&ocirc;le</strong> pour voir comment cela vous affecte.</p>",
+      "failure": "<p>Vous trouvez ce que vous cherchez, mais vous entrez aussi en contact avec quelque chose de tr&egrave;s dangereux. Il pourrait tenter de s'accrocher &agrave; vous ou de vous suivre dans la r&eacute;alit&eacute;. Le ou la MJ effectue une Action.</p>"
+    },
+    "Ace up the Sleeve": {
+      "name": "Un as dans la Manche",
+      "effect": "<p><em>Lorsque quelqu&rsquo;un vous met au pied du mur ou dans une situation d&eacute;licate</em>, <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<ul>\n<li>Vous disposez d'une petite arme mortelle dissimul&eacute;e (couteau &agrave; cran d'arr&ecirc;t ou autre), que vous pouvez sortir sans vous faire remarquer.</li>\n<li>Vous vous rendez compte que votre adversaire a une faiblesse que vous pouvez exploiter (prenez +2 &agrave; votre prochain lancer, s'il s'agit d'exploiter la faiblesse). Demandez au ou &agrave; la MJ ce qu'il en est.</li>\n<li>Vous avez rep&eacute;r&eacute; une issue. Demandez au ou &agrave; la MJ ce que c'est. Prenez +2 &agrave; votre prochain lancer pour l'utiliser.</li>\n</ul>",
+      "completesuccess": "<p>Obtenez 2 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment au cours de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Obtenez 1 Atout. Vous pouvez le d&eacute;penser &agrave; n'importe quel moment au cours de la sc&egrave;ne.</p>",
+      "failure": "<p>Obtenez 1 Atout, mais la situation est pire que ce que vous aviez imagin&eacute;. Le ou la MJ effectue une Action.</p>"
+    },
+    "Analyst": {
+      "name": "Analyste",
+      "effect": "<p><em>Lorsque vous</em> <strong>Enqu&ecirc;ter</strong> <em>sur quelque chose</em>, vous pouvez &eacute;galement choisir parmi ces questions suppl&eacute;mentaires:</p>\n<ul>\n<li>Quels sont les organisations, groupes ou individus susceptibles d'&ecirc;tre li&eacute;s &agrave; ce projet?</li>\n<li>Y a-t-il un lien entre cet &eacute;v&eacute;nement et un autre?</li>\n<li>Quel pourrait &ecirc;tre le mobile plausible?</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Animal Speaker": {
+      "name": "Chuchoteur·euse Animalier·ère",
+      "effect": "<p>Vous &ecirc;tes capable de comprendre et de contr&ocirc;ler les animaux. <em>Chaque fois que vous tentez de ma&icirc;triser un animal</em>, <strong>lancez +Intuition</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Vous faites en sorte que l'animal aille &agrave; l'encontre de ses instincts.</li>\n<li>Vous faites en sorte que l'animal vous suive.</li>\n<li>Vous faites en sorte que l'animal vous prot&egrave;ge contre un agresseur.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez trois options. Vous pouvez en conserver jusqu'&agrave; deux pour plus tard.</p>",
+      "partialsuccess": "<p>Choisissez deux options. Vous pouvez en conserver une pour plus tard.</p>",
+      "failure": "<p>Choisissez une option, mais l'animal est expos&eacute; &agrave; vos souvenirs et D&eacute;savantages. Le ou la MJ effectue une Action.</p>"
+    },
+    "Arcane Researcher": {
+      "name": "Chercheur en Arcanes",
+      "effect": "<p>Lorsque vous vous aventurez dans des plans d'existence alternatifs ou que vous rencontrez des entit&eacute;s d'autres dimensions, vous pouvez d&eacute;clarer que vous avez d&eacute;j&agrave; lu sur cette dimension ou cette cr&eacute;ature. Demandez au ou &agrave; la MJ ce que vous avez appris de vos &eacute;tudes pass&eacute;es.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Artifact": {
+      "name": "Artéfact",
+      "effect": "<p>Vous poss&eacute;dez un objet apparemment banal, mais qui poss&egrave;de en r&eacute;alit&eacute; des pouvoirs mystiques. Ces pouvoirs peuvent &ecirc;tre activ&eacute;s par certaines m&eacute;thodes, comme l'infusion de sang ou la prononciation de mots interdits (&agrave; vous de d&eacute;cider ce qui est &agrave; faire). <em>Chaque fois que vous activez l'objet</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Choisissez une option (le ou la MJ d&eacute;termine ce qui se passe).</p>\n<p><em>Options propos&eacute;es:</em></p>\n<p>Le ou la MJ peut souhaiter modifier cette liste d'options, soit de son propre chef, soit en collaborant avec le joueur ou la joueuse pour d&eacute;terminer ce que l'art&eacute;fact peut faire exactement.</p>\n<ul>\n<li>Voir la v&eacute;ritable forme d'une cr&eacute;ature ou d'un lieu.</li>\n<li>Recevez une vision de ce qui vous menace.</li>\n<li>Sortez de l'impasse.</li>\n<li>Faites appel &agrave; l'entit&eacute; li&eacute;e &agrave; l'art&eacute;fact et n&eacute;gociez avec elle.</li>\n</ul>",
+      "partialsuccess": "<p>Choisissez une option (le ou la MJ d&eacute;termine ce qui se passe). Cependant, l'art&eacute;fact exige &eacute;galement un co&ucirc;t suppl&eacute;mentaire (le ou la MJ d&eacute;termine ce qui est n&eacute;cessaire).</p>\n<p><em>Options propos&eacute;es:</em></p>\n<p>Le ou la MJ peut souhaiter modifier cette liste d'options, soit de son propre chef, soit en collaborant avec le joueur ou la joueuse pour d&eacute;terminer ce que l'art&eacute;fact peut faire exactement.</p>\n<ul>\n<li>Voir la v&eacute;ritable forme d'une cr&eacute;ature ou d'un lieu.</li>\n<li>Recevez une vision de ce qui vous menace.</li>\n<li>Sortez de l'impasse.</li>\n<li>Faites appel &agrave; l'entit&eacute; li&eacute;e &agrave; l'art&eacute;fact et n&eacute;gociez avec elle.</li>\n</ul>",
+      "failure": "<p>L'art&eacute;fact fait quelque chose d'inattendu, voire de dangereux. Le ou la MJ effectue une Action.</p>"
+    },
+    "Artistic Talent": {
+      "name": "Talent Artistique",
+      "effect": "<p><em>Chaque fois que vous pratiquez la forme d'art que vous avez choisie ou que vous pr&eacute;sentez vos &#339;uvres &agrave; un public</em>, <strong>lancez +Charisme</strong> pour influencer le public tout au long de la sc&egrave;ne.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Ils veulent voir plus de vos &#339;uvres.</li>\n<li>Ils sont touch&eacute;s par l'&eacute;motion que vous vouliez transmettre (par exemple, la col&egrave;re, la tristesse, la peur, la joie, la luxure, etc.)</li>\n<li>Ils vous admirent (vous obtenez <em>+1 sur l'ensemble de vos lancers</em> avec le public pendant cette sc&egrave;ne).</li>\n<li>Leur attention est enti&egrave;rement fix&eacute;e sur vous tout au long de votre prestation.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; deux options &agrave; tout moment de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Choisissez une option &agrave; tout moment de la sc&egrave;ne.</p>",
+      "failure": "<p>Choisissez une option, mais une complication/menace se manifeste. Le ou la MJ effectue une Action.</p>"
+    },
+    "At any Cost": {
+      "name": "À tout Prix",
+      "effect": "<p><em>Chaque fois que vous d&eacute;sirez vraiment quelque chose</em>, vous pouvez obtenir <em>+2 &agrave; un lancer</em> au d&eacute;triment de votre <strong>Stabilit&eacute; (-2)</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Authority": {
+      "name": "Autorité",
+      "effect": "<p>Vous &ecirc;tes une autorit&eacute; acad&eacute;mique dans votre domaine et un nom bien connu des journaux, des &eacute;missions de d&eacute;bat et des revues scientifiques. <em>Au d&eacute;but de chaque session de jeu</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li><strong>Influencez</strong> quelqu'un qui a entendu parler de votre expertise acad&eacute;mique, comme si vous aviez obtenu un succ&egrave;s (<strong>15+</strong>).</li>\n<li>Acc&eacute;der aux ressources d'une universit&eacute;, telles que ses installations, ses chercheurs ou ses archives scientifiques.</li>\n<li>Faire une d&eacute;claration sur quelque chose ou quelqu'un dans les m&eacute;dias.</li>\n<li>Acc&eacute;der &agrave; des personnes ou &agrave; des lieux sous pr&eacute;texte de participer &agrave; vos recherches ou &agrave; vos &eacute;tudes.</li>\n</ul>",
+      "completesuccess": "<p>Au cours de cette session de jeu, choisissez jusqu'&agrave; trois options.</p>",
+      "partialsuccess": "<p>Au cours de cette session de jeu, choisissez jusqu'&agrave; deux options.</p>",
+      "failure": "<p>Au cours de cette session de jeu, vous pouvez choisir une option, mais vous attirez &eacute;galement l'attention de personnes ind&eacute;sirables telles que des harceleurs, des adversaires professionnels, des concurrents ou des forces hostiles. Le ou la MJ effectue une Action pour eux &agrave; un moment donn&eacute; de la session.</p>"
+    },
+    "Awe-Inspiring": {
+      "name": "Impressionnant·e",
+      "effect": "<p><em>Chaque fois que vous faites semblant d'&ecirc;tre le patron ou la patronne</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Les gens qui vous entourent vous acceptent comme chef&middot;fe et vous &eacute;coutent. Vous obtenez <em>+1 &agrave; vos lancers</em> contre les personnes pour la dur&eacute;e de cette sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Les gens sentent que vous &ecirc;tes un leader ou une leadeuse et vous respectent. Choisissez une personne en particulier qui est d'accord avec ce que vous pensez. Vous avez <em>+1 &agrave; vos lancers</em> contre elle pour la dur&eacute;e de cette sc&egrave;ne.</p>",
+      "failure": "<p>Les gens ont l'impression que vous &ecirc;tes le ou la chef&middot;fe, mais l'un d'entre eux tente de vous contester cette position. Le ou la MJ effectue une Action.</p>"
+    },
+    "Backstab": {
+      "name": "Attaque en Traître",
+      "effect": "<p><em>Chaque fois que vous attaquez quelqu'un qui n'y est pas pr&eacute;par&eacute;</em>, <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "<p>Options:</p>\n<ul>\n<li><em>Visez les parties sensibles:</em> infligez <strong>+1 D&eacute;gat</strong>.</li>\n<li><em>Assommer:</em> Le PNJ perd connaissance. Les PJ doivent effectuer un lancer pour ne pas Subir des Blessures et sur un score de (-9) sont neutralis&eacute;s.</li>\n<li><em>Rester discret&middot;&egrave;te:</em> Vous agissez sans bruit et si votre victime meurt, vous ne laissez aucun indice ou trace derri&egrave;re vous.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez deux options.</p>",
+      "partialsuccess": "<p>Choisissez une option.</p>",
+      "failure": "<p>Vous d&eacute;voilez votre trahison et votre cible r&eacute;agit &agrave; votre attaque comme d'habitude. Le ou la MJ effectue une Action.</p>"
+    },
+    "Battlefield Medicine": {
+      "name": "Médecin Urgentiste",
+      "effect": "<p><em>Chaque fois que vous stabilisez les blessures d'une personne bless&eacute;e, m&ecirc;me si vous n'avez pas acc&egrave;s &agrave; du mat&eacute;riel m&eacute;dical, <strong>lancez +Logique</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Choisissez deux options.</p>\n<p><em>Options:</em></p>\n<ul>\n<li><em>Improvisation:</em> Vous stabilisez une <strong>Blessure</strong> sans avoir acc&egrave;s &agrave; du mat&eacute;riel m&eacute;dical.</li>\n<li><em>Efficacit&eacute;:</em> Vous stabilisez deux <strong>Blessures</strong> au lieu d'une.</li>\n<li><em>Pr&eacute;cision et Minutie:</em> La plaie se stabilise et cicatrise beaucoup plus rapidement que la normale.</li>\n</ul>",
+      "partialsuccess": "<p>Vous pouvez choisir une option. Cependant, vous devez &eacute;galement choisir une complication:</p>\n<ul>\n<li>Vous laissez des cicatrices ou des d&eacute;fauts cosm&eacute;tiques, le patient perd en <strong>Stabilit&eacute; (-2)</strong>.</li>\n<li>Il y a des effets secondaires persistants (<em>-1 &agrave; tous les lancers</em> que la blessure pourrait affecter jusqu'&agrave; ce qu'elle soit compl&egrave;tement gu&eacute;rie).</li>\n<li>Le patient reste assomm&eacute; jusqu'&agrave; ce que le ou la MJ d&eacute;cide qu'il se r&eacute;veille.</li>\n</ul>\n<p><em>Options:</em></p>\n<ul>\n<li><em>Improvisation:</em> Vous stabilisez une <strong>Blessure</strong> sans avoir acc&egrave;s &agrave; du mat&eacute;riel m&eacute;dical.</li>\n<li><em>Efficacit&eacute;:</em> Vous stabilisez deux <strong>Blessures</strong> au lieu d'une.</li>\n<li><em>Pr&eacute;cision et Minutie:</em> La plaie se stabilise et cicatrise beaucoup plus rapidement que la normale.</li>\n</ul>",
+      "failure": "<p>Vous stabilisez la blessure, m&ecirc;me sans acc&egrave;s &agrave; un &eacute;quipement m&eacute;dical, mais il y a aussi des cons&eacute;quences inattendues et potentiellement dangereuses, comme des infections, des d&eacute;formations de la cicatrisation ou d'autres effets secondaires graves. Le ou la MJ effectue une Action.</p>"
+    },
+    "Body Awareness": {
+      "name": "Conscience Corporelle",
+      "effect": "<p>Votre corps et votre esprit ne font qu'un. <em>Lorsque vous effectuez des prouesses d'acrobatie ou d'agilit&eacute;</em>, <strong>lancez +Perception</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>&Eacute;chapper aux liens ou aux entraves.</li>\n<li>Franchir un obstacle (cr&eacute;ature ou objet).</li>\n<li>Acc&eacute;dez &agrave; un espace qui vous est normalement inaccessible.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez une option.</p>",
+      "partialsuccess": "<p>Choisissez une option, mais vous vous exposez &agrave; un danger ou encourez un pr&eacute;judice.</p>",
+      "failure": "<p>Choisissez une option, mais quelque chose tourne au vinaigre. Le ou la MJ effectue une Action.</p>"
+    },
+    "Boss": {
+      "name": "Patron·ne",
+      "effect": "<p>Vous disposez de cinq &agrave; dix acolytes, criminel&middot;les notables qui vous sont fid&egrave;les, g&eacute;n&eacute;ralement tant que vous continuez &agrave; les payer. <em>Chaque fois que vous envoyez vos acolytes faire un travail risqu&eacute;</em>, <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Ils suivent vos ordres et tout se passe comme pr&eacute;vu.</p>",
+      "partialsuccess": "<p>Ils suivent vos ordres, mais le ou la MJ choisit une option:</p>\n<ul>\n<li>Quelqu'un s'est mis dans le p&eacute;trin.</li>\n<li>Le travail n&rsquo;est pas termin&eacute;, il a besoin d&rsquo;&ecirc;tre compl&eacute;t&eacute; par quelque chose d&rsquo;autre.</li>\n<li>Il y aura des r&eacute;percussions plus tard.</li>\n</ul>",
+      "failure": "<p>Le ou la MJ d&eacute;cide ce qui a mal tourn&eacute; et si c&rsquo;est imm&eacute;diatement &eacute;vident ou si cela le deviendra plus tard. Puis il ou elle effectue une Action.</p>"
+    },
+    "Bound": {
+      "name": "Lien",
+      "effect": "<p>Vous &ecirc;tes li&eacute; &agrave; une entit&eacute; extradimensionnelle dont vous pouvez utiliser les pouvoirs. Expliquez ce qu'il en est selon vous. <em>Au d&eacute;but de chaque session de jeu</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Voir la v&eacute;ritable forme d'une cr&eacute;ature ou d'un lieu.</li>\n<li>Disperser la magie qui vous cible.</li>\n<li>Faire appel &agrave; l'entit&eacute;.</li>\n</ul>",
+      "completesuccess": "<p>Vous pouvez choisir jusqu'&agrave; trois options &agrave; tout moment de la session.</p>",
+      "partialsuccess": "<p>Vous pouvez choisir une option &agrave; tout moment de la session.</p>",
+      "failure": "<p>Vous pouvez choisir une option &agrave; n'importe quel moment de la session, mais le ou la MJ effectue une Action pour l'entit&eacute; &agrave; un moment donn&eacute; de la session.</p>"
+    },
+    "Burglar": {
+      "name": "Cambrioleur·euse",
+      "effect": "<p><em>Chaque fois que vous utilisez votre expertise en mati&egrave;re d'effraction</em>, <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Vous ouvrez silencieusement une porte verrouill&eacute;e en quelques instants.</li>\n<li>Vous neutralisez une alarme.</li>\n<li>Vous percez un coffre-fort en moins de deux minutes.</li>\n<li>Vous &eacute;vitez d'&ecirc;tre d&eacute;couvert ou d&eacute;couverte par quelqu'un.</li>\n<li>Vous faites croire &agrave; quelqu'un que vous appartenez &agrave; ce lieu (par exemple, faites semblant d'&ecirc;tre un agent de s&eacute;curit&eacute;) pendant une dur&eacute;e limit&eacute;e.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez trois options. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Choisissez deux options. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "failure": "<p>Choisissez une option, mais un probl&egrave;me se pose. Le ou la MJ effectue une Action.</p>"
+    },
+    "Chameleon": {
+      "name": "Caméléon",
+      "effect": "<p><em>Chaque fois que vous imitez l'apparence d'une autre personne ou que vous dissimulez votre propre identit&eacute; pour tromper quelqu'un</em>, <strong>lancez +Intuition</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Votre d&eacute;guisement est convaincant, tant que vous continuez &agrave; jouer la com&eacute;die.</p>",
+      "partialsuccess": "<p>Vous r&eacute;ussissez &agrave; tromper tous ceux qui ne vous examinent pas en d&eacute;tail, mais vous devez faire face &agrave; une complication:</p>\n<ul>\n<li>Vous ne pouvez pas maintenir cette tromperie tr&egrave;s longtemps. Vous devez agir rapidement si vous ne voulez pas risquer d'&ecirc;tre d&eacute;masqu&eacute;&middot;e.</li>\n<li>Vous laissez des traces et des indices derri&egrave;re vous, qui peuvent &ecirc;tre reli&eacute;s &agrave; vous plus tard.</li>\n</ul>",
+      "failure": "<p>Votre d&eacute;guisement n'est efficace qu'&agrave; distance. Si vous attirez l'attention sur vous, vous serez d&eacute;masqu&eacute;&middot;e.</p>"
+    },
+    "Character Actor": {
+      "name": "Jeu d'Acteur·rice",
+      "effect": "<p><em>Chaque fois que vous essayez de vous fondre dans un lieu ou une foule en adaptant votre apparence et votre comportement aux autres personnes pr&amp;eacute;sentes</em>, <strong>lancez +Intuition</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Apaiser quelqu'un qui devient m&amp;eacute;fiant.</li>\n<li>Acc&amp;eacute;der &amp;agrave; un endroit o&amp;ugrave; les &amp;eacute;trangers ne sont pas autoris&amp;eacute;s &amp;agrave; se rendre.</li>\n<li>Faites-vous expliquer les secrets de cet endroit.</li>\n<li>Obtenez l'aide de quelqu'un.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez trois options. Vous pouvez en conserver jusqu'&amp;agrave; deux pour plus tard.</p>",
+      "partialsuccess": "<p>Choisissez deux options. Vous pouvez en conserver une pour plus tard.</p>",
+      "failure": "<p>Choisissez une option, mais les choses ne se passent pas comme pr&amp;eacute;vu. Le ou la MJ effectue une Action.</p>"
+    },
+    "Charismatic Aura": {
+      "name": "Aura Charismatique",
+      "effect": "<p>Vous d&eacute;gagez une aura qui incite les gens &agrave; vous faire confiance et &agrave; rechercher votre compagnie. <em>Lorsque votre aura est vraiment perceptible</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Attirez l'attention d'un inconnu. Il devient curieux et s'approche de vous.</li>\n<li>Changez la disposition d&rsquo;une personne &agrave; votre &eacute;gard en la faisant passer d&rsquo;agressive &agrave; m&eacute;fiante, de m&eacute;fiante &agrave; neutre ou de neutre &agrave; positive.</li>\n<li>Faites en sorte que vos adversaires vous per&ccedil;oivent comme inoffensif et vous ignorent tant que vous restez en retrait et que vous n'agissez pas contre eux.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez deux options distinctes.</p>",
+      "partialsuccess": "<p>Choisissez une option.</p>",
+      "failure": "<p>Choisissez une option, mais vous &eacute;veillez aussi l'attention. Le ou la MJ effectue une Action.</p>"
+    },
+    "Code of Honor": {
+      "name": "Code d'Honneur",
+      "effect": "<p>Vous respectez un code d'honneur strict. D&eacute;cidez-en sa nature. <em>Chaque fois que vous prenez des risques ou que vous faites des sacrifices conform&eacute;ment &agrave; votre code d'honneur</em>, regagnez en <strong>Stabilit&eacute; (+1)</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Collector": {
+      "name": "Collectionneur·euse",
+      "effect": "<p><em>Chaque fois que vous recherchez un objet inhabituel ou rare</em>, <strong>lancez +Logique</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous savez exactement o&ugrave; se trouve le bien, comment l'acqu&eacute;rir et comment minimiser les risques, les obstacles et/ou les co&ucirc;ts.</p>",
+      "partialsuccess": "<p>Vous savez &agrave; peu pr&egrave;s o&ugrave; le bien se trouve et quels sont les risques, les obstacles et/ou les co&ucirc;ts associ&eacute;s &agrave; son acquisition.</p>",
+      "failure": "<p>Vous savez &agrave; peu pr&egrave;s o&ugrave; commencer &agrave; chercher, mais vous ne connaissez pas les risques ou les co&ucirc;ts li&eacute;s &agrave; cette recherche.</p>"
+    },
+    "Contagious Insanity": {
+      "name": "Folie Contagieuse",
+      "effect": "<p><em>Chaque fois que vous laissez votre folie contaminer un de vos interlocuteurs</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Choisissez deux options.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Affliger &agrave; votre victime une psychose temporaire, dans laquelle elle est hant&eacute;e par ses peurs (PNJ uniquement).</li>\n<li>D&eacute;clencher le D&eacute;savantage d'une autre personne (PJ uniquement, faire un lancer pour le D&eacute;savantage).</li>\n<li>Affecter une victime suppl&eacute;mentaire.</li>\n<li>Appeler les cr&eacute;atures de la folie &agrave; hanter les infect&eacute;s.</li>\n</ul>",
+      "partialsuccess": "<p>Choisissez une option.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Affliger &agrave; votre victime une psychose temporaire, dans laquelle elle est hant&eacute;e par ses peurs (PNJ uniquement).</li>\n<li>D&eacute;clencher le D&eacute;savantage d'une autre personne (PJ uniquement, faire un lancer pour le D&eacute;savantage).</li>\n<li>Affecter une victime suppl&eacute;mentaire.</li>\n<li>Appeler les cr&eacute;atures de la folie &agrave; hanter les infect&eacute;s.</li>\n</ul>",
+      "failure": "Les terreurs et les sombres secrets de votre victime se manifestent en vous. Vous devez <strong>Garder le Contr&ocirc;le</strong>.</p>"
+    },
+    "Crafty": {
+      "name": "Futé·e",
+      "effect": "<p><em>Lorsque vous manipulez un PNJ au cours d'une longue conversation</em>, <strong>lancez +Intuition</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; deux options. Vous pouvez en conserver une pour plus tard dans cette sc&egrave;ne.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Ils se m&eacute;fient d'une personne de votre choix.</li>\n<li>Ils vous consid&egrave;rent comme leur alli&eacute;, tant que vous ne les trahissez pas (<em>+1 &agrave; tous les lancers</em> contre eux).</li>\n<li>Ils vous rendent volontiers service.</li>\n</ul>",
+      "partialsuccess": "<p>Choisissez une option.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Ils se m&eacute;fient d'une personne de votre choix.</li>\n<li>Ils vous consid&egrave;rent comme leur alli&eacute;, tant que vous ne les trahissez pas (<em>+1 &agrave; tous les lancers</em> contre eux).</li>\n<li>Ils vous rendent volontiers service.</li>\n</ul>",
+      "failure": "<p>Ils sont &agrave; vos trousses. Le ou la MJ effectue une Action.</p>"
+    },
+    "Crime Scene Investigator": {
+      "name": "Enquêteur·rice de Scène de Crime",
+      "effect": "<p><em>Lorsque vous enqu&ecirc;tez sur une sc&egrave;ne de crime</em>, <strong>lancez +Logique</strong> et posez des questions &agrave; partir de la liste ci-dessous.</p>",
+      "options": "<p><em>Questions:</em></p>\n<ul>\n<li>Quel a &eacute;t&eacute; l'encha&icirc;nement des &eacute;v&eacute;nements?</li>\n<li>Que puis-je supposer &agrave; propos de l'auteur&middot;rice de l'infraction?</li>\n<li>Quelles sont les erreurs commises par l'auteur&middot;rice?</li>\n<li>Quand le crime a-t-il &eacute;t&eacute; commis?</li>\n<li>Quand quelqu'un est-il venu ici pour la derni&egrave;re fois?</li>\n<li>Le crime me rappelle-t-il quelque chose que je connais d&eacute;j&agrave; et, si oui, quoi?</li>\n<li>Qui pourrait en savoir plus sur le crime?</li>\n</ul>",
+      "completesuccess": "<p>Posez deux questions.</p>",
+      "partialsuccess": "<p>Posez une question.</p>",
+      "failure": "<p>Vous posez une question, mais votre investigation vous met en danger ou vous pose des difficult&eacute;s suppl&eacute;mentaires par la suite.</p>"
+    },
+    "Cult Leader": {
+      "name": "Chef·fe de culte",
+      "effect": "<p><em>Chaque fois que vous et vos disciples accomplissez un rituel</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Visions:</em></p>\n<ul>\n<li>La v&eacute;ritable forme d'une cr&eacute;ature.</li>\n<li>Un portail entre les dimensions.</li>\n<li>Les ennemis du culte.</li>\n<li>La finalit&eacute; d'un objet.</li>\n<li>Les souhaits de votre divinit&eacute; (vous obtenez <em>+1 &agrave; tous les lancers</em> pour accomplir ses souhaits).</li>\n</ul>",
+      "completesuccess": "<p>Choisissez de recevoir jusqu'&agrave; trois visions de la liste ci-dessous.</p>",
+      "partialsuccess": "<p>Choisissez de recevoir jusqu'&agrave; deux visions de la liste ci-dessous.</p>",
+      "failure": "<p>Choisissez une vision, mais l'Illusion se d&eacute;chire en cons&eacute;quence. Vous pouvez &ecirc;tre temporairement transport&eacute; dans une autre dimension, attirer l'attention d'un &ecirc;tre d&eacute;moniaque ou recevoir un horrible pr&eacute;sage. Le ou la MJ effectue une Action.</p>"
+    },
+    "Dabbler in the Occult": {
+      "name": "Bricoleur·euse de l'Occulte",
+      "effect": "<p>Vous connaissez un peu les rituels magiques, mais vous n'avez jamais d&eacute;pass&eacute; le stade de l'ex&eacute;cution d'instructions &eacute;crites. <em>Chaque fois que vous tentez d'accomplir un rituel magique &agrave; partir d'un ensemble d'instructions</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous effectuez chaque &eacute;tape correctement; le rituel fonctionne comme pr&eacute;vu.</p>",
+      "partialsuccess": "<p>Vous faites une erreur mineure. Le ou la MJ choisit une complication:</p>\n<ul>\n<li>Vous ne b&eacute;n&eacute;ficiez pas d'une protection efficace contre les forces ou les entit&eacute;s que le rituel convoque.</li>\n<li>Les effets du rituel sont l&eacute;g&egrave;rement diff&eacute;rents de ce que vous aviez imagin&eacute;.</li>\n<li>Le rituel convoque des entit&eacute;s ou des forces inattendues.</li>\n</ul>",
+      "failure": "<p>Vous avez mal compris les &eacute;critures et ex&eacute;cutez le rituel sans avoir le moindre contr&ocirc;le. Le ou la MJ effectue une Action.</p>"
+    },
+    "Daredevil": {
+      "name": "Tête brulée",
+      "effect": "<p><em>Chaque fois que vous vous trouvez dans une situation dangereuse</em>, <strong>lancez +Perception</strong>.</p>",
+      "options": "<p><strong>Atouts:</strong></p>\n<ul>\n<li><em>Gardez les yeux ouverts:</em> D&amp;eacute;couvrez la menace avant qu'elle ne vous d&amp;eacute;couvre.</li>\n<li><em>&amp;Eacute;cartez-vous du chemin:</em> &amp;Eacute;viter une attaque.</li>\n<li><em>Prenez de l'avance sur eux:</em> Blessez votre adversaire avant qu'il ne puisse r&amp;eacute;agir.</li>\n</ul>",
+      "completesuccess": "<p>Obtenez 3 Atouts. Vous pouvez les d&amp;eacute;penser &amp;agrave; n'importe quel moment de la sc&amp;egrave;ne.</p>",
+      "partialsuccess": "<p>Obtenez 2 Atouts. Vous pouvez les d&amp;eacute;penser &amp;agrave; n'importe quel moment de la sc&amp;egrave;ne.</p>",
+      "failure": "<p>Obtenez 1 Atout, mais vous ne savez plus o&amp;ugrave; donner de la t&amp;ecirc;te. Le ou la MJ effectue une Action.</p>"
+    },
+    "Data Retrieval": {
+      "name": "Recherche de Données",
+      "effect": "<p><em>Chaque fois que vous recherchez des informations sur un sujet dans une biblioth&egrave;que, un site d'archives ou sur Internet</em>, <strong>lancez +Logique</strong>. En r&eacute;ponse &agrave; vos questions, le ou la MJ vous dira ce que vous avez d&eacute;couvert, avec autant de d&eacute;tails qu'il est possible d'en attendre de la part de la source que vous avez utilis&eacute;e.</p>",
+      "options": "<p><em>Questions:</em></p>\n<ul>\n<li>Quelle est son origine?</li>\n<li>&Agrave; quoi sert-il?</li>\n<li>Comment cela fonctionne-t-il?</li>\n<li>&Agrave; quoi dois-je faire attention?</li>\n<li>Comment puis-je arr&ecirc;ter ou d&eacute;truire cela?</li>\n</ul>",
+      "completesuccess": "<p>Posez trois questions.</p>",
+      "partialsuccess": "<p>Posez deux questions.</p>",
+      "failure": "<p>Vous posez une question, mais vous d&eacute;couvrez aussi quelque chose d'inattendu. Le ou la MJ effectue une Action.</p>"
+    },
+    "Dead Shot": {
+      "name": "Tir Meurtrier",
+      "effect": "<p>Vous &amp;ecirc;tes un&amp;middot;e tireur&amp;middot;euse d'&amp;eacute;lite exp&amp;eacute;riment&amp;eacute;&amp;middot;e. Tout dommage inflig&eacute; par une arme &agrave; feu est consid&eacute;r&eacute; comme <strong>+1 Dommage</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Deadly Stare": {
+      "name": "Regard Mortel",
+      "effect": "<p><em>Chaque fois que vous vous trouvez dans une situation d&eacute;licate</em>, <strong>lancez +Violence</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous &eacute;tablissez un contact visuel avec un PNJ, ce qui le fige et l'emp&ecirc;che de faire quoi que ce soit jusqu'&agrave; ce que vous rompiez le dit contact. Vous b&eacute;n&eacute;ficiez &eacute;galement d'un <em>+2 continu &agrave; vos lancers</em> contre la cible.</p>",
+      "partialsuccess": "<p>Vous &eacute;tablissez un contact visuel avec un PNJ, ce qui le fige et l'emp&ecirc;che de faire quoi que ce soit jusqu'&agrave; ce que vous rompiez le contact visuel.</p>",
+      "failure": "<p>Vos adversaires vous consid&egrave;rent comme leur principale menace.</p>"
+    },
+    "Death Drive": {
+      "name": "Conduite mortelle",
+      "effect": "<p><em>Chaque fois que vous vous battez sans vous soucier de votre s&eacute;curit&eacute; personnelle</em>, <strong>lancez +Violence</strong>.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<ul>\n<li><em>Enthousiaste:</em> <strong>Engager</strong> un ennemi suppl&eacute;mentaire dans <strong>le Combat</strong>.</li>\n<li><em>Vicieux&middot;se:</em> Infliger <strong>+2 D&eacute;gats</strong> lors de votre attaque.</li>\n<li><em>Acharn&eacute;&middot;e:</em> Se rapprocher de l'ennemi pour l'attaquer.</li>\n<li><em>Imprudent&middot;e:</em> Effrayer vos adversaires en leur riant au nez (<em>+1 aux lancers</em> pendant le combat).</li>\n</ul>",
+      "completesuccess": "<p>Obtenez 3 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Obtenez 2 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "failure": "<p>Obtenez 1 Atout, mais vous d&eacute;couvrez ensuite que vous avez &eacute;t&eacute; bless&eacute;&middot;e sans vous en rendre compte (<strong>Subir des Blessures</strong>; le ou la MJ d&eacute;termine la valeur des D&eacute;gats en fonction de la personne qui vous a attaqu&eacute; et de la mani&egrave;re dont elle l'a fait).</p>"
+    },
+    "Desperate": {
+      "name": "Désespéré·e",
+      "effect": "<p><em>Chaque fois que vous essayez de vous en sortir face &agrave; un adversaire de taille</em>, prenez <em>+1 &agrave; tous vos lancers</em> jusqu'&agrave; ce que vous soyez &agrave; l'abri de la menace.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Divine": {
+      "name": "Divin·e",
+      "effect": "<p>Il y a quelque chose en vous qui rappelle &agrave; vos anciens serviteurs ce que vous &ecirc;tes vraiment. <em>Chaque fois que vous rencontrez une cr&eacute;ature monstrueuse</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Apaiser une cr&eacute;ature agressive.</li>\n<li>Commandez la cr&eacute;ature et forcez-la &agrave; vous ob&eacute;ir.</li>\n</ul>",
+      "completesuccess": "<p>La cr&eacute;ature vous prend pour un dieu ou une d&eacute;esse. Choisissez jusqu'&agrave; trois options, utilisables &agrave; tout moment au cours de cette sc&egrave;ne.</p>",
+      "partialsuccess": "<p>La cr&eacute;ature est fascin&eacute;e par vous. Choisissez une option.</p>",
+      "failure": "<p>Vous pouvez choisir une option, mais apr&egrave;s l'avoir utilis&eacute;e, la cr&eacute;ature devient d&eacute;termin&eacute;e &agrave; vous dominer. Elle peut essayer de vous d&eacute;vorer ou de vous capturer. Le ou la MJ effectue une Action.</p>"
+    },
+    "Divine Champion": {
+      "name": "Champion·ne Divin·e",
+      "effect": "<p><em>Chaque fois que vous combattez les ennemis de votre divinit&eacute; ou que vous vous battez pour prot&eacute;ger un objet sacr&eacute;</em>, vous faites <strong>+1 D&eacute;gat</strong> et prenez +1 &agrave; <strong>Subir des Blessures</strong>. Si vous perdez un tel combat, votre divinit&eacute; se met en col&egrave;re et vous subissez <em>-1 &agrave; vos lancers</em> pour toutes les actions li&eacute;es &agrave; votre divinit&eacute; jusqu'&agrave; ce que vous ayez expi&eacute; votre &eacute;chec.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Dreamer": {
+      "name": "Rêveur·euse",
+      "effect": "<p>Vous &ecirc;tes un&middot;e talentueux&middot;se et autodidacte vagabond&middot;e des r&ecirc;ves. <em>Lorsque vous voulez rencontrer quelqu'un ou d&eacute;couvrir la v&eacute;rit&eacute; sur quelque chose dans le R&ecirc;ve</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous rencontrez la personne souhait&eacute;e ou arrivez &agrave; l'endroit pr&eacute;cis dans le R&ecirc;ve.</p>",
+      "partialsuccess": "<p>Vous rencontrez la personne pr&eacute;vue ou vous arrivez &agrave; l'endroit pr&eacute;cis. Cependant, un &eacute;l&eacute;ment a chang&eacute; ou quelque chose vous a suivi, vous ou la personne en question.</p>",
+      "failure": "<p>Vous &ecirc;tes perdu&middot;e dans le R&ecirc;ve et vous ne pouvez pas vous r&eacute;veiller tant que vous n'avez pas retrouv&eacute; votre chemin.</p>"
+    },
+    "Driver": {
+      "name": "Pilote",
+      "effect": "<p>Vous &ecirc;tes un&middot;e professionnel&middot;le form&eacute;&middot;e &agrave; la conduite de v&eacute;hicules &agrave; moteur (voiture ou moto). <em>Lorsque vous conduisez votre v&eacute;hicule sous pression et dans des situations dangereuses</em>, <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<ul>\n<li>Effectuer une man&#339;uvre risqu&eacute;e pour quitter la route.</li>\n<li>&Eacute;liminez un v&eacute;hicule qui vous poursuit.</li>\n<li>Utiliser son v&eacute;hicule comme une arme contre un pi&eacute;ton (<strong>2/3/4 Dommages</strong> en fonction de la vitesse).</li>\n<li>Faire sortir de la route un autre v&eacute;hicule par le flanc.</li>\n</ul>",
+      "completesuccess": "<p>Obtenez 3 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Obtenez 2 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "failure": "<p>Obtenez 1 Atout &agrave; d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne, mais la situation s'aggrave d'une mani&egrave;re ou d'une autre; peut-&ecirc;tre que vous d&eacute;passez une voiture de police, que d'autres v&eacute;hicules se mettent &agrave; vous poursuivre ou que vous ou votre v&eacute;hicule &ecirc;tes touch&eacute;. Le ou la MJ effectue une Action.</p>"
+    },
+    "Elite Education": {
+      "name": "Éducation d'Élite",
+      "effect": "<p>Vous avez fr&eacute;quent&eacute; l'un des &eacute;tablissements d'enseignement sup&eacute;rieur les plus prestigieux au monde et avez acquis des contacts avec des personnes influentes. <em>Chaque fois que vous demandez une faveur &agrave; vos contacts</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Obtenir une faveur de l'administration d'un pays (par exemple, &ecirc;tre lib&eacute;r&eacute; de prison, &eacute;viter un contr&ocirc;le douanier ou obtenir l'aide de la police).</li>\n<li>Acc&eacute;der &agrave; un lieu inaccessible au public.</li>\n<li>Localiser ou suivre une personne cach&eacute;e ou disparue.</li>\n<li>Recevez &agrave; la fois les moyens de vous &eacute;chapper et une cachette s&ucirc;re.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; trois options.</p>",
+      "partialsuccess": "<p>Choisissez jusqu'&agrave; deux options.</p>",
+      "failure": "<p>Choisissez une option, mais vous avez contract&eacute; une dette envers quelqu'un. La dette peut &ecirc;tre r&eacute;clam&eacute;e au cours de l'histoire, quand le ou la MJ le souhaite.</p>"
+    },
+    "Elite Sport": {
+      "name": "Sport de Haut Niveau",
+      "effect": "<p>Vous avez particip&eacute; &agrave; des comp&eacute;titions professionnelles dans un sport, ce qui vous a permis de recevoir des subventions pour financer vos &eacute;tudes. Choisissez un sport:</p>\n<ul>\n<li><em>Escrime:</em> Lorsque vous utilisez des &eacute;p&eacute;es, vous pouvez porter l'attaque <span style=\"text-decoration: underline;\">riposte</span> [3] [Port&eacute;e: bras, attaque imm&eacute;diate apr&egrave;s la parade], et vous avez une rapi&egrave;re [arme blanche] &agrave; la maison.</li>\n<li><em>Baseball/Cricket/Foot am&eacute;ricain/Football/Tennis:</em> Vous b&eacute;n&eacute;ficiez de <em>+1 &agrave; vos lancers</em> lorsque vous courez, lancez ou attrapez des objets.</li>\n<li><em>Hockey sur glace:</em> Vous obtenez <em>+1 aux lancers</em> de <strong>Subir des Blessures</strong> face des attaques au corps &agrave; corps.</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Endure Trauma": {
+      "name": "Endurer les Traumatismes",
+      "effect": "<p>Vous n'&ecirc;tes pas aussi facilement affect&eacute;&middot;e par les traumatismes que d'autres. <em>Lorsque vous perdez en</em> <strong>Stabilit&eacute;</strong>, vous perdez toujours un niveau de moins que la normale.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Enforcer": {
+      "name": "Gorille",
+      "effect": "<p><em>Chaque fois que vous menacez quelqu'un de fa&ccedil;on cr&eacute;dible, directement ou de mani&egrave;re suggestive</em>, <strong>lancez +Violence</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>La ciblre doit faire ce que vous voulez ou vous d&eacute;fier en sachant que vous pouvez mettre votre menace &agrave; ex&eacute;cution.</p>",
+      "partialsuccess": "<p>Vous devez proposer une troisi&egrave;me issue. Choisissez-en une:</p>\n<ul>\n<li>La cible vous propose quelque chose qu'elle pense que vous pr&eacute;f&eacute;reriez avoir.</li>\n<li>La cible quitte les lieux.</li>\n<li>La cible est terroris&eacute;e; vous avez <em>+1 sur tous les lancers</em> contre elle jusqu'&agrave; ce qu'elle ait prouv&eacute; qu'elle n'a plus peur de vous.</li>\n<li>Elle vous attaque en &eacute;tant d&eacute;savantag&eacute;e. Vous obtenez <em>+2 &agrave; votre lancer<em> d'<strong>Engager le Combat</strong> si vous contre-attaquez.</li>\n</ul>",
+      "failure": "<p>Il s'av&egrave;re que vous n'aviez pas l'avantage que vous pensiez avoir. Le ou la MJ effectue une Action.</p>"
+    },
+    "Enhanced Awareness": {
+      "name": "Sensibilité Accrue",
+      "effect": "<p><em>Lorsque vous concentrez vos sens sur un endroit o&ugrave; l'Illusion est faible</em>, <strong>lancez +&Acirc;me</strong>. En cas de succ&egrave;s, vous avez des visions sur le lieu et pouvez parler aux entit&eacute;s qui y sont li&eacute;es.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous pouvez discerner des d&eacute;tails clairs concernant le lieu.</p>",
+      "partialsuccess": "<p>Vous obtenez quelques impressions de base sur le lieu.</p>",
+      "failure": "<p>L'Illusion se d&eacute;chire. Le voile est temporairement tomb&eacute;, r&eacute;v&eacute;lant une dimension alternative; le ou la MJ d&eacute;termine laquelle. Le PJ peut y &ecirc;tre aspir&eacute; ou quelque chose peut passer dans notre r&eacute;alit&eacute;. Le ou la MJ effectue une Action.</p>"
+    },
+    "Erotic": {
+      "name": "Érotique",
+      "effect": "<p><em>Chaque fois que vous tentez d'attirer un PNJ vers vous</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>La personne doit vous poss&eacute;der et, pour ce faire, elle abandonnera tout comportement normalement raisonnable.</li>\n<li>La personne est concentr&eacute;e sur vous tant que vous &ecirc;tes &agrave; proximit&eacute;, incapable de se focaliser sur quoi que ce soit d'autre.</li>\n<li>La personne devient jalouse de tous ceux qui rivalisent avec elle pour attirer votre attention et tente de s'en d&eacute;barrasser par tous les moyens.</li>\n<li>Vous les rendez incertains et confus. Vous profitez de <em>+1 &agrave; vos lancers</em> contre eux durant la sc&egrave;ne.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; trois options &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Choisissez jusqu'&agrave; deux options &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "failure": "<p>Choisissez une option &agrave; n'importe quel moment de la sc&egrave;ne, mais la nature de l'attraction est diff&eacute;rente de ce que vous esp&eacute;riez. Le ou la MJ effectue une Action.</p>"
+    },
+    "Escape Artist": {
+      "name": "Maître de l'Évasion",
+      "effect": "<p>Tu es pass&eacute; ma&icirc;tre dans l'art de t'&eacute;clipser quand la merde frappe &agrave; la porte. <em>Lorsque vous devez &eacute;chapper &agrave; une situation dangereuse</em>, exposer votre plan et <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous vous &eacute;chappez sans complications.</p>",
+      "partialsuccess": "<p>Vous pouvez choisir de rester ou de vous &eacute;chapper &agrave; un certain prix, par exemple en laissant quelque chose d'important derri&egrave;re vous ou en emportant quelque chose de tra&ccedil;able. Le ou la MJ d&eacute;cide de quoi il s'agit.</p>",
+      "failure": "<p>Vous n'&ecirc;tes qu'&agrave; moiti&eacute; sorti lorsque vous vous retrouvez dans une situation vraiment d&eacute;licate. Le ou la MJ effectue une Action.</p>"
+    },
+    "Exit Strategy": {
+      "name": "Stratégie de Sortie",
+      "effect": "<p><em>Lorsque vous avez tu&eacute; quelqu'un en cachette et que vous quittez le lieu du crime</em>, <strong>lancez +Perception</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Vous quittez la sc&egrave;ne du crime sans &ecirc;tre remarqu&eacute;&middot;e et vous rejoignez un endroit s&ucirc;r de votre choix dans les environs. D&eacute;crivez comment.</li>\n<li>Vous n'avez laiss&eacute; aucun indice permettant de remonter jusqu'&agrave; vous.</li>\n<li>Le corps est bien cach&eacute; et ne sera pas retrouv&eacute; avant un certain temps.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez trois des options ci-dessous.</p>",
+      "partialsuccess": "<p>Choisissez deux des options ci-dessous.</p>",
+      "failure": "<p>Choisissez une option, mais vous risquez d'&ecirc;tre d&eacute;couvert ou d'&ecirc;tre confront&eacute; &agrave; des obstacles inattendus. Le ou la MJ effectue une Action.</p>"
+    },
+    "Exorcist": {
+      "name": "Exorciste",
+      "effect": "<p><em>Chaque fois que vous effectuez un exorcisme pour bannir un esprit ou une cr&eacute;ature extradimensionnelle</em>, expliquer &agrave; quoi ressemble le rituel et <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>La cr&eacute;ature est bannie. Choisissez deux options.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Personne n'est bless&eacute; au cours du rituel.</li>\n<li>L'entit&eacute; ne r&eacute;appara&icirc;tra pas ult&eacute;rieurement.</li>\n<li>L'entit&eacute; ne deviendra pas hostile &agrave; votre &eacute;gard.</li>\n</ul>",
+      "partialsuccess": "<p>La cr&eacute;ature est bannie. Choisissez une option.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Personne n'est bless&eacute; au cours du rituel.</li>\n<li>L'entit&eacute; ne r&eacute;appara&icirc;tra pas ult&eacute;rieurement.</li>\n<li>L'entit&eacute; ne deviendra pas hostile &agrave; votre &eacute;gard.</li>\n</ul>",
+      "failure": "<p>La cr&eacute;ature r&eacute;siste au bannissement et quelque chose tourne mal, par exemple la cr&eacute;ature vous poss&egrave;de. Le ou la MJ effectue une Action.</p>"
+    },
+    "Expert": {
+      "name": "Expert·e",
+      "effect": "<p>Vous &ecirc;tes un&middot;e expert&middot;e dans certains domaines de connaissance. Lorsque vous <strong>Enqu&ecirc;tez</strong> sur un sujet li&eacute; &agrave; l'un de vos domaines de pr&eacute;dilection, vous pouvez toujours poser une question suppl&eacute;mentaire, quel que soit le r&eacute;sultat et vous pouvez poser toutes les questions que vous voulez.</p>\n<p><em>Choisissez deux domaines d'expertise:</em></p>\n<ul>\n<li>Arch&eacute;ologie</li>\n<li>&Eacute;conomie</li>\n<li>Histoire</li>\n<li>Litt&eacute;rature comparative</li>\n<li>Psychologie</li>\n<li>Sociologie</li>\n<li>Th&eacute;ologie</li>\n<li>(Autre)</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Explosives Expert": {
+      "name": "Expert·e en Explosifs",
+      "effect": "<p>Vous pouvez fabriquer et d&eacute;sarmer des bombes. <em>Si vous disposez de suffisamment de temps et de ressources, vous pouvez construire n'importe quel type de bombe. Cependant, lorsque vous construisez une bombe improvis&eacute;e sous la pression du temps</em>, <strong>lancez +Logique</strong>.</p>\n<hr>\n<p><em>Lorsque vous d&eacute;sarmez une bombe</em>, <strong>lancez +Logique</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous construisez une bombe fonctionnelle (voir Explosifs au chapitre 4 Le Personnage-Joueur).</p>\n<hr>\n<p>La bombe est d&eacute;sactiv&eacute;e.</p>",
+      "partialsuccess": "<p>Le potentiel explosif de la bombe est plus faible qu'&agrave; l'accoutum&eacute;e (diminution des d&eacute;g&acirc;ts inflig&eacute;s de -1).</p>\n<hr>\n<p>Des complications surviennent. Peut-&ecirc;tre ne pouvez-vous pas l'&eacute;teindre compl&egrave;tement, mais seulement retarder la minuterie, affaiblir l'effet explosif, ou quelque chose d'autre appara&icirc;t et aggrave la situation.</p>",
+      "failure": "<p>La bombe est impr&eacute;visible. Elle peut ne pas exploser, exploser pr&eacute;matur&eacute;ment ou &ecirc;tre plus puissante et instable que pr&eacute;vu. Le ou la MJ effectue une Action.</p>\n<hr>\n<p>Putain, ce n'est pas bon! La bombe peut exploser entre vos mains, le compte &agrave; rebours commence &agrave; 10, 9, 8, 7... ou des probl&egrave;mes encore plus graves peuvent survenir. Le ou la MJ effectue une Action.</p>"
+    },
+    "Extortionist": {
+      "name": "Maître Chanteur·euse",
+      "effect": "<p><em>Chaque fois que vous</em> <strong>Lisez une Personne</strong>, vous pouvez choisir parmi les questions suivantes en plus des questions habituelles:</p>\n<ul>\n<li>De quoi avez-vous peur?</li>\n<li>Qu'est-ce qui vous est pr&eacute;cieux?</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Eye for an Eye": {
+      "name": "Œil pour Œil",
+      "effect": "<p><em>Lorsque vous subissez une blessure sérieuse ou critique, nommez la personne que vous estimez responsable</em>. Vous obtenez <em>+2 &agrave; tous les lancers</em> contre elle, pour toujours. Tous les lancers visant la personne comptent, mais les lancers visant sa famille, ses amis, ses serviteurs et ses biens ne comptent que si le ou la MJ estime que c'est applicable.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Eye for Detail": {
+      "name": "Sens du Détail",
+      "effect": "<p><em>Lorsque vous avez eu le temps d'&eacute;tudier quelqu'un pendant un certain temps</em>, <strong>lancez +Perception</strong>.</p>",
+      "options": "<p><em>Questions:</em></p>\n<ul>\n<li>D'o&ugrave; venez-vous?</li>\n<li>&Ecirc;tes-vous capable de violence?</li>\n<li>Comment pourrais-je vous s&eacute;duire ou vous tenter?</li>\n<li>Pourquoi &ecirc;tes-vous ici?</li>\n<li>Sur quoi travaillez-vous?</li>\n</ul>",
+      "completesuccess": "<p>Posez trois questions &agrave; partir de la liste ci-dessous.</p>",
+      "partialsuccess": "<p>Posez deux questions &agrave; partir de la liste ci-dessous.</p>",
+      "failure": "<p>Posez une question parmi la liste ci-dessous, mais vous exposez votre int&eacute;r&ecirc;t &agrave; la personne que vous observez. Le ou la MJ effectue une Action.</p>"
+    },
+    "Fascination": {
+      "name": "Fascination",
+      "effect": "<p>Chaque fois que vous utilisez votre art pour s&eacute;duire un PNJ, <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Choisissez une option.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Ils sont attir&eacute;s par vous.</li>\n<li>Ils oublient leurs malheurs en d&eacute;couvrant votre art.</li>\n<li>Ils sont totalement captiv&eacute;s par votre art et oublient tout ce qui les entoure.</li>\n</ul>",
+      "partialsuccess": "<p>Choose one option...</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Ils sont attir&eacute;s par vous.</li>\n<li>Ils oublient leurs malheurs en d&eacute;couvrant votre art.</li>\n<li>Ils sont totalement captiv&eacute;s par votre art et oublient tout ce qui les entoure.</li>\n</ul>\n<p>Mais le ou la MJ choisit &eacute;galement l'un des &eacute;l&eacute;ments suivants:</p>\n<ul>\n<li>Ils deviennent obs&eacute;d&eacute;s par vous.</li>\n<li>Ils vous veulent tout de suite.</li>\n</ul>",
+      "failure": "<p>Ils sont affect&eacute;s par vous d'une mani&egrave;re que vous n'aviez pas anticip&eacute;e ou l'attraction est inconfortablement forte, vous choisissez. Le ou la MJ effectue une Action.</p>"
+    },
+    "Fast Talk": {
+      "name": "Belle·au Parleur·euse",
+      "effect": "<p><em>Chaque fois que vous parlez &agrave; un PNJ pour attirer son attention</em>, <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Emp&ecirc;che le PNJ de remarquer quelque chose dans son environnement imm&eacute;diat.</li>\n<li>Amener le PNJ &agrave; r&eacute;v&eacute;ler quelque chose d'important (le ou la MJ fournira les d&eacute;tails).</li>\n<li>Distraire le PNJ. Vous obtenez <em>+1 &agrave; votre prochain lancer</em> contre lui.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez deux options.</p>",
+      "partialsuccess": "<p>Choisissez une option.</p>",
+      "failure": "<p>Choisissez une option, mais ils commencent &agrave; se m&eacute;fier de vos intentions. Le ou la MJ effectue une Action.</p>"
+    },
+    "Field Agent": {
+      "name": "Agent·e de Terrain",
+      "effect": "<p>Vous avez &eacute;t&eacute; form&eacute; par une agence de renseignement pour vous battre sur le terrain. <em>Chaque fois que vous entrez en combat</em>, <strong>lancez +Violence</strong>.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<ul>\n<li><em>Se mettre &agrave; l'abri:</em> &Eacute;viter une attaque &agrave; distance en plongeant derri&egrave;re un objet ou une personne.</li>\n<li><em>Prise d'&eacute;tranglement:</em> Bloquer un adversaire humain dans une prise dont il ne peut se d&eacute;faire sans subir <strong>1 Dommage</strong>.</li>\n<li><em>D&eacute;sarmer:</em> Retirer l'arme d'un adversaire au corps &agrave; corps.</li>\n<li>Arme improvis&eacute;e: Ex&eacute;cuter une attaque mortelle au corps &agrave; corps avec un objet apparemment inoffensif (<span style=\"text-decoration: underline;\">frappe surprise</span> [2] [Port&eacute;e: bras]).</li>\n</ul>",
+      "completesuccess": "<p>Obtenez 3 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Obtenez 2 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "failure": "<p>Obtenez 1 Atout, mais vous avez fait une mauvaise d&eacute;cision. Le ou la MJ effectue une Action.</p>"
+    },
+    "Forbidden Inspiration": {
+      "name": "Inspiration Interdite",
+      "effect": "<p><em>Chaque fois que vous plongez dans votre art et que vous vous laissez inspirer par la V&eacute;rit&eacute;</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li><em>S&eacute;duction:</em> Inciter une entit&eacute; &agrave; venir &agrave; vous.</li>\n<li><em>Visions:</em> <strong>Voir &agrave; travers l'Illusion</strong> dans un endroit sp&eacute;cifique de votre choix.</li>\n<li><em>Inspiration:</em> Demandez &agrave; votre MJ s'il y a quelque chose d'&eacute;trange ou de surnaturel dans la situation dans laquelle vous vous trouvez. La r&eacute;ponse sera r&eacute;v&eacute;l&eacute;e par votre art.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez deux options.</p>",
+      "partialsuccess": "<p>Choisissez une option.</p>",
+      "failure": "<p>Vous avez regard&eacute; trop profond&eacute;ment dans l'ab&icirc;me. Choisissez une option, mais vous avez aussi des visions terrifiantes ou rencontrez quelque chose d'horrible. Le ou la MJ effectue une Action.</p>"
+    },
+    "Forked Tongue": {
+      "name": "Baratineur·euse",
+      "effect": "<p><em>Chaque fois que vous manipulez quelqu'un</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Choisissez une option:</p>\n<ul>\n<li>Cette personne vous fait confiance (le PJ prend <strong>+1 Relation</strong> &agrave; votre &eacute;gard).</li>\n<li>Vous l'avez envo&ucirc;t&eacute;e (vous b&eacute;n&eacute;ficiez de <em>+1 &agrave; vos lancers</em> contre elle durant cette sc&egrave;ne).</li>\n<li>Il r&eacute;v&egrave;le une faiblesse que vous pourrez exploiter plus tard.</li>\n</ul>",
+      "partialsuccess": "<p>Choisissez une option...</p>\n<ul>\n<li>Cette personne vous fait confiance (le PJ prend <strong>+1 Relation</strong> &agrave; votre &eacute;gard).</li>\n<li>Vous l'avez envo&ucirc;t&eacute;e (vous b&eacute;n&eacute;ficiez de <em>+1 &agrave; vos lancers</em> contre elle durant cette sc&egrave;ne).</li>\n<li>Il r&eacute;v&egrave;le une faiblesse que vous pourrez exploiter plus tard.</li>\n</ul>\n<p>Mais il y a aussi une complication, choisie par le ou la MJ, le joueur ou la joueuse:</p>\n<ul>\n<li>Il vous voit comme un ami vers lequel il peut se tourner en cas de besoin.</li>\n<li>Il tombe amoureux de vous.</li>\n<li>Il se sentira trahi, &eacute;conduit, humili&eacute; ou manipul&eacute; chaque fois que vous abuserez de sa confiance.</li>\n</ul>",
+      "failure": "<p>Il voit clair dans votre jeu et agit &agrave; sa guise.</p>"
+    },
+    "Gang Leader": {
+      "name": "Chef·fe de Gang",
+      "effect": "<p>Vous &ecirc;tes le chef ou la cheffe d'une petite bande de criminel&middot;les. <em>Chaque fois que vous donnez &agrave; votre gang des ordres risqu&eacute;s et/ou susceptibles de vous faire perdre gros</em>, <strong>lancez +Violence</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Elle ex&eacute;cute vos ordres sans poser de questions.</p>",
+      "partialsuccess": "<p>Elle fait ce que vous voulez, mais il y a une complication (choisissez-en une):</p>\n<ul>\n<li>L'un ou l'une d'entre eux vous d&eacute;fie devant les autres.</li>\n<li>Leur m&eacute;contentement durera un certain temps.</li>\n</ul>",
+      "failure": "<p>Des probl&egrave;mes surgissent. Peut-&ecirc;tre que quelque chose ne va pas dans l'ex&eacute;cution de vos ordres ou qu'ils doutent de vos capacit&eacute;s en tant que chef. Le ou la MJ effectue une Action.</p>"
+    },
+    "Genius": {
+      "name": "Génie",
+      "effect": "<p><em>Si vous vous trouvez dans une situation o&ugrave; votre vie est en danger</em>, <strong>lancez +&Acirc;me</strong> pour voir si vous pouvez trouver un moyen de vous en sortir.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<ul>\n<li><em>Logique:</em> Vous avez trouv&eacute; un moyen efficace de vous d&eacute;barrasser de la menace. Vous infligez <strong>+1 Dommage</strong> &agrave; chaque fois que vous l'exploitez.</li>\n<li><em>Rapidit&eacute; d'esprit:</em> Vous savez comment vous prot&eacute;ger des pr&eacute;judices. Traitez-le comme si vous aviez obtenu un succ&egrave;s (15+) &agrave; <strong>Subir des Blessures</strong> chaque fois que vous l'exploitez.</li>\n<li><em>Rationnel:</em> Vous savez comment vous prot&eacute;ger en sacrifiant quelqu'un d'autre. Choisissez la personne que vous utilisez pour &eacute;chapper &agrave; la menace.</li>\n</ul>",
+      "completesuccess": "<p>Obtenez jusqu'&agrave; 3 Atouts, utilisables &agrave; tout moment de la sc&egrave;ne, alors que vous &ecirc;tes toujours en danger.</p>",
+      "partialsuccess": "<p>Obtenez jusqu'&agrave; 2 Atouts, utilisables &agrave; tout moment de la sc&egrave;ne, alors que vous &ecirc;tes toujours en danger.</p>",
+      "failure": "<p>Obtenez 1 Atout, mais vous attirez aussi une attention ind&eacute;sirable. Le ou la MJ effectue une Action.</p>"
+    },
+    "Good Samaritan": {
+      "name": "Bon·ne Samaritain·e",
+      "effect": "<p><em>Chaque fois que vous aidez quelqu'un &agrave; vos propres frais</em>, r&eacute;cup&eacute;rez en <strong>Stabilit&eacute; (+1)</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Gritted Teeth": {
+      "name": "Dents Serrées",
+      "effect": "<p>Les abus, la violence, l'automutilation et les agressions sont devenus familiers et la douleur ne vous affecte presque plus. Les blessures, qu'elles soient graves ou critiques, ne vous p&eacute;nalisent pas.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Grudge": {
+      "name": "Rancune",
+      "effect": "<p><em>Lorsque quelqu'un ruine directement ou indirectement vos projets</em>, vous obtenez <em>+1 &agrave; vos lancers</em> contre la cible jusqu'&agrave; ce que vous vous soyez veng&eacute; ou que vous ayez re&ccedil;u un d&eacute;dommagement d'une valeur &eacute;gale &agrave; ce que vous avez perdu.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Hacker": {
+      "name": "Hacker",
+      "effect": "<p><em>Chaque fois que vous p&eacute;n&eacute;trez dans des r&eacute;seaux informatiques &agrave; la recherche de donn&eacute;es confidentielles, que vous crackez des logiciels ou que vous d&eacute;sactivez des syst&egrave;mes de s&eacute;curit&eacute;</em>, <strong>lancez +Logique</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous accomplissez votre t&acirc;che sans probl&egrave;me.</p>",
+      "partialsuccess": "<p>Des complications surviennent. Choisissez une option:</p>\n<ul>\n<li>Quelqu'un d&eacute;couvre l'intrusion. Vous devez prendre des risques ou faire des compromis sur ce que vous pouvez accomplir.</li>\n<li>Vous laissez des traces de votre intrusion.</li>\n</ul>",
+      "failure": "<p>&Agrave; votre insu, votre intrusion ne s'est pas d&eacute;roul&eacute;e comme vous le souhaitiez. Vous n'avez peut-&ecirc;tre pas r&eacute;ussi &agrave; accomplir votre t&acirc;che aussi bien que vous l'aviez imagin&eacute; ou vous avez peut-&ecirc;tre &eacute;t&eacute; d&eacute;couvert par des ennemis personnels, les forces de l'ordre, ou quelque chose d'autre qui se cache dans le r&eacute;seau. Le ou la MJ effectue une Action.</p>"
+    },
+    "Hardened": {
+      "name": "Résistant·e",
+      "effect": "<p>Vous obtenez <em>+1 &agrave; vos lancers</em> pour <strong>Subir des Blessures</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Hunter": {
+      "name": "Chasseur·euse",
+      "effect": "<p><em>Chaque fois que vous chassez quelqu'un ou quelque chose</em>, <strong>lancez +Perception</strong>.</p>",
+      "options": "<p>Options:</p>\n<ul>\n<li>Tendre une embuscade &agrave; votre ennemi (infliger les <strong>D&eacute;gats</strong> li&eacute;es &agrave; votre arme).</li>\n<li>Se Camoufler (+2 &agrave; <strong>Agir sous la Pression</strong> lorsque vous vous cachez).</li>\n<li>Se d&eacute;placer dans l'ombre (+2 pour <strong>&Eacute;viter les D&eacute;g&acirc;ts</strong> inflig&eacute;s par une arme &agrave; distance).</li>\n</ul>",
+      "completesuccess": "<p>Choisissez trois options. Vous pouvez les d&eacute;penser &agrave; tout moment au cours de cette sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Choisissez deux options. Vous pouvez les d&eacute;penser &agrave; tout moment au cours de cette sc&egrave;ne.</p>",
+      "failure": "<p>Choisissez une option, mais vous devenez la proie. Le ou la MJ effectue une Action.</p>"
+    },
+    "Ice Cold": {
+      "name": "Sang Glacial",
+      "effect": "<p>Vous gardez votre calme et votre sang-froid, m&ecirc;me au milieu de la violence et du chaos. <em>En cas de conflit violent</em>, <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<ul>\n<li>&Eacute;viter une attaque.</li>\n<li>Parvenir &agrave; arracher quelque chose.</li>\n<li>Man&#339;uvrer pour obtenir une meilleure position.</li>\n<li>Mettre quelqu'un en mauvaise position (tout le monde obtient +2 pour toutes Actions d'attaque &agrave; son encontre).</li>\n</ul>",
+      "completesuccess": "<p>Obtenez 3 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Obtenez 2 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "failure": "<p>Obtenez 1 Atout, mais vous attirez l'attention sur vous. Le ou la MJ effectue une Action.</p>"
+    },
+    "Implanted Messages": {
+      "name": "Messages Implantés",
+      "effect": "<p><em>Chaque fois que vous faites une exp&eacute;rience sur un humain</em>, vous pouvez lui implanter un ordre. <strong>Lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous d&eacute;tenez 2 Emprises sur lui.</p>\n<p>Tant que vous conservez votre Emprise sur lui, il subit <strong>1 Blessure S&eacute;rieuse</strong> s'il refuse ou tente d'aller &agrave; l'encontre de votre ordre, mais cela rel&acirc;che aussi votre Emprise sur lui de 1. S'il ex&eacute;cute votre ordre, vous n'avez plus aucune Emprise sur lui.</p>",
+      "partialsuccess": "<p>Vous d&eacute;tenez 1 Emprise sur lui.</p>\np>Tant que vous conservez votre Emprise sur lui, il subit <strong>1 Blessure S&eacute;rieuse</strong> s'il refuse ou tente d'aller &agrave; l'encontre de votre ordre, mais cela rel&acirc;che aussi votre Emprise sur lui de 1. S'il ex&eacute;cute votre ordre, vous n'avez plus aucune Emprise sur lui.</p>",
+      "failure": "<p>Quelque chose se passe mal, par exemple une personne est bless&eacute;e ou le r&eacute;sultat de l'ordre est diff&eacute;rent de ce que vous aviez imagin&eacute;. Le ou la MJ effectue une Action.</p>"
+    },
+    "Impostor": {
+      "name": "Imposteur·euse",
+      "effect": "<p>Vous entretenez des relations avec de nombreuses personnes qui croient toutes que vous &ecirc;tes leur &acirc;me s&#339;ur, mais qui ne se connaissent pas. <em>Chaque fois que vous avez besoin d'argent, d'un refuge, d'une protection ou d'une autre aide, l'une de vos victimes peut vous aider.</em>, d&eacute;crivez qui elles sont et <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Elles peuvent vous fournir tout ce dont vous avez besoin.</p>",
+      "partialsuccess": "<p>L'une d'entre elles pourra peut-&ecirc;tre vous aider, mais il faudra la convaincre.</p>",
+      "failure": "<p>Vous connaissez quelqu'un qui pourrait vous aider, mais cette personne a d&eacute;j&agrave; vu clair dans votre jeu. Si vous souhaitez obtenir son aide, il faudra la menacer ou la faire chanter pour qu'elle vous la fournisse.</p>"
+    },
+    "Improviser": {
+      "name": "Improvisateur·rice",
+      "effect": "<p><em>Chaque fois que vous tentez de vous sortir d'une situation dangereuse en faisant preuve d'improvisation</em>, <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Trouvez un mensonge convaincant.</li>\n<li>Trouvez quelque chose que vous pouvez utiliser comme arme de fortune (<strong>2 D&eacute;gats</strong> couper/poignarder/&eacute;craser).</li>\n<li>Se cacher d'un poursuivant.</li>\n<li>Posez un pi&egrave;ge qui vous donne un avantage tactique (+2 &agrave; votre premi&egrave;re attaque).</li>\n</ul>",
+      "completesuccess": "<p>Choisissez deux options.</p>",
+      "partialsuccess": "<p>Choisissez une option.</p>",
+      "failure": "<p>Votre improvisation aggrave la situation. Le ou la MJ effectue une Action.</p>"
+    },
+    "Influential Friends": {
+      "name": "Ami·es influent·es",
+      "effect": "<p>Vous avez des amis et/ou amies puissants et influents. <em>Chaque fois que vous avez besoin d'acqu&eacute;rir un objet, d'acc&eacute;der &agrave; un lieu restreint ou de rencontrer une personne sp&eacute;cifique</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vos ami&middot;es peuvent s'occuper de ce que vous voulez.</p>",
+      "partialsuccess": "<p>Vos ami&middot;es peuvent s'en charger, mais vous devrez leur rendre la pareille plus tard.</p>",
+      "failure": "<p>Vos ami&middot;es s'arrangent pour que vous obteniez ce que vous voulez, mais vous vous retrouvez dans le collimateur d'une personne puissante ou vous souffrez d'une publicit&eacute; n&eacute;gative. Le ou la MJ effectue une Action.</p>"
+    },
+    "Inner Power": {
+      "name": "Pouvoir Intérieur",
+      "effect": "<p>Vous abritez en vous un pouvoir myst&eacute;rieux, que vous ne comprenez pas enti&egrave;rement. Ce pouvoir peut vous prot&eacute;ger, mais vous n'avez aucun contr&ocirc;le sur lui. <em>Chaque fois que vous lib&eacute;rez votre pouvoir int&eacute;rieur</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Le pouvoir attaque tous les ennemis &agrave; proximit&eacute;, causant <strong>2 D&eacute;gats</strong>.</p>",
+      "partialsuccess": "<p>Le pouvoir attaque votre opposant le plus proche, causant <strong>2 D&eacute;gats</strong>.</p>",
+      "failure": "<p>Le pouvoir attaque tous les &ecirc;tres vivants, y compris vous-m&ecirc;me, dans les environs, causant <strong>2 D&eacute;gats</strong>.</p>"
+    },
+    "Instinct": {
+      "name": "Instinct",
+      "effect": "<p>Lorsque vous <strong>Observez une Situation</strong> et que vous agissez en fonction des r&eacute;ponses du ou de la MJ, prenez <strong>+2</strong> au lieu de +1.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Interrogator": {
+      "name": "Interrogateur·rice",
+      "effect": "<p><em>Lorsque vous </strong>Lisez une Personne</strong> et que vous mentionnez un nom, une personne ou un objet, vous pouvez toujours demander: <em>Est-ce que tu mens?</em> Cela ne compte pas dans le nombre de questions que vous avez le droit de poser normalement.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Intimidating": {
+      "name": "Intimidant·e",
+      "effect": "<p>Il y a quelque chose en vous qui fait que les autres vous craignent instinctivement. <em>Chaque fois que vous essayez d'effrayer une autre personne</em>, <strong>lancez +Violence</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Elle succombe &agrave; la peur et se plie &agrave; vos exigences.</p>",
+      "partialsuccess": "<p>Elle vous fuit ou vous ob&eacute;it, au choix du ou de la MJ.</p>",
+      "failure": "<p>Elle vous consid&egrave;re comme la principale menace et agit en cons&eacute;quence. Le ou la MJ effectue une Action.</p>"
+    },
+    "Intuitive": {
+      "name": "Intuitif·ve",
+      "effect": "<p>Vous pouvez ressentir les motivations des gens en lisant inconsciemment leur langage corporel, leurs choix de mots et leur comportement. <em>Lorsque vous</em> <strong>Lisez une Personne</strong>, vous pouvez toujours poser une question suppl&eacute;mentaire, quel que soit le r&eacute;sultat de votre lancer.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Inventor": {
+      "name": "Inventeur·rice",
+      "effect": "<p><em>Chaque fois que vous &ecirc;tes sur le point de cr&eacute;er ou de r&eacute;parer quelque chose</em>, expliquez ce que vous &ecirc;tes sur le point de faire. Le ou la MJ vous dira ce dont vous avez besoin pour y parvenir, et une fois que vous avez collect&eacute; ces mat&eacute;riaux, vous pouvez <strong>lancez +Logique</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>La construction est r&eacute;ussie et vous pouvez choisir deux options parmi les suivantes.</p>\n<p><em>Options:</em></p>\n<ul>\n<li><em>R&eacute;sistante:</em> La construction peut &ecirc;tre utilis&eacute;e plusieurs fois et ne se casse pas facilement.</li>\n<li><em>Efficace:</em> La construction conf&egrave;re <em>+1 sur les lancers</em> lorsqu'elle est utilis&eacute;e dans le but pr&eacute;vu.</li>\n<li><em>L&eacute;tale:</em> La construction entra&icirc;ne <strong>+1 Dommage</strong>.</li>\n<li><em>Protectrice:</em> La construction conf&egrave;re <strong>+1 Armure</strong>.</strong>.</li>\n</ul>",
+      "partialsuccess": "<p>La construction pr&eacute;sente des d&eacute;fauts mineurs. Vous pouvez choisir une option parmi les suivantes.</p>\n<p><em>Options:</em></p>\n<ul>\n<li><em>R&eacute;sistante:</em> La construction peut &ecirc;tre utilis&eacute;e plusieurs fois et ne se casse pas facilement.</li>\n<li><em>Efficace:</em> La construction conf&egrave;re <em>+1 sur les lancers</em> lorsqu'elle est utilis&eacute;e dans le but pr&eacute;vu.</li>\n<li><em>L&eacute;tale:</em> La construction entra&icirc;ne <strong>+1 Dommage</strong>.</li>\n<li><em>Protectrice:</em> La construction conf&egrave;re <strong>+1 Armure</strong>.</strong>.</li>\n</ul>",
+      "failure": "<p>Vous terminez la construction ou la r&eacute;paration, mais elle pr&eacute;sente des d&eacute;fauts importants, dont certains sont cach&eacute;s. Le ou la MJ effectue une Action.</p>"
+    },
+    "Jaded": {
+      "name": "Blasé·e",
+      "effect": "<p>Chaque fois que vous obtenez un succ&egrave;s partiel (<strong>10-14</strong>) &agrave; <strong>Garder le Contr&ocirc;le</strong>, vous pouvez r&eacute;primer vos &eacute;motions et en reporter les effets jusqu'&agrave; la sc&egrave;ne suivante.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Keen-Eyed": {
+      "name": "Œil Vif",
+      "effect": "<p>Lorsque vous <strong>Observez une Situation</strong>, vous pouvez choisir parmi les questions suivantes, en plus de celles qui sont normalement pos&eacute;es:</p>\n<ul>\n<li>Quelles sont leurs faiblesses que je peux utiliser &agrave; mon avantage?</li>\n<li>Quels sont leurs points forts auxquels je dois faire attention?</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Lay on Hands": {
+      "name": "Imposition des Mains",
+      "effect": "<p>Vous &ecirc;tes capable de soigner les blessures des autres sans utiliser de m&eacute;dicaments ou de premiers soins, mais vous devez canaliser les blessures sur vous-m&ecirc;me ou sur une autre victime vivante. Pour transf&eacute;rer la <strong>blessure</strong>, vous devez &ecirc;tre en mesure de voir la victime, sans toutefois la toucher et elle n'est pas tenue de donner son consentement. La plaie transf&eacute;r&eacute;e est du m&ecirc;me type, de la m&ecirc;me gravit&eacute; et du m&ecirc;me &eacute;tat que la plaie d'origine. <em>Chaque fois que vous imposez les mains sur une personne gravement bless&eacute;e ou en &eacute;tat critique et que vous priez</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous soignez compl&egrave;tement la personne bless&eacute;e, en canalisant la <strong>Blessure</strong> sur vous-m&ecirc;me ou sur une cible choisie.</p>",
+      "partialsuccess": "<p>Vous stabilisez la personne bless&eacute;e, en canalisant la <strong>Blessure</strong> sur vous-m&ecirc;me ou sur une cible choisie.</p>",
+      "failure": "<p>Vous pouvez choisir de stabiliser la personne bless&eacute;e, mais si vous le faites, les pouvoirs se d&eacute;robent &agrave; votre contr&ocirc;le.</p>"
+    },
+    "Lightning Fast": {
+      "name": "Rapide comme l'Éclair",
+      "effect": "<p><em>Lorsque vous vous d&eacute;placez &agrave; une vitesse inattendue au cours d'un combat</em>, <strong>lancez +Violence</strong>.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<p><em>Esquive:</em> &Eacute;viter une attaque.</p>\n<p><em>Vitesse fulgurante:</em> <strong>Engager le Combat</strong> avec tous les adversaires &agrave; port&eacute;e de votre arme en une seule attaque. Si vous attaquez avec une arme &agrave; feu, vous utilisez toutes ses munitions.</p>\n<p><em>Pr&eacute;cision remarquable:</em> Touchez le point faible de votre adversaire et infligez une <strong>Blessure +1</strong> suppl&eacute;mentaire.</p>",
+      "completesuccess": "<p>Obtenez 3 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Obtenez 2 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "failure": "<p>Obtenez 1 Atout, mais vous vous retrouvez &eacute;galement au mauvais endroit ou vous faites face &agrave; une r&eacute;sistance inattendue. Le ou la MJ effectue une Action.</p>"
+    },
+    "Magical Intuition": {
+      "name": "Intuition Magique",
+      "effect": "<p>Vous avez une capacit&eacute; inn&eacute;e &agrave; percevoir les auras Kirlian et &agrave; sentir la pr&eacute;sence de la magie. <em>Chaque fois que vous utilisez votre intuition magique</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Apprendre quelque chose sur la vraie nature d'une cr&eacute;ature.</li>\n<li>Savoir si un objet est de nature magique.</li>\n<li>D&eacute;couvrir o&ugrave; l'Illusion est la plus faible vers d'autres dimensions.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; trois options. Deux d'entre elles peuvent &ecirc;tre conserv&eacute;es jusqu'&agrave; la fin de cette sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Choisissez jusqu'&agrave; deux options. L'une d'entre elles peut &ecirc;tre conserv&eacute;e jusqu'&agrave; la fin de cette sc&egrave;ne.</p>",
+      "failure": "<p>Choisissez une option, mais vous pouvez aussi avoir une vision inattendue ou attirer l'attention. Le ou la MJ effectue une Action.</p>"
+    },
+    "Magnetic Attraction": {
+      "name": "Attraction Magnétique",
+      "effect": "<p><em>Chaque fois que vous attirez l'attention de tout le monde</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Les gens oublient ce qu'ils font et ne peuvent rien faire d'autre que de vous regarder.</li>\n<li>Attirez quelqu'un vers vous.</li>\n<li>Demandez &agrave; quelqu'un de faire ce que vous voulez.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; trois options. Vous pouvez en conserver jusqu'&agrave; deux pour plus tard dans la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Choisissez une option.</p>",
+      "failure": "<p>Choisissez une option, mais une personne pr&eacute;sente devient obs&eacute;d&eacute;e, voulant vous avoir, vous garder et vous poss&eacute;der pour elle-m&ecirc;me. Le ou la MJ effectue une Action.</p>"
+    },
+    "Manhunter": {
+      "name": "Chasseur de Primes",
+      "effect": "<p><em>Lorsque vous cherchez &agrave; obtenir des informations sur quelqu'un</em>, <strong>roll +Reason</strong>.</p>",
+      "options": "<p><em>Questions:</em></p>\n<ul>\n<li>Quel est son parcours?</li>\n<li>Qu'est-ce qu'il aime le plus, ou qui aime-t-il le plus?</li>\n<li>De qui s'entoure-t-il, qui appr&eacute;cie-t-il et/ou en qui a-t-il confiance?</li>\n<li>O&ugrave; se trouve-t-il actuellement?</li>\n<li>Comment puis-je le retrouver le plus rapidement?</li>\n</ul>",
+      "completesuccess": "<p>Posez trois questions au ou &agrave; la MJ &agrave; partir de la liste ci-dessous.</p>",
+      "partialsuccess": "<p>Posez deux questions au ou &agrave; la MJ &agrave; partir de la liste ci-dessous.</p>",
+      "failure": "<p>Posez au ou &agrave; la MJ une question parmi la liste ci-dessous, mais quelqu'un d&eacute;couvre que vous avez fouin&eacute;.</p>"
+    },
+    "Manipulative": {
+      "name": "Manipulateur·rice",
+      "effect": "<p><em>Chaque fois que vous rendez service &agrave; quelqu'un ou que vous apprenez un de ses secrets</em>, vous pourrez par la suite choisir l'une des options ci-dessous, en rappelant vos services ant&eacute;rieurs ou en faisant allusion au secret que vous connaissez:</p>\n<ul>\n<li>Profiter de +2 pour les <strong>Influencer</strong>.</li>\n<li>Profitez de +2 pour les <strong>G&ecirc;ner</strong>.</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Martial Arts Expert": {
+      "name": "Expert·e en Arts Martiaux",
+      "effect": "<p><em>Chaque fois que vous vous battez dans des combats rapproch&eacute;s</em>, <strong>lancez +Violence</strong>.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<ul>\n<li><em>Blocage:</em> &Eacute;viter une attaque de m&ecirc;l&eacute;e.</li>\n<li><em>Frappe circulaire:</em> <strong>Engager le Combat</strong> contre plusieurs adversaires qui vous entourent, ce qui compte comme une seule attaque.</li>\n<li><em>D&eacute;sarmer:</em> Retirer l'arme d'un adversaire.</li>\n<li><em>Prise:</em> Repositionner un adversaire ou le faire tomber au sol.</li>\n</ul>",
+      "completesuccess": "<p>Obtenez 2 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Obtenez 1 Atout.</p>",
+      "failure": "<p>Obtenez 1 Atout, mais vous sous-estimez vos adversaires, qui peuvent &ecirc;tre plus nombreux ou plus habiles que vous ne le pensiez. Le ou la MJ effectue une Action.</p>"
+    },
+    "Moles": {
+      "name": "Taupes",
+      "effect": "<p>Vous avez plac&eacute; un certain nombre de taupes dans des groupes ou des organisations qui vous int&eacute;ressent, comme des concurrents commerciaux, des gouvernements ou des cultes. <em>Lorsque vous entrez en contact avec l'une de vos taupes pour obtenir des informations ou des services</em>, expliquez &agrave; quel groupe ou organisation la taupe appartient, les nommer, puis <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous recevez les deux options ci-dessous.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>La taupe a p&eacute;n&eacute;tr&eacute; le cercle int&eacute;rieur de l'organisation, mais son influence est limit&eacute;e.</li>\n<li>La taupe vous en doit une, mais vous devez r&eacute;pondre &agrave; ses exigences pour obtenir ce que vous voulez.</li>\n</ul>",
+      "partialsuccess": "<p>Choisissez l'une des options ci-dessous.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>La taupe a p&eacute;n&eacute;tr&eacute; le cercle int&eacute;rieur de l'organisation, mais son influence est limit&eacute;e.</li>\n<li>La taupe vous en doit une, mais vous devez r&eacute;pondre &agrave; ses exigences pour obtenir ce que vous voulez.</li>\n</ul>",
+      "failure": "<p>La loyaut&eacute; de la taupe est douteuse. Pouvez-vous lui faire confiance? Le ou la MJ effectue une Action.</p>"
+    },
+    "Network of Contacts": {
+      "name": "Réseau de Contacts",
+      "effect": "<p><em>Chaque fois que vous vous renseignez aupr&egrave;s de vos contacts au sujet d'une personne de votre choix</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "<p><em>Questions:</em></p>\n<ul>\n<li>Quelles sont les ressources dont elle dispose?</li>\n<li>Avec qui a-t-elle des relations d'affaires?</li>\n<li>O&ugrave; puis-je la trouver?</li>\n<li>Que veut-elle?</li>\n<li>Que craint-elle le plus de perdre?</li>\n</ul>",
+      "completesuccess": "<p>Vous pouvez poser trois questions &agrave; partir de la liste ci-dessous.</p>",
+      "partialsuccess": "<p>Vous pouvez poser deux questions &agrave; partir de la liste ci-dessous.</p>",
+      "failure": "<p>Vous pouvez poser une question parmi la liste ci-dessous, mais la personne sur laquelle vous vous renseignez d&eacute;couvre que vous fouinez. Le ou la MJ effectue une Action.</p>"
+    },
+    "Notorious": {
+      "name": "Notoriété",
+      "effect": "<p>Vous &ecirc;tes c&eacute;l&egrave;bre dans votre m&eacute;tier. <em>Chaque fois que vous rencontrez quelqu'un qui a probablement entendu parler de vous</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Il conna&icirc;t votre r&eacute;putation; vous pouvez d&eacute;cider de ce qu'il a entendu. Le ou la MJ les fera agir en cons&eacute;quence. Vous ajoutez <em>+2 &agrave; votre prochain lancer</em> d'<strong>Influencer Autrui</strong>.</p>",
+      "partialsuccess": "<p>Il conna&icirc;t votre r&eacute;putation; vous pouvez d&eacute;cider de ce qu'il a entendu.</p>",
+      "failure": "<p>Il conna&icirc;t votre r&eacute;putation; le ou la MJ d&eacute;cide de ce qu'il a entendu.</p>"
+    },
+    "Observant": {
+      "name": "Observateur·rice",
+      "effect": "<p><em>Lorsque vous</em> <strong>Lisez une Personne</strong>, vous pouvez choisir parmi ces questions en plus des questions habituelles:</p>\n<ul>\n<li>Quel genre de personne &ecirc;tes-vous?</li>\n<li>Y a-t-il quelque chose de bizarre chez vous?</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Occult Library": {
+      "name": "Bibliothèque Occulte",
+      "effect": "<p><em>Lorsque vous &ecirc;tes dans votre biblioth&egrave;que et que vous faites des recherches sur le surnaturel</em>, <strong>lancez +Logique</strong>.</p>",
+      "options": "<p><em>Questions:</em></p>\n<ul>\n<li>&Agrave; quel pouvoir sup&eacute;rieur est-elle reli&eacute;e?</li>\n<li>De quoi ai-je besoin, ou dois-je faire, pour exorciser ou contr&ocirc;ler cet &ecirc;tre?</li>\n<li>&Agrave; quelle dimension cela est-il associ&eacute;?</li>\n<li>Que dois-je faire pour me prot&eacute;ger de cela?</li>\n</ul>",
+      "completesuccess": "<p>Posez deux questions au &agrave; la MJ &agrave; partir de la liste ci-dessous.</p>",
+      "partialsuccess": "<p>Posez une question au &agrave; la MJ &agrave; partir de la liste ci-dessous.</p>",
+      "failure": "<p>Posez au ou &agrave; la MJ une question parmi la liste ci-dessous, mais vous avez manqu&eacute; ou n&eacute;glig&eacute; un &eacute;l&eacute;ment crucial. Le ou la MJ gagne 1 R&eacute;serve, qui peut &ecirc;tre d&eacute;pens&eacute;e &agrave; tout moment pour effectuer une Action s&eacute;v&egrave;re ou l&eacute;g&egrave;re.</p>"
+    },
+    "Occult Studies": {
+      "name": "Études Occultes",
+      "effect": "<p>Vous &ecirc;tes un&middot;e &eacute;tudiant&middot;e en sciences occultes. <em>Au premier contact avec une pratique, une entit&eacute; ou un ph&eacute;nom&egrave;ne magique</em>, <strong>lancez +Logique</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Je sais quelque chose &agrave; ce sujet (demandez au ou &agrave; la MJ ce que vous savez et b&eacute;n&eacute;ficiez de <em>+1 &agrave; vos lancers</em> en agissant en fonction des r&eacute;ponses pendant cette sc&egrave;ne).</li>\n<li>Je sais o&ugrave; je peux trouver plus d'informations &agrave; ce sujet (demandez au ou &agrave; la MJ o&ugrave;).</li>\n</ul>",
+      "completesuccess": "<p>Prenez les deux options ci-dessous.</p>",
+      "partialsuccess": "<p>Choisissez une option.</p>",
+      "failure": "<p>Vous vous souvenez vaguement de quelque chose comme &ccedil;a, mais vous ne pouvez pas dire avec certitude si c'est vrai ou non. Le ou la MJ explique ce dont vous vous souvenez.</p>"
+    },
+    "Officer": {
+      "name": "Commandant·e",
+      "effect": "<p><em>Chaque fois que vous &ecirc;tes en combat avec au moins un alli&eacute; &agrave; vos c&ocirc;t&eacute;s</em>, <strong>roll +Violence</strong>.</p>",
+      "completesuccess": "<p>Obtenez 3 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>\n<p><em>Atouts:</em></p>\n<ul>\n<li><em>Attaquez!:</em> Un&middot;e alli&eacute;&middot;e obtient <em>+2 &agrave; son prochain lancer</em> pour <strong>Engager le Combat</strong>.</li>\n<li><em>Coordonnez les tirs!:</em> Tous les alli&eacute;s obtiennent <em>+1 &agrave; leur prochain lancer</em> pour <strong>Engager le Combat</strong> avec des armes &agrave; feu.</li>\n<li><em>Visez la t&ecirc;te!:</em> <strong>Le Combat Engag&eacute;</strong> par vous ou l'un de vos alli&eacute;s inflige <strong>+1 D&eacute;gat</strong>.</li>\n<li><em>Mettez-vous &agrave; l'abri!:</em> Vous ou un alli&eacute; recevez <strong>2 Armures</strong> contre une attaque &agrave; distance.</li>\n</ul>",
+      "options": "",
+      "partialsuccess": "<p>Obtenez 2 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>\n<p><em>Atouts:</em></p>\n<ul>\n<li><em>Attaquez!:</em> Un&middot;e alli&eacute;&middot;e obtient <em>+2 &agrave; son prochain lancer</em> pour <strong>Engager le Combat</strong>.</li>\n<li><em>Coordonnez les tirs!:</em> Tous les alli&eacute;s obtiennent <em>+1 &agrave; leur prochain lancer</em> pour <strong>Engager le Combat</strong> avec des armes &agrave; feu.</li>\n<li><em>Visez la t&ecirc;te!:</em> <strong>Le Combat Engag&eacute;</strong> par vous ou l'un de vos alli&eacute;s inflige <strong>+1 D&eacute;gat</strong>.</li>\n<li><em>Mettez-vous &agrave; l'abri!:</em> Vous ou un alli&eacute; recevez <strong>2 Armures</strong> contre une attaque &agrave; distance.</li>\n</ul>",
+      "failure": "<p>Vous avez mal &eacute;valu&eacute; la situation. Choisissez si vous vous &ecirc;tes mis en danger ou si vous avez mis en danger l'un de vos alli&eacute;s. Le MJ effectue une Action pour l'adversaire.</p>"
+    },
+    "Opportunist": {
+      "name": "Opportuniste",
+      "effect": "<p><em>Chaque fois que vous sacrifiez quelqu'un d'autre pour atteindre vos propres objectifs</em>, gagnez en <strong>Stabilit&eacute; (+1)</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Parkour": {
+      "name": "Parkour",
+      "effect": "<p>Vous &ecirc;tes dou&eacute;&middot;e pour courir et sauter, m&ecirc;me sur des terrains difficiles. <em>Lorsque vous effectuez des man&#339;uvres acrobatiques</em>, <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Franchir un obstacle apparemment impossible.</li>\n<li>Faire un saut qui semble menacer la vie sans subir de pr&eacute;judice.</li>\n<li>R&eacute;ussir &agrave; &eacute;viter une menace.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez deux options. Vous pouvez en garder une pour plus tard.</p>",
+      "partialsuccess": "<p>Choisissez une option.</p>",
+      "failure": "<p>Choisissez une option, mais une complication, un co&ucirc;t ou une nouvelle menace appara&icirc;t. Le ou la MJ effectue une Action.</p>"
+    },
+    "Perpetual Victim": {
+      "name": "Victime Perpétuelle",
+      "effect": "<p><em>Chaque fois que vous semblez sans d&eacute;fense lors d'une exp&eacute;rience douloureuse</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Choisissez trois options. Vous pouvez conserver jusqu'&agrave; deux options pour les utiliser ult&eacute;rieurement au cours de la sc&egrave;ne.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Faire en sorte que quelqu'un ait envie de prendre soin de vous.</li>\n<li>Faire en sorte qu'une personne agressive ne veuille plus vous faire de mal.</li>\n<li>Faire en sorte que quelqu'un se confie &agrave; vous.</li>\n</ul>",
+      "partialsuccess": "<p>Choisissez une option.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Faire en sorte que quelqu'un ait envie de prendre soin de vous.</li>\n<li>Faire en sorte qu'une personne agressive ne veuille plus vous faire de mal.</li>\n<li>Faire en sorte que quelqu'un se confie &agrave; vous.</li>\n</ul>",
+      "failure": "<p>Quelqu'un essaie de prendre l'avantage sur vous. Le ou la MJ effectue une Action.</p>"
+    },
+    "Prepared": {
+      "name": "Préparé·e",
+      "effect": "<p><em>Chaque fois que vous vous renseignez sur un lieu avant de le visiter</em>, <strong>lancez +Logique</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Trouver ou cr&eacute;er une carte de l'endroit.</li>\n<li>D&eacute;couvrir les &eacute;ventuels syst&egrave;mes de s&eacute;curit&eacute; et autres obstacles.</li>\n<li>D&eacute;terminez l'emplacement de l'objet que vous recherchez.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez trois options.</p>",
+      "partialsuccess": "<p>Choisissez deux options.</p>",
+      "failure": "<p>Choisissez une option, mais vous avez manqu&eacute; ou n&eacute;glig&eacute; quelque chose de crucial. Le MJ gagne 1 R&eacute;serve, qui peut &ecirc;tre d&eacute;pens&eacute;e &agrave; tout moment pour effectuer une Action s&eacute;v&egrave;re ou l&eacute;g&egrave;re en ce lieu.</p>"
+    },
+    "Puppeteer": {
+      "name": "Marionnettiste",
+      "effect": "<p><em>Chaque fois que vous ex&eacute;cutez un plan en utilisant d'autres personnes comme pions</em>, <strong>lancez +Logique</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Toutes les personnes impliqu&eacute;es gagnent <em>+1 &agrave; leurs lancers</em> pour ex&eacute;cuter le plan, et vous obtenez un point d'<strong>Exp&eacute;rience</strong> si le plan est couronn&eacute; de succ&egrave;s.</p>",
+      "partialsuccess": "<p>Vous obtenez un point d'<strong>Exp&eacute;rience</strong> si le plan est couronn&eacute; de succ&egrave;s, mais que vous avez n&eacute;glig&eacute; ou mal calcul&eacute; quelque chose.</p>",
+      "failure": "<p>Votre plan est inad&eacute;quat, r&eacute;v&eacute;l&eacute; et/ou malavis&eacute;. Le ou la MJ effectue une Action.</p>"
+    },
+    "Quick Thinker": {
+      "name": "Réflexion Rapide",
+      "effect": "<p><em>Chaque fois que vous commencez une mission dangereuse</em>, <strong>lancez +Logique</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Se souvenir de quelque chose qui est avantageux lors d'une n&eacute;gociation. Demandez au &agrave; la MJ ce que c'est.</li>\n<li>Vous poss&eacute;dez un &eacute;quipement que vous pouvez utiliser pour vous sortir d'une situation d&eacute;licate. Demandez au &agrave; la MJ ce que c'est.</li>\n<li>Vous avez une formation sp&eacute;ciale sur le terrain qui pourrait vous &ecirc;tre utile pour franchir l'un de vos obstacles. Demandez au &agrave; la MJ de quoi il s'agit.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; trois options, &agrave; tout moment de la mission.</p>",
+      "partialsuccess": "<p>Choisissez jusqu'&agrave; deux options, &agrave; n'importe quel moment de la mission.</p>",
+      "failure": "<p>&Agrave; tout moment de la mission, choisissez une option, mais vous n'avez pas tenu compte de quelque chose. Le ou la MJ effectue une Action.</p>"
+    },
+    "Rage": {
+      "name": "Fureur",
+      "effect": "<p>Au combat, vous pouvez r&eacute;veiller votre rage int&eacute;rieure. Perdez en <strong>Stabilit&eacute; (-1)</strong> et marquez 1 Fureur. Chaque fois que vous recevez une blessure ou chaque fois que vous battez un ennemi, augmentez votre Fureur (<strong>+1</strong>). La Fureur dure jusqu'&agrave; la fin du combat.</p>\n<hr>\n<p>Pendant le combat, vous pouvez d&eacute;penser 1 Fureur pour choisir 1 Atout:</p>\n<ul>\n<li><em>Agression brutale:</em> Infliger <strong>+1 Dommage</strong> lors de votre attaque.</li>\n<li><em>Ignorer la douleur:</em> Ajouter <strong>+2</strong> &agrave; <strong>Subir des Blessures</strong>.</li>\n<li><em>Perdu&middot;e dans la fr&eacute;n&eacute;sie:</em> Se d&eacute;faire et ignorer des influences psychologiques ou surnaturelles.</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Read a Crowd": {
+      "name": "Lire la Foule",
+      "effect": "<p><em>Lorsque vous vous d&eacute;placez dans une petite foule pour recueillir des informations</em>, <strong>lancez +Perception</strong>. Une f&ecirc;te, un bar/restaurant ou un bureau sont des exemples d'une \"petite foule\". Vous d&eacute;cidez des informations sp&eacute;cifiques que vous recherchez, pour autant qu'il soit logique que la foule poss&egrave;de ces informations.</p>",
+      "options": "<p><em>Questions:</em></p>\n<ul>\n<li>Qui poss&egrave;de les informations que je recherche?</li>\n<li>O&ugrave; puis-je trouver ce que je cherche?</li>\n<li>Qui me surveille?</li>\n<li>Y a-t-il autre chose d'int&eacute;ressant?</li>\n</ul>",
+      "completesuccess": "<p>Posez trois questions.</p>",
+      "partialsuccess": "<p>Posez deux questions, mais vous attirez aussi l'attention sur vous.</p>",
+      "failure": "<p>Posez une question, mais vous risquez de perdre votre couverture. Ceux qui ont ce que vous cherchez vous attendent. Le ou la MJ effectue une Action.</p>"
+    },
+    "Ruthless": {
+      "name": "Impitoyable",
+      "effect": "<p><em>Chaque fois que vous sacrifiez quelqu'un pour sauver votre peau</em>, <strong>lancez +Violence</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Obtenez 3 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>\n<p><em>Atouts:</em></p>\n<ul>\n<li><em>Bouclier humain:</em> Obliger le &agrave; prendre toutes les <strong>D&amp;eacute;gats</strong> d'une attaque &agrave; votre place.</li>\n<li><em>App&acirc;t:</em> exposer quelqu'un au danger pour pouvoir contourner un ennemi (infliger <strong>+1 D&amp;eacute;gat</strong>).</li>\n<li><em>Sacrifice:</em> Laissez-le &agrave; l'ennemi pendant que vous vous &eacute;clipsez.</li>\n</ul>",
+      "partialsuccess": "<p>Obtenez 2 Atouts.</p>\n<p><em>Atouts:</em></p>\n<ul>\n<li><em>Bouclier humain:</em> Obliger le &agrave; prendre toutes les <strong>D&amp;eacute;gats</strong> d'une attaque &agrave; votre place.</li>\n<li><em>App&acirc;t:</em> exposer quelqu'un au danger pour pouvoir contourner un ennemi (infliger <strong>+1 D&amp;eacute;gat</strong>).</li>\n<li><em>Sacrifice:</em> Laissez-le &agrave; l'ennemi pendant que vous vous &eacute;clipsez.</li>\n</ul>",
+      "failure": "<p>Les choses tournent mal pour vous. Le ou la MJ effectue une Action.</p>"
+    },
+    "Scientist": {
+      "name": "Scientifique",
+      "effect": "<p><em>Chaque fois que vous</em> <strong>Enqu&ecirc;tez</strong> <em>sur un objet ou une entit&eacute; en utilisant l'&eacute;quipement appropri&eacute;</em>, vous pouvez choisir parmi les questions suivantes, en plus de celles acquises par l'enqu&ecirc;te:</p>\n<p><em>Questions:</em></p>\n<ul>\n<li>Quelles sont ses propri&eacute;t&eacute;s? (prenez <em>+1 &agrave; tous les lancers</em> contre des entit&eacute;s ou des objets d'un type similaire la prochaine fois que vous le rencontrerez).</li>\n<li>Comment puis-je l'utiliser? (<em>+1 &agrave; tous les lancers</em> li&eacute;s &agrave; l'utilisation de l'objet).</li>\n<li>Quel est son but?</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Sealed Fate *": {
+      "name": "Destin Scellé *",
+      "effect": "<p><span style=\"text-decoration: underline;\"><strong>L'avantage n'est disponible que si le d&eacute;savantage Condamn&eacute;&middot;e est choisi.</strong></span></p>\n<p><em>Lorsque vous recevez une</em> <strong>Blessure Critique</strong>, vous pouvez marquer 1 Temps &agrave; Condamn&eacute;&middot;e pour stabiliser imm&eacute;diatement la blessure.</p>\n<p><em>Chaque fois que vous mourez</em>, marquez 2 Temps &agrave; Condamn&eacute;&middot;e et r&eacute;veillez-vous, bless&eacute;&middot;e et affaibli&middot;e, mais vivant&middot;e. Toutes vos <strong>Blessures</strong> seront stabilis&eacute;es.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Seducer": {
+      "name": "Séducteur·rice",
+      "effect": "<p>Vous pouvez consciemment faire en sorte que les gens tombent amoureux ou amoureuse de vous. <em>Chaque fois que vous avez un moment d'intimit&eacute; avec quelqu'un</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Vous donner quelque chose que vous voulez.</li>\n<li>R&eacute;v&eacute;ler un secret.</li>\n<li>Se battre pour vous prot&eacute;ger. Les PNJ qui tombent amoureux de vous ne peuvent pas s'opposer &agrave; vous, tant que vous n'avez pas &eacute;puis&eacute; toutes vos options.</li>\n</ul>\n<hr>\n<p>Contre les PJ, vous ne pouvez choisir que les options suivantes:</p>\n<ul>\n<li>Vous faites en sorte qu'il se sent mal de s'opposer &agrave; vous (il doit <strong>Garder le Contr&ocirc;le</strong>)</li>\n<li>Il se sent heureux en votre pr&eacute;sence et gagnent en <strong>Stabilit&eacute; (+2)</strong>.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; trois options, utilisables &agrave; tout moment de l'histoire.</p>",
+      "partialsuccess": "<p>Choisissez jusqu'&agrave; deux options, utilisables &agrave; tout moment de l'histoire.</p>",
+      "failure": "<p>Choisissez une option, utilisable &agrave; tout moment de l'histoire, mais vous d&eacute;veloppez &eacute;galement des sentiments pour cette personne. Augmentez votre <strong>Relation </strong>avec elle de +1.</p>"
+    },
+    "Shadow": {
+      "name": "Dans l'Ombre",
+      "effect": "<p><em>Lorsque vous suivez quelqu'un</em>, <strong>lancez +Perception</strong>:</p>\n<hr>\n<p>En opposition, <em>lorsque vous voulez perdre quelqu'un qui vous suit dans l'ombre</em>.</em>, <strong>lancez +Perception</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous &eacute;vitez d'&ecirc;tre d&eacute;couvert&middot;e, vous suivez votre cible jusqu'&agrave; sa destination finale et vous apprenez quelque chose sur elle que vous pourrez utiliser &agrave; votre avantage plus tard.</p>\n<hr>\n<p>Vous semez vos poursuivants ou vous pouvez choisir d'essayer de les suivre &agrave; la place.</p>",
+      "partialsuccess": "<p>Vous &eacute;vitez d'&ecirc;tre d&eacute;couvert&middot;e et suivez votre cible jusqu'&agrave; sa destination finale.</p>\n<hr>\n<p>Vous semez vos poursuivants.</p>",
+      "failure": "<p>Vous &ecirc;tes rep&eacute;r&eacute;&middot;e ou vous rencontrez un probl&egrave;me en cours de route. Le ou la MJ effectue une Action.</p>\n<hr>\n<p>Vos poursuivants sont toujours &agrave; vos trousses, et ils peuvent vous tendre une embuscade, dispara&icirc;tre sans laisser de traces (pour r&eacute;appara&icirc;tre au moment o&ugrave; vous vous y attendez le moins) ou refuser de s'en aller. Le ou la MJ effectue une Action.</p>"
+    },
+    "Sixth Sense": {
+      "name": "Sixième Sens",
+      "effect": "<p>Vous avez l'intuition des choses, qu'elles soient bonnes ou mauvaises. <em>Au d&eacute;but de chaque session de jeu</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; trois options, utilisables &agrave; tout moment de la session.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Agir en premier dans une situation de menace. Cela peut aller jusqu'&agrave; agir avant une attaque surprise.</li>\n<li>Sentir si quelqu'un vous veut du bien ou du mal.</li>\n<li>D&eacute;couvrir ou pressentir un indice ou une piste lorsque l'on s'&eacute;carte du chemin.</li>\n</ul>",
+      "partialsuccess": "<p>Choisissez jusqu'&agrave; deux options, utilisables &agrave; tout moment de la session.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Agir en premier dans une situation de menace. Cela peut aller jusqu'&agrave; agir avant une attaque surprise.</li>\n<li>Sentir si quelqu'un vous veut du bien ou du mal.</li>\n<li>D&eacute;couvrir ou pressentir un indice ou une piste lorsque l'on s'&eacute;carte du chemin.</li>\n</ul>",
+      "failure": "<p>Votre instinct ne se d&eacute;clenchera pas dans une situation dangereuse. Le ou la MJ effectuera une Action &agrave; un moment quelconque de la session.</p>"
+    },
+    "Snake Charmer": {
+      "name": "Charmeur·euse de Serpents",
+      "effect": "<p><em>Chaque fois que vous ex&eacute;cutez votre art pour une cr&eacute;ature intelligente et monstrueuse</em>, <strong>lancez +&Acirc;me</strong> pour &eacute;veiller un d&eacute;sir en elle.</p>",
+      "options": "",
+      "completesuccess": "<p>Choisissez une option imm&eacute;diatement et vous pouvez en choisir jusqu'&agrave; deux autres &agrave; tout moment dans le futur.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Demandez &agrave; la cr&eacute;ature de vous aider &agrave; r&eacute;soudre un probl&egrave;me.</li>\n<li>Demandez &agrave; la cr&eacute;ature ce que vous d&eacute;sirez.</li>\n</ul>",
+      "partialsuccess": "<p>Choisissez une option.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Demandez &agrave; la cr&eacute;ature de vous aider &agrave; r&eacute;soudre un probl&egrave;me.</li>\n<li>Demandez &agrave; la cr&eacute;ature ce que vous d&eacute;sirez.</li>\n</ul>",
+      "failure": "<p>Le d&eacute;sir d&eacute;passe la capacit&eacute; de contr&ocirc;le de la cr&eacute;ature. Elle ne peut s'emp&ecirc;cher de tenter de vous d&eacute;vorer ou de vous capturer.</p>"
+    },
+    "Sneak": {
+      "name": "Discret·ète",
+      "effect": "<p><em>Chaque fois que vous restez cach&eacute; et que vous essayez d'&eacute;viter d'attirer l'attention sur vous</em>, <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Trouvez une cachette s&ucirc;re pendant un certain temps.</li>\n<li>Trouver un autre itin&eacute;raire pour &eacute;viter de rencontrer des gens.</li>\n<li>Contourner un syst&egrave;me de s&eacute;curit&eacute; ou un autre obstacle sans se faire remarquer.</li>\n</ul>",
+      "completesuccess": "<p>Obtenez 2 options. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Obtenez 1 option. Vous pouvez le d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "failure": "<p>Vous obtenez 1 option, mais vous attirez l'attention de quelqu'un. Le ou la MJ effectue une Action.</p>"
+    },
+    "Sniper": {
+      "name": "Sniper",
+      "effect": "<p><em>Lorsque vous tirez sur une cible &eacute;loign&eacute;e &agrave; l'aide d'un fusil &agrave; lunette</em>, <strong>lancez +Violence</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Le tir trouve sa cible. Choisissez deux options.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Infliger +1 D&eacute;g&acirc;t.</li>\n<li>Toucher une cible suppl&eacute;mentaire .</li>\n<li>Immobiliser votre cible.</li>\n<li>Amener la cible &agrave; perdre le contr&ocirc;le de quelque chose.</li>\n<li>Ne pas d&eacute;voiler votre position.</li>\n</ul>",
+      "partialsuccess": "<p>Le tir trouve sa cible. Choisissez une option.</p>\n<p><em>Options:</em></p>\n<ul>\n<li>Infliger +1 D&eacute;g&acirc;t.</li>\n<li>Toucher une cible suppl&eacute;mentaire .</li>\n<li>Immobiliser votre cible.</li>\n<li>Amener la cible &agrave; perdre le contr&ocirc;le de quelque chose.</li>\n<li>Ne pas d&eacute;voiler votre position.</li>\n</ul>",
+      "failure": "<p>Le tir n'est pas all&eacute; l&agrave; o&ugrave; vous l'aviez pr&eacute;vu, ou vous r&eacute;v&eacute;lez votre position &agrave; l'ennemi; attendez-vous &agrave; des t&eacute;moins, &agrave; des adversaires qui vous poursuivent alors que vous quittez les lieux, ou &agrave; d'autres probl&egrave;mes. Le ou la MJ effectue une Action.</p>"
+    },
+    "Street Contacts": {
+      "name": "Contacts de la Rue",
+      "effect": "<p>Vous avez des contacts avec les sans-abri, les fous et autres marginaux de la soci&eacute;t&eacute;. <em>Chaque fois que vous avez besoin de savoir quelque chose et de v&eacute;rifier aupr&egrave;s de vos contacts</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "<p>Questions:</p>\n<ul>\n<li>Que savez-vous du [b&acirc;timent/personne/organisation/&eacute;v&eacute;nement]?</li>\n<li>Quelles sont les rumeurs qui circulent actuellement dans la rue?</li>\n<li>Comment puis-je me rendre &agrave; [lieu]?</li>\n<li>Qui, dans cette ville, en sait plus sur cette chose surnaturelle?</li>\n</ul>",
+      "completesuccess": "<p>Posez jusqu'&agrave; trois questions.</p>",
+      "partialsuccess": "<p>Posez une question.</p>",
+      "failure": "<p>Poser une question, mais quelqu'un devient suspicieux ou agressif. Le ou la MJ effectue une Action.</p>"
+    },
+    "Streetfighter": {
+      "name": "Combattant·e de rue",
+      "effect": "<p><em>Chaque fois que vous combattez au corps &agrave; corps</em>, <strong>lancez +Violence</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Obtenez 3 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>\n<p><em>Atouts:</em></p>\n<ul>\n<li><em>Esquive:</em> &Eacute;viter une attaque.</li>\n<li><em>Rafale de coups:</em> Obtener +2 &agrave; votre jet d'attaque contre un adversaire.</li>\n<li><em>Sale frappe:</em> Assommer momentan&eacute;ment un adversaire en le frappant douloureusement, par exemple &agrave; l'&#339;il, &agrave; l'entrejambe ou &agrave; l'oreille...</li>\n</ul>",
+      "partialsuccess": "<p>Obtenez 2 Atouts, mais le ou la MJ choisit &eacute;galement une complication:</p>\n<ul>\n<li>Vous risquez de perdre le contr&ocirc;le pendant le combat (<strong>Garder le Contr&ocirc;le</strong> pour l'&eacute;viter).</li>\n<li>Vous gagnez un ennemi, qui essaiera de se venger de vous plus tard.</li>\n</ul>\n<p><em>Atouts:</em></p>\n<ul>\n<li><em>Esquive:</em> &Eacute;viter une attaque.</li>\n<li><em>Rafale de coups:</em> Obtener +2 &agrave; votre jet d'attaque contre un adversaire.</li>\n<li><em>Sale frappe:</em> Assommer momentan&eacute;ment un adversaire en le frappant douloureusement, par exemple &agrave; l'&#339;il, &agrave; l'entrejambe ou &agrave; l'oreille...</li>\n</ul>",
+      "failure": "<p>Tu n'es pas concentr&eacute;&middot;e et tu perds le contr&ocirc;le. Le ou la MJ effectue une Action.</p>"
+    },
+    "Streetwise": {
+      "name": "Habitué·e du Milieu",
+      "effect": "<p><em>Lorsque vous souhaitez acqu&eacute;rir des articles ou des services aupr&egrave;s du monde criminel</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Pas de probl&egrave;me; vous obtenez ce que vous cherchez. Quelqu'un vous arrangera &ccedil;a.</p>",
+      "partialsuccess": "<p>Le ou la MJ choisit une option:</p>\n<ul>\n<li>Il vous en co&ucirc;tera quelque chose de plus, comme des services en nature, des t&acirc;ches ou un prix sur&eacute;valu&eacute;.</li>\n<li>Vous pouvez vous en occuper, mais seulement en traitant avec quelqu'un &agrave; qui vous &ecirc;tes d&eacute;j&agrave; redevable.</li>\n<li>\"Merde, j'en avais un, mais je l'ai laiss&eacute; &agrave; [ins&eacute;rer le nom] - peut-&ecirc;tre pourriez-vous le lui acheter?\"</li>\n<li>\"D&eacute;sol&eacute;, c'est un peu en dehors de mon domaine, mais peut-&ecirc;tre que ceci fonctionnera &agrave; la place?\"</li>\n</ul>",
+      "failure": "<p>Vous pensez avoir trouv&eacute; ce que vous cherchez, mais il y aura des exigences co&ucirc;teuses, des d&eacute;fauts consid&eacute;rables ou des complications majeures. Le ou la MJ effectue une Action.</p>"
+    },
+    "Stubborn": {
+      "name": "Tenace",
+      "effect": "<p><em>Chaque fois que vous repoussez vos limites pour surmonter une menace</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Atouts:</em></p>\n<ul>\n<li><em>Refuser d'abandonner:</em> Repousser les effets d'une <strong>Blessure Critique</strong> jusqu'&agrave; ce que vous ayez r&eacute;ussi &agrave; vous mettre hors de port&eacute;e de la menace.</li>\n<li><em>Volont&eacute; plut&ocirc;t que comp&eacute;tence:</em> <strong>Lancez +Volont&eacute;</strong> au lieu de l'attribut normal lorsque vous &eacute;vitez ou combattez ce qui vous menace.</li>\n<li><em>&Ecirc;tre d'acier:</em> Se lib&eacute;rer d'un effet surnaturel.</li>\n</ul>",
+      "completesuccess": "<p>Obtenez 3 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Obtenez 2 Atouts. Vous pouvez les d&eacute;penser &agrave; n'importe quel moment de la sc&egrave;ne.</p>",
+      "failure": "<p>Obtenez 1 Atout, mais vous d&eacute;passez votre point critique. Perdez en <strong>Stabilit&eacute; (-2)</strong>.</p>"
+    },
+    "Survival Instinct": {
+      "name": "Instinct de Survie",
+      "effect": "<p><em>Lorsque vous souffrez d'une blessure s&eacute;rieuse ou critique et que vous refusez de capituler</em>, <strong>lancez +Violence</strong>. En cas de r&eacute;ussite, vous pouvez ignorer temporairement les effets des blessures, mais vous aurez besoin d'un traitement pour les stabiliser d&egrave;s que le d&eacute;lai sera &eacute;coul&eacute;.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous ignorez vos blessures jusqu'&agrave; la fin du conflit et vous choisissez une option:</p>\n<ul>\n<li><em>M&eacute;chancet&eacute;:</em> <em>+1 aux lancers</em> d'<strong>Engager le Combat</strong> jusqu'&agrave; la fin du combat.</li>\n<li><em>Pouss&eacute;e d'adr&eacute;naline:</em> <em>+1 aux lancers<em> de <strong>Subir des Blessures</strong> pour le reste du combat.</li>\n</ul>",
+      "partialsuccess": "<p>Vous ignorez vos blessures jusqu'&agrave; la fin du conflit.</p>",
+      "failure": "<p>Vous vous surmenez et apr&egrave;s quelques instants, vos blessures vous font perdre connaissance et vous vous effondrez. Apr&egrave;s votre prochaine action, le ou la MJ d&eacute;cide quand et comment vous vous &eacute;vanouissez.</p>"
+    },
+    "Survivalist": {
+      "name": "Survivaliste",
+      "effect": "<p><em>Chaque fois que vous utilisez vos comp&eacute;tences en mati&egrave;re de survie</em>, <strong>lancez +Perception</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Trouvez de l'eau et quelque chose de comestible.</li>\n<li>Franchir un obstacle environnemental.</li>\n<li>Trouvez un endroit s&ucirc;r pour vous cacher et vous reposer.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; trois options, utilisables tant que vous restez dans cette situation.</p>",
+      "partialsuccess": "<p>Choisissez jusqu'&agrave; deux options, utilisables tant que vous restez dans cette situation.</p>",
+      "failure": "<p>Choisissez une option utilisable tant que vous restez dans cette situation, mais vous avez aussi oubli&eacute; quelque chose d'important. Le ou la MJ effectue une Action.</p>"
+    },
+    "Thirst for Knowledge": {
+      "name": "Soif de Connaissances",
+      "effect": "<p><em>Chaque fois que vous apprenez de nouvelles informations sur des plans d'existence alternatifs, sur une entit&eacute; surnaturelle ou sur une puissance sup&eacute;rieure</em>, gagnez en <strong>Stabilit&eacute; (+1)</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "To the Last Breath *": {
+      "name": "Jusqu'au Dernier Souffle *",
+      "effect": "<p><span style=\"text-decoration: underline;\"><strong>L'avantage n'est disponible que si le d&amp;eacute;savantage Condamn&amp;eacute;&amp;middot;e est choisi.</strong></span></p>\n<p><em>Lorsque vous refusez de c&eacute;der m&ecirc;me si les choses tournent en votre d&eacute;faveur</em>, marquez 1 Temps pour relancer les d&eacute;s.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Tracer": {
+      "name": "Traqueur·euse",
+      "effect": "<p><em>Chaque fois que vous utilisez vos r&eacute;seaux de renseignements pour retrouver quelqu'un ou quelque chose</em>, <strong>lancez +Logique</strong>.</p>",
+      "options": "<p><em>Questions:</em></p>\n<ul>\n<li>O&ugrave; l'a-t-on vu pour la derni&egrave;re fois?</li>\n<li>Quelles sont les personnes qui se sont associ&eacute;es &agrave; ce que je recherche ces derniers temps?</li>\n<li>Quelles sont les traces et les marques qu'il a laiss&eacute;es derri&egrave;re lui?</li>\n<li>Qui d'autre essaie de trouver ce que je cherche?</li>\n</ul>",
+      "completesuccess": "<p>Posez jusqu'&agrave; trois des questions ci-dessous.</p>",
+      "partialsuccess": "<p>Posez jusqu'&agrave; deux des questions ci-dessous.</p>",
+      "failure": "<p>Vous posez l'une des questions, mais quelqu'un s'aper&ccedil;oit que vous fouinez. Il peut s'agir d'une personne que vous pr&eacute;f&eacute;reriez ne pas conna&icirc;tre ou d'un tra&icirc;tre au sein de votre r&eacute;seau.</p>"
+    },
+    "Vigilant": {
+      "name": "Attentif·ve",
+      "effect": "<p><em>Lorsque vous</em> <strong>Lisez une Personne</strong>, vous pouvez choisir parmi ces questions en plus des questions habituelles:</p>\n<ul>\n<li>Me caches-tu quelque chose?</li>\n<li>Que ressens-tu vraiment pour moi?</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Voice of Insanity": {
+      "name": "Voix de la Folie",
+      "effect": "<p><em>Chaque fois que vous manipulez une foule</em>, <strong>lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Attirer d'autres personnes pour qu'elles se joignent &agrave; la foule.</li>\n<li>Demander aux membres de la foule de vous remettre tous leurs objets de valeur.</li>\n<li>Unifier la foule pour qu'elle se batte pour vous.</li>\n<li>Inciter la foule &agrave; une orgie d'&eacute;motions d&eacute;brid&eacute;es: d&eacute;sir sexuel, col&egrave;re, chagrin, violence, g&eacute;n&eacute;rosit&eacute; ou c&eacute;l&eacute;bration, selon les concepts que vous leur inculquez.</li>\n<li>Faire en sorte que la foule se disperse et retourne calmement &agrave; sa vie normale.</li>\n</ul>",
+      "completesuccess": "<p>Choisissez jusqu'&agrave; trois options, utilisables &agrave; tout moment au cours de cette sc&egrave;ne.</p>",
+      "partialsuccess": "<p>Choisissez jusqu'&agrave; deux options, utilisables &agrave; tout moment au cours de cette sc&egrave;ne.</p>",
+      "failure": "<p>Choisissez une option, utilisable &agrave; tout moment au cours de cette sc&egrave;ne. Cependant, la foule devient incontr&ocirc;lable et volatile et ne peut &ecirc;tre dispers&eacute;e. Le ou la MJ effectue une Action.</p>"
+    },
+    "Voice of Pain": {
+      "name": "La voix de la Douleur",
+      "effect": "<p><em>La premi&egrave;re fois que vous &ecirc;tes s&eacute;rieusement ou gravement bless&eacute;&middot;e par l'attaque d'un adversaire</em>, vous pouvez tirer profit de votre douleur. <strong>Lancez +&Acirc;me</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Vous savez comment franchir les d&eacute;fenses de votre adversaire (+1 &agrave; <strong>Engager le Combat</strong> contre lui).</li>\n<li>Vous trouvez le point faible de votre adversaire (vous lui infligez <strong>+1 D&eacute;g&acirc;t</strong> &agrave; chaque fois que vous <strong>Engagez le Combat</strong> contre lui).</li>\n<li>Vous percevez le sch&eacute;ma d'attaque de votre adversaire (prenez +1 &agrave; <strong>&Eacute;viter les D&eacute;g&acirc;ts</strong> chaque fois qu'il vous attaque).</li>\n</ul>\n<p>Ces effets sont permanents contre cet adversaire.</p>",
+      "completesuccess": "<p>Choisissez deux options.</p>",
+      "partialsuccess": "<p>Choisissez une option.</p>",
+      "failure": "<p>Choisissez une option, mais la douleur finira par vous submerger et vous faire perdre connaissance.</p>"
+    },
+    "Wanderer": {
+      "name": "Vagabond·e",
+      "effect": "<p><em>Lorsque vous vous rendez dans une communaut&eacute; ou dans un autre quartier de la ville</em>, <strong>lancez +Perception</strong>.</p>",
+      "options": "<p><em>Options:</em></p>\n<ul>\n<li>Posez au ou &agrave; la MJ une question sur ce lieu.</li>\n<li>Vous avez un contact &agrave; cet endroit qui pourrait vous aider, avec un peu de conviction.</li>\n<li>Vous avez une cachette ici, o&ugrave; vous pouvez vous reposer.</li>\n<li>Vous savez quelque chose sur cet endroit. Dites aux autres ce qu'il en est.</li>\n</ul>",
+      "completesuccess": "<p>Vous &ecirc;tes d&eacute;j&agrave; venu&middot;e ici. Choisissez deux options &agrave; tout moment de votre visite.</p>",
+      "partialsuccess": "<p>Vous avez entendu parler de cet endroit. Choisissez une option &agrave; n'importe quel moment de votre visite.</p>",
+      "failure": "<p>Vous &ecirc;tes d&eacute;j&agrave; venu&middot;e ici, mais il s'est pass&eacute; quelque chose de grave. Choisissez une option &agrave; n'importe quel moment de votre visite. Le ou la MJ vous explique quel type de probl&egrave;me vous attend ici et effectue une Action.</p>"
+    },
+    "Watchers": {
+      "name": "Gardien·nes",
+      "effect": "<p>Vous &ecirc;tes surveill&eacute;&middot;e et prot&eacute;g&eacute;&middot;e par un groupe de personnes myst&eacute;rieuses qui ont l'intention de vous garder en vie &agrave; des fins obscures. <em>Chaque fois que vous &ecirc;tes en danger de mort</em>, vous pouvez activer vos gardien&middot;nes. Si vous le faites, le ou la MJ prend 1 R&eacute;serve. Les gardien&middot;nes agissent comme une petite/moyenne/grande bande (<strong>2/3/3 D&eacute;g&acirc;ts</strong>, <strong>5/10/15 Blessures</strong>), en fonction de la puissance de la menace. Leur seule motivation est de vous garder hors de port&eacute;e du danger. Le ou la MJ peut &eacute;galement d&eacute;penser des points en R&eacute;serve pour le compte des gardien&middot;nes afin de leur permettre d'effectuer une Action contre vous.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Wayfinder": {
+      "name": "Détourneur·euse de Chemins",
+      "effect": "<p><em>Lorsque vous vous d&eacute;placez entre deux endroits de la ville et que vous vous laissez guider par votre folie dans les ruelles</em>, <strong>roll +Soul</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous d&eacute;couvrez un raccourci &agrave; travers les ruelles, qui vous m&egrave;ne &agrave; votre destination en quelques minutes, quelle que soit la distance r&eacute;elle.</p>",
+      "partialsuccess": "<p>Vous d&eacute;couvrez un raccourci, mais il y a aussi une sorte d'obstacle que vous devez franchir.</p>",
+      "failure": "<p>Vous d&eacute;couvrez un raccourci, mais il vous conduit dans une situation dangereuse, comme le repaire d'une cr&eacute;ature ou une embuscade tendue par un gang. Le ou la MJ effectue une Action.</p>"
+    },
+    "Weapon Master": {
+      "name": "Maître d'Armes",
+      "effect": "<p>Vous &ecirc;tes un&middot;e sp&eacute;cialiste du combat arm&eacute; ou du maniement des armes &agrave; feu. Choisissez votre sp&eacute;cialit&eacute;:</p>\n<hr>\n<p><em>Combat arm&eacute;:</em> <strong>Lancez +Sang-froid</strong> au lieu de <strong>Violence </strong>pour <strong>Engager le Combat</strong> en combat rapproch&eacute;, ainsi que les &eacute;l&eacute;ments suivants pour les armes de combat rapproch&eacute;:</p>\n<ul>\n<li><span style=\"text-decoration: underline;\">Attaque percutante</span> [2] [Port&eacute;e: pi&egrave;ce]</li>\n<li><span style=\"text-decoration: underline;\">Attaque de pr&eacute;cision</span> [2] [Port&eacute;e: bras, ignore l'armure]</li>\n<li><span style=\"text-decoration: underline;\">Attaque d&eacute;stabilisante</span> [2] [Port&eacute;e: bras, la cible tombe &agrave; terre]</li>\n</ul>\n<p><em>Maniement des armes &agrave; feu:</em> <strong>Lancez +Sang-froid</strong> au lieu de <strong>Violence </strong>pour <strong>Engager le Combat</strong> dans une fusillade, ainsi que les &eacute;l&eacute;ments suivants pour les armes &agrave; feu:</p>\n<ul>\n<li><span style=\"text-decoration: underline;\">Deux balles dans la poitrine et une dans la t&ecirc;te</span> [4] [Port&eacute;e: pi&egrave;ce, -2 munitions]</li>\n<li><span style=\"text-decoration: underline;\">D&eacute;sarmement</span> [1] [Port&eacute;e: pi&egrave;ce, -1 munition, un PJ cibl&eacute; doit <strong>Agir sous la Pression</strong>]</li>\n</ul>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Workaholic": {
+      "name": "Bourreau de Travail",
+      "effect": "<p><em>Chaque fois que vous cr&eacute;ez quelque chose ou que vous r&eacute;alisez une exp&eacute;rience</em>, gagnez en <strong>Stabilit&eacute; (+1)</strong>.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    },
+    "Worldly": {
+      "name": "Mondain·e",
+      "effect": "<p><em>Chaque fois que vous arrivez &agrave; un nouvel endroit dans le monde ordinaire</em>, d&eacute;cidez si vous &ecirc;tes d&eacute;j&agrave; venu&middot;e ici et, dans l'affirmative, donnez quelques d&eacute;tails sur l'endroit qui vous est cher. D&eacute;cidez &eacute;galement si vous y avez rencontr&eacute; quelqu'un et ce que vous avez laiss&eacute; derri&egrave;re vous. Le ou la MJ indiquera ce qui a chang&eacute; depuis.</p>",
+      "options": "",
+      "completesuccess": "",
+      "partialsuccess": "",
+      "failure": ""
+    }
+  }
+}

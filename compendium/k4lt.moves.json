@@ -1,100 +1,101 @@
 {
-	"label": "Actions",
-	"mapping": {
-		"name": "name",
-		"trigger": "system.trigger",
-		"completesuccess": "system.completesuccess",
-		"partialsuccess": "system.partialsuccess",
-		"failure": "system.failure"
-	},
-	"entries": [
-		{
-			"id": "Act Under Pressure",
-			"name": "Agir sous la pression",
-			"trigger": "<p><em>Lorsque vous faites quelque chose de risqu&eacute;, en un temps imparti, ou devez en m&ecirc;me temps &eacute;viter un danger</em>, <strong>jetez 2d +Sang-froid</strong> apr&egrave;s que lae meneur&middot;euse vous ait expliqu&eacute; quelles seraient les cons&eacute;quences d'un &eacute;chec &agrave; ce jet.</p>",
-			"completesuccess": "<p>Faites comme pr&eacute;vu. <em>[Lae joueur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"partialsuccess": "<p>Vous parvenez &agrave; venir &agrave; bout de votre action, mais votre main n'a pas &eacute;t&eacute; s&ucirc;re ou bien vous faites face &agrave; une complication impr&eacute;vue: lae meneur&middot;euse d&eacute;termine une r&eacute;percussion inattendue, un prix suppl&eacute;mentaire &agrave; payer ou le choix corn&eacute;lien qui se pr&eacute;sente. <em>[Lae joueur&middot;euse d&eacute;crit la sc&egrave;ne. Mais lae meneur&middot;euse indique la complication.]</em></p>",
-			"failure": "<p>Les cons&eacute;quences sont lourdes. Vous faites une grave erreur, ou vous &ecirc;tes expos&eacute;&middot;e &agrave; un grand danger. Lae meneur&middot;euse passe &agrave; l'Action. <em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>"
-		},
-		{
-			"id": "Avoid Harm",
-			"name": "Éviter les dégâts",
-			"trigger": "<p><em>Lorsque vous esquivez, parez ou bloquez des d&eacute;g&acirc;ts</em>, jetez <strong>2d +R&eacute;flexes</strong>.</p>",
-			"completesuccess": "<p>Vous n'&ecirc;tes pas bless&eacute;&middot;e. <em>[Lae joueur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"partialsuccess": "<p>Vous &eacute;vitez le plus gros de l'attaque, mais, au choix du&middot;de la meneur&middot;euse vous vous retrouvez en mauvaise posture, perdez quelque chose ou encaissez des d&eacute;g&acirc;ts partiels. <em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"failure": "<p>Vous n'avez pas r&eacute;agi assez vite ou avez pris une mauvaise d&eacute;cision. Peut-&ecirc;tre que vous encaissez tous les d&eacute;gats, ou que vous vous retrouvez dans une position o&ugrave; vous &ecirc;tes encore plus vuln&eacute;rable. Lae meneur&middot;euse passe &agrave; l'Action. <em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>"
-		},
-		{
-			"id": "Endure Injury",
-			"name": "Encaisser les blessures",
-			"trigger": "<p><em>Lorsque vous encaissez des blessures</em>, <strong>jetez 2d +Endurance - d&eacute;g&acirc;ts</strong>. Si vous portez une armure, ajoutez sa valeur au r&eacute;sultat du jet.</p>",
-			"completesuccess": "<p>Vous &ecirc;tes plus fort&middot;e que la douleur et continuez ce que vous faites. <em>[Lae joueur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"partialsuccess": "<p>Vous tenez debout, mais, au choix du&middot;de la meneur&middot;euse, vous:</p><ul><li>&Ecirc;tes troubl&eacute;.</li><li>Perdez quelque chose.</li><li>Subissez une <strong>blessure s&eacute;rieuse</strong>.</li></ul><p><em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"failure": "<p>La douleur vous submerge. Vous choisissez de:</p><ul><li>Vous &eacute;vanouir (lae MJ peut aussi d&eacute;cider de vous infliger une <strong>blessure s&eacute;rieuse</strong>).</li><li>Recevoir une <strong>blessure critique</strong>, mais continuer &agrave; agir (si vous avez d&eacute;j&agrave; re&ccedil;u une <strong>blessure critique</strong>, vous ne pouvez choisir cette option une nouvelle fois).</li><li>Mourir.</li></ul><p><em>[Lae joueur&middot;euse d&eacute;crit la sc&egrave;ne. Mais lae meneur&middot;euse peut agir pour ajouter des blessures.]</em></p>"
-		},
-		{
-			"id": "Engage in Combat",
-			"name": "Engager le combat",
-			"trigger": "<p><em>Lorsque vous engagez le combat avec un ennemi actif</em>, expliquez comment vous vous y prenez et <strong>jetez 2d +Violence</strong>.</p>",
-			"completesuccess": "<p>Vous infligez des d&eacute;g&acirc;ts &agrave; votre ennemi et &eacute;vitez ses contre-attaques. <em>[Lae joueur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"partialsuccess": "<p>Vous infligez des d&eacute;g&acirc;ts, mais vous ne vous en tirez pas indemne. Au choix du&middot;de la meneur&middot;euse, vous:</p><ul><li>Subissez une contre-attaque.</li><li>Infligez moins de d&eacute;g&acirc;ts que pr&eacute;vu.</li><li>Perdez quelque chose de valeur.</li><li>Utilisez toutes vos munitions.</li><li>Vous retrouvez face &agrave; une nouvelle menace.</li><li>Vous retrouverez face &agrave; de nouveaux ennuis un peu plus tard.</li></ul><p><em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"failure": "<p>Votre attaque ne se passe pas comme vous l'avez pr&eacute;vu. Vous avez la poisse; avez rat&eacute; votre cible; ou encore avez pay&eacute; le prix de votre audace. Lae meneur&middot;euse passe &agrave; l'Action. <em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>"
-		},
-		{
-			"id": "Helping or Hindering",
-			"name": "Aider ou Gêner",
-			"trigger": "<p><em>Lorsque vous aidez ou g&ecirc;nez l'Action d'un autre personnage joueur</em>, expliquez d'abord ce que vous tentez de faire avant qu'il ne fasse son jet, puis jetez <strong>2d +Caract&eacute;ristique</strong>, o&ugrave; la caract&eacute;ristique est la m&ecirc;me que celle utilis&eacute;e par l'autre personnage joueur.</p>",
-			"completesuccess": "<p>Modifiez le r&eacute;sultat de son jet par +2/-2. <em>[Lae joueur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"partialsuccess": "<p>Modifiez le r&eacute;sultat de son jet par +1/-1. <em>[Lae joueur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"failure": "<p>Votre interf&eacute;rence a des cons&eacute;quences que vous n'aviez pas pr&eacute;vues. Lae meneur&middot;euse passe &agrave; l'Action. <em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p> "
-		},
-		{
-			"id": "Influence Other",
-			"name": "Influencer autrui",
-			"trigger": "<p><em>Lorsque vous influencez un PNJ en n&eacute;gociant, en argumentant ou en faisant peser votre position de pouvoir</em>, <strong>jetez 2d +Charisme</strong>.</p><p><em>Lorsque vous influencez un PJ</em>, <strong>jetez 2d +Charisme</strong>.</p>",
-			"completesuccess": "<p><strong>PNJ</strong> : Votre cible vous ob&eacute;it.&nbsp;<em>[Lae joueur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p><p><strong>PJ</strong> : Votre cible est motiv&eacute;e, fait ce que vous demandez et re&ccedil;oit <em>+1 &agrave; son prochain jet</em> si elle vous ob&eacute;it effectivement. De plus, elle est inqui&egrave;te de&nbsp;ce qui pourrait lui arriver si elle ne vous ob&eacute;it pas, et perd en <strong>Stabilit&eacute; (&ndash;1)</strong> si elle refuse de suivre vos ordres.</p>",
-			"partialsuccess": "<p><strong>PNJ</strong> : Votre cible vous ob&eacute;it, mais au choix du&middot;de la meneur&middot;euse :</p><ul><li>Votre cible veut une meilleure compensation.</li><li>Des complications appara&icirc;tront plus tard.</li><li>Votre cible suit vos ordres pour l'instant, mais changera d'avis plus tard ou regrettera d'avoir ob&eacute;i.</li></ul><p><em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p><p><strong>PJ</strong> : &nbsp;Au choix, profitez de l&rsquo;une des options ci-dessous :</p><ul><li>Votre cible est motiv&eacute;e, fait ce que vous demandez et re&ccedil;oit <em>+1 &agrave; son prochain jet</em> si elle vous ob&eacute;it effectivement.</li><li>Votre cible est inqui&egrave;te de ce qui pourrait lui arriver si elle ne vous ob&eacute;it pas, et perd en&nbsp;<strong>Stabilit&eacute; (&ndash;1)</strong> si elle refuse de suivre vos ordres.</li></ul>",
-			"failure": "<p><strong>PNJ</strong> : Votre tentative a des r&eacute;percussions inattendues. Lae meneur&middot;euse passe &agrave; l'Action.&nbsp;<em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p><p><strong>PJ</strong> : &nbsp;Votre cible obtient <em>+1 &agrave; son prochain jet contre vous</em>. Lae meneur&middot;euse passe &agrave; l&rsquo;Action.</p>"
-		},
-		{
-			"id": "Investigate",
-			"name": "Chercher des indices",
-			"trigger": "<p><em>Lorsque vous cherchez des indices</em>, <strong>jetez 2d +Logique</strong>. Sur une r&eacute;ussite, vous d&eacute;couvrez toutes les pistes et pouvez poser des questions pour obtenir plus d'informations.</p>",
-			"completesuccess": "<p>Posez deux questions.</p><p>Questions:</p><ul><li>Comment puis-je obtenir plus de renseignements ?</li><li>Que me dit mon instinct ?</li><li>Qu'est-ce qui ne colle pas ?</li></ul><p><em>[Lae joueur&middot;euse formule sa demande.]</em></p>",
-			"partialsuccess": "<p>Posez une question. L'information n'est pas donn&eacute;e sans contrepartie. Au choix du&middot;de la meneur&middot;euse, vous devez passer par un autre interlocuteur ou vous procurer un autre objet pour obtenir votre information; vous exposer au danger; ou encore d&eacute;penser plus de ressources et de temps. Ferez-vous ce sacrifice ?</p><p>Questions:</p><ul><li>Comment puis-je obtenir plus de renseignements ?</li><li>Que me dit mon instinct ?</li><li>Qu'est-ce qui ne colle pas ?</li></ul><p><em>[Lae joueur&middot;euse formule sa demande.]</em></p>",
-			"failure": "<p>Vous obtenez les informations d&eacute;sir&eacute;es, mais vous payez le prix fort: vous vous exposez au danger et &agrave; une perte de ressources. Lae meneur&middot;euse passe &agrave; l'Action. <em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>"
-		},
-		{
-			"id": "Keep It Together",
-			"name": "Garder le contrôle",
-			"trigger": "<p><em>Lorsque vous tentez de garder le contr&ocirc;le de vous-m&ecirc;me face au stress, &agrave; une exp&eacute;rience tramatique, &agrave; une influence psychique ou &agrave; des forces surnaturelles</em>, <strong>jetez 2d +Volont&eacute;</strong>.</p>",
-			"completesuccess": "<p>Vous serrez les dents et gardez le contr&ocirc;le. <em>[Lae joueur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"partialsuccess": "<p>Vous gardez le contr&ocirc;le, mais l'effort vous co&ucirc;te. Vous &ecirc;tes dans un &eacute;tat d'esprit particulier et vous ne serez &agrave; nouveau vous-m&ecirc;me que lorsque vous aurez trouv&eacute; le temps de r&eacute;cup&eacute;rer. Vous subissez un malus de -1 lorsque cet &eacute;tat d'esprit vous handicape.</p><p>Au choix, vous:</p><ul><li>&Ecirc;tes en col&egrave;re (-1 Stabilit&eacute;).</li><li>&Ecirc;tes triste (-1 Stabilit&eacute;).</li><li>Avez peur (-1 Stabilit&eacute;).</li><li>Vous vous sentez coupable (-1 Stabilit&eacute;).</li><li>Devenez obs&eacute;d&eacute; (+1 Relation avec la personne responsable de cet &eacute;tat d'esprit).</li><li>&Ecirc;tes distrait (-2 dans les situations o&ugrave; cet &eacute;tat d'esprit vous limite).</li><li>Serez hant&eacute;, plus tard, par cette exp&eacute;rience.</li></ul><p><em>[Lae joueur&middot;euse expose son choix.]</em></p>",
-			"failure": "<p>Vous craquez sous la pression. Au choix du&middot;de la meneur&middot;euse, vous :</p><ul><li>Vous recroquevillez devant la menace.</li><li>Paniquez et n'avez plus le contr&ocirc;le de vos actions.</li><li>Souffrez d'un trama l&eacute;ger (-2 Stabilit&eacute;).</li><li>Vous avez &eacute;t&eacute; t&eacute;moin et vous souffrez alors d'un trauma s&eacute;v&egrave;re (-4 Stabilit&eacute;).</li></ul><p><em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>"
-		},
-		{
-			"id": "Observe a Situation",
-			"name": "Observer la situation",
-			"trigger": "<p><em>Lorsque vous observez la situation</em>, <strong>jetez 2d +Perception</strong>. Sur une r&eacute;ussite, posez des questions au&middot;&agrave; la meneur&middot;euse &agrave; propos de ce que vous voyez. Lorsque vous agissez avec pertinence gr&acirc;ce &agrave; l'une des r&eacute;ponses offertes, obtenez <em>+1 &agrave; votre jet</em>.</p>",
-			"completesuccess": "<p>Posez deux questions.</p><p>Questions:</p><ul><li>Comment puis-je sortir d'ici ?</li><li>Quelle menace est la plus dangereuse ?</li><li>Que puis-je utiliser pour m'en sortir ?</li><li>Que dois-je chercher ?</li><li>Qu'est-ce qui m'est cach&eacute; ?</li><li>Qu'est-ce qui ne tourne pas rond ?</li></ul><p><em>[Lae joueur&middot;euse formule sa demande.]</em></p>",
-			"partialsuccess": "<p>Posez une question.</p><p>Questions:</p><ul><li>Comment puis-je sortir d'ici ?</li><li>Quelle menace est la plus dangereuse ?</li><li>Que puis-je utiliser pour m'en sortir ?</li><li>Que dois-je chercher ?</li><li>Qu'est-ce qui m'est cach&eacute; ?</li><li>Qu'est-ce qui ne tourne pas rond ?</li></ul><p><em>[Lae joueur&middot;euse formule sa demande.]</em></p>",
-			"failure": "<p>Vous pouvez toujours poser une question, mais vous n'obtenez aucun bonus et vous ratez une information importante; attirez l'attention sans le vouloir; ou encore vous exposez au danger. Lae MJ passe &agrave; l'Action.</p><p>Questions:</p><ul><li>Comment puis-je sortir d'ici ?</li><li>Quelle menace est la plus dangereuse ?</li><li>Que puis-je utiliser pour m'en sortir ?</li><li>Que dois-je chercher ?</li><li>Qu'est-ce qui m'est cach&eacute; ?</li><li>Qu'est-ce qui ne tourne pas rond ?</li></ul><p><em>[Lae joueur&middot;euse formule sa demande. Mais lae meneur&middot;euse d&eacute;cide de la r&eacute;solution de celle-ci.]</em></p>"
-		},
-		{
-			"id": "Read a Person",
-			"name": "Lire une personne",
-			"trigger": "<p><em>Lorsque vous voulez lire une personne</em>, <strong>jetez 2d +Intuition</strong>. Sur une r&eacute;ussite, vous pouvez poser des questions au&middot;&agrave; la meneur&middot;euse ou au&middot;&agrave; la joueur&middot;euse sur le personnage concern&eacute;, n'importe quand durant la sc&egrave;ne, du moment que vous discutez avec lui.</p>",
-			"completesuccess": "<p>Posez jusqu'&agrave; deux questions.</p><p>Questions:</p><ul><li>Dites-vous la v&eacute;rit&eacute; ?</li><li>Comment vous sentez-vous ?</li><li>Qu'&ecirc;tes-vous sur le point de faire ?</li><li>Si vous pouviez me donner un ordre, quel serait-il ?</li><li>Comment puis-je vous pousser &agrave; faire [...] ?</li></ul><p><em>[Lae joueur&middot;euse formule sa demande.]</em></p>",
-			"partialsuccess": "<p>Posez une question.</p><p>Questions:</p><ul><li>Dites-vous la v&eacute;rit&eacute; ?</li><li>Comment vous sentez-vous ?</li><li>Qu'&ecirc;tes-vous sur le point de faire ?</li><li>Si vous pouviez me donner un ordre, quel serait-il ?</li><li>Comment puis-je vous pousser &agrave; faire [...] ?</li></ul><p><em>[Lae joueur&middot;euse formule sa demande.]</em></p>",
-			"failure": "<p>Vous r&eacute;v&eacute;lez vos intentions &agrave; votre cible. Expliquez au&middot;&agrave; la joueur&middot;euse ou au&middot;&agrave; la meneur&middot;euse quelles sont vos intentions. Lae meneur&middot;euse passe &agrave; l'Action.<em>[Lae joueur&middot;euse expose son intention. Et lae meneur&middot;euse d&eacute;cide de la r&eacute;action en cons&eacute;quent.]</em></p>"
-		},
-		{
-			"id": "See Through the Illusion",
-			"name": "Voir au travers de l'Illusion",
-			"trigger": "<p><em>Lorsque vous encaissez un choc, une blessure ou que des drogues ou des rituels changent votre perception des choses</em>, <strong>jetez 2d +&Acirc;me</strong> pour <strong>Voir au travers de l'Illusion</strong>.</p>",
-			"completesuccess": "<p>Vous voyez les choses comme elle sont r&eacute;ellement. <em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"partialsuccess": "<p>Vous voyez la R&eacute;alit&eacute;, mais l'Illusion est affect&eacute;e. Au choix du&middot;de la meneur&middot;euse :</p><ul><li>Quelque chose sent votre pr&eacute;sence.</li><li>L'Illusion se d&eacute;chire autour de vous.</li></ul><p><em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>",
-			"failure": "<p>Lae meneur&middot;euse explique ce que vous voyez et passe &agrave; l'Action. <em>[Lae meneur&middot;euse d&eacute;crit la sc&egrave;ne.]</em></p>"
-		}
-	]
+  "label": "Actions",
+  "mapping": {
+    "name": "name",
+    "trigger": "system.trigger",
+    "options": "system.options",
+    "completesuccess": "system.completesuccess",
+    "partialsuccess": "system.partialsuccess",
+    "failure": "system.failure"
+  },
+  "entries": {
+    "Act Under Pressure": {
+      "name": "Agir sous la Pression",
+      "trigger": "<p><em>Lorsque vous faites quelque chose de risqu&eacute;, sous la pression du temps ou que vous essayez d'&eacute;viter un danger</em>, le ou la MJ expliquera quelles sont les cons&eacute;quences d'un &eacute;chec et vous <strong>lancez +Sang-froid</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous faites ce que vous vouliez.</p>",
+      "partialsuccess": "<p>Vous faites ce que vous vouliez, mais vous h&eacute;sitez, vous &ecirc;tes retard&eacute;&middot;e ou vous devez faire face &agrave; une complication - le ou la MJ annonce un d&eacute;nouement inattendu, un co&ucirc;t suppl&eacute;mentaire ou un choix difficile.</p>",
+      "failure": "<p>Vous faites une erreur ou vous &ecirc;tes expos&eacute;&middot;e au danger et il y a de graves cons&eacute;quences. Le ou la MJ effectue une Action.</p>"
+    },
+    "Avoid Harm": {
+      "name": "Éviter les Dégâts",
+      "trigger": "<p><em>Lorsque vous esquivez, parez ou emp&ecirc;chez une Blessure</em>, <strong>lancez +R&eacute;flexes</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous en sortez indemne.</p>",
+      "partialsuccess": "<p>Vous &eacute;vitez le pire, mais le ou la MJ d&eacute;cide si vous vous retrouvez en mauvaise posture, si vous perdez quelque chose ou si vous <strong>Subissez des Blessures</strong> partielles.</p>",
+      "failure": "<p>Vous avez &eacute;t&eacute; trop lent&middot;e &agrave; r&eacute;agir ou vous avez fait une erreur de jugement. Vous ne parvenez pas &agrave; <strong>&Eacute;viter les D&eacute;g&acirc;ts</strong> ou vous vous retrouvez dans une situation encore pire qu'avant. Le ou la MJ effectue une Action.</p>"
+    },
+    "Endure Injury": {
+      "name": "Subir des Blessures",
+      "trigger": "<p><em>En cas de blessure</em>, <strong>lancez +R&eacute;flexes -D&eacute;g&acirc;ts</strong>. Si vous portez une armure, ajoutez sa valeur au lancer.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous surmontez la douleur et continuez &agrave; avancer.</p>",
+      "partialsuccess": "<p>Vous &ecirc;tes toujours debout, mais le ou la MJ choisit une option:</p>\n<ul>\n<li>La blessure vous d&eacute;s&eacute;quilibre.</li>\n<li>Vous perdez quelque chose.</li>\n<li>Vous recevez une <strong>Blessure S&eacute;rieuse</strong>.</li>\n</ul>",
+      "failure": "<p>Le traumatisme est consid&eacute;rable. Choisissez si vous:</p>\n<ul>\n<li>&Eacute;t&eacute; assomm&eacute;&middot;e (le MJ peut &eacute;galement choisir de vous infliger une <strong>Blessure S&eacute;rieuse</strong>).</li>\n<li>Recevez une <strong>Blessure Critique</strong>, mais continuez &agrave; agir (si vous avez d&eacute;j&agrave; une <strong>Blessure Critique</strong>, vous ne pouvez plus choisir cette option).</li>\n<li>Mourez.</li>\n</ul>"
+    },
+    "Engage in Combat": {
+      "name": "Engager le Combat",
+      "trigger": "<p><em>Lorsque vous engagez le combat avec un adversaire en &eacute;tat de combattre</em>, expliquez comment et <strong>lancez +Violence</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous infligez des d&eacute;g&acirc;ts &agrave; votre adversaire et &eacute;vitez les contre-attaques.</p>",
+      "partialsuccess": "<p>Vous infligez des d&eacute;g&acirc;ts, mais &agrave; un co&ucirc;t. Le ou la MJ le choisit:</p>\n<ul>\n<li>Vous subissez une contre-attaque.</li>\n<li>Vous faites moins de d&eacute;g&acirc;ts que pr&eacute;vu.</li>\n<li>Vous perdez quelque chose d'important.</li>\n<li>Vous d&eacute;pensez toutes vos munitions.</li>\n<li>Une nouvelle menace p&egrave;se sur vous.</li>\n<li>Vous aurez des probl&egrave;mes plus tard.</li>\n</ul>",
+      "failure": "<p>Votre attaque ne se d&eacute;roule pas comme pr&eacute;vu. Vous pouvez &ecirc;tre victime de la malchance, manquer votre cible ou subir un pr&eacute;judice important pour votre assaut. Le ou la MJ effectue une Action.</p>"
+    },
+    "Helping or Hindering": {
+      "name": "Aider ou Gêner",
+      "trigger": "<p><em>Lorsque vous aidez ou entravez l'action d'un autre joueur ou d'une autre joueuse</em>, expliquez comment avant son lancer de d&eacute;s et <strong>lancez +Caract&eacute;ristique</strong>, o&ugrave; la Caract&eacute;ristique est la m&ecirc;me que celle que l'autre joueur ou l'autre joueuse lance.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous pouvez modifier le lancer de d&eacute; cons&eacute;cutif par +2/-2.</p>",
+      "partialsuccess": "<p>Vous pouvez modifier le lancer de d&eacute; cons&eacute;cutif par +1/-1.</p>",
+      "failure": "<p>Votre intervention a des cons&eacute;quences inattendues. Le ou la MJ effectue une Action.</p>"
+    },
+    "Influence Other": {
+      "name": "Influencer Autrui",
+      "trigger": "<p><em>Lorsque vous influencez un PNJ par le biais d'une n&eacute;gociation, d'une argumentation ou d'une position dominante</em>, <strong>lancez +Charisme</strong>.</p>\n<hr>\n<p><em>Lorsque vous influencez un ou une autre PJ</em>, <strong>lancez +Charisme</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p><strong>PNJ</strong> : Il fait ce que vous lui demandez.</p>\n<hr>\n<p><strong>PJ </strong>: Au choix de la cible, si le personnage r&eacute;pond favorablement &agrave; votre demande, son personnage est d&eacute;termin&eacute; et re&ccedil;oit <em>+1 pour son prochain lancer</em>. Sinon, son personnage est inquiet des cons&eacute;quences et re&ccedil;oit <strong>-1 Stabilit&eacute;</strong>.</p>",
+      "partialsuccess": "<p><strong>PNJ</strong> : Il fait ce que vous lui demandez, mais le MJ choisit une option:</p>\n<ul>\n<li>Il demande une meilleure compensation.</li>\n<li>Des complications surviendront ult&eacute;rieurement.</li>\n<li>Il c&egrave;de sur le moment, mais changera d'avis et le regrettera plus tard.</li>\n</ul>\n<hr>\n<p><strong>PJ </strong>: Choisissez une option ci-dessous:</p>\n<ul>\n<li>Si le personnage r&eacute;pond favorablement &agrave; votre demande, son personnage est d&eacute;termin&eacute; et re&ccedil;oit <em>+1 pour son prochain lancer</em>.</li>\n<li>Si le personnage marque son d&eacute;saccord, il est n&eacute;anmoins inquiet des cons&eacute;quences et re&ccedil;oit <strong>-1 Stabilit&eacute;</strong>.</li>\n</ul><p>Une fois l'option retenue, la cible choisit d'ob&eacute;ir ou non.</p>",
+      "failure": "<p><strong>PNJ</strong> : Votre tentative a des r&eacute;percussions inattendues. Le ou la MJ effectue une Action.</p>\n<hr>\n<p><strong>PJ</strong> : La cible obtient <em>+1 sur son prochain lancer</em> contre vous. Le ou la MJ effectue une Action.</p>"
+    },
+    "Investigate": {
+      "name": "Enquêter",
+      "trigger": "<p><em>Lorsque vous enqu&ecirc;tez sur quelque chose</em>, <strong>lancez +Logique</strong>. En cas de succ&egrave;s, vous d&eacute;couvrez toutes les pistes directes et pouvez poser des questions pour obtenir des informations suppl&eacute;mentaires.</p>",
+      "options": "<p><em>Questions:</em></p>\n<ul>\n<li>Comment puis-je en savoir plus sur mon enqu&ecirc;te?</li>\n<li>Quelle est mon intuition quant &agrave; mes recherches?</li>\n<li>Y a-t-il quelque chose d'&eacute;trange dans ce que je d&eacute;couvre?</li>\n</ul>",
+      "completesuccess": "<p>Vous pouvez poser deux questions.</p>",
+      "partialsuccess": "<p>Vous pouvez poser une question. L'information a un co&ucirc;t, d&eacute;termin&eacute; par le ou la MJ, comme le fait d'avoir besoin de quelqu'un ou de quelque chose pour obtenir la r&eacute;ponse, de s'exposer &agrave; un danger ou de devoir d&eacute;penser du temps ou des ressources suppl&eacute;mentaires. Allez-vous faire le n&eacute;cessaire?</p>",
+      "failure": "<p>Vous pouvez obtenir certaines informations de cette mani&egrave;re, mais vous en payez le prix. Vous pouvez vous exposer &agrave; des dangers ou &agrave; des cons&eacute;quences. Le ou la MJ effectue une Action.</p>"
+    },
+    "Keep It Together": {
+      "name": "Garder le Contrôle",
+      "trigger": "<p><em>Lorsque vous &ecirc;tes amen&eacute;&middot;e &agrave; vous contr&ocirc;ler pour ne pas succomber au stress, aux exp&eacute;riences traumatisantes, aux influences psychiques ou aux forces surnaturelles,</em>, <strong>lancez +Volont&eacute;</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous serrez les dents et gardez le cap.</p>",
+      "partialsuccess": "<p>L'effort pour r&eacute;sister cr&eacute;e un &eacute;tat qui reste avec vous jusqu'&agrave; ce que vous ayez eu le temps de r&eacute;cup&eacute;rer. Vous recevez <em>-1 &agrave; vos lancers</em> dans les situations o&ugrave; cet &eacute;tat vous g&ecirc;ne. Choisissez l'&eacute;tat :</p>\n<ul>\n<li>Vous vous mettez en col&egrave;re (<strong>-1 Stabilit&eacute;</strong>).</li>\n<li>Vous vous sentez triste (<strong>-1 Stabilit&eacute;</strong>).</li>\n<li>Vous avez peur (<strong>-1 Stabilit&eacute;</strong>).</li>\n<li>Vous vous sentez coupable (<strong>-1 Stabilit&eacute;</strong>).</li>\n<li>Vous devenez obs&eacute;d&eacute;&middot;e (<strong>+1 Relation</strong> avec celui ou celle qui a caus&eacute; l'&eacute;tat).</li>\n<li>Vous &ecirc;tes distrait&middot;e (<em>-2 &agrave; vos lancers</em> dans les situations o&ugrave; cet &eacute;tat vous g&ecirc;ne).</li>\n<li>Cette exp&eacute;rience vous hantera plus tard.</li>\n</ul>",
+      "failure": "<p>La pression est trop forte pour que votre esprit puisse la supporter. Le ou la MJ choisit votre r&eacute;action : vous vous recroquevillez impuissant&middot;e face &agrave; la menace, vous paniquez sans pouvoir contr&ocirc;ler vos actions, vous subissez un traumatisme &eacute;motionnel (<strong>-2 Stabilit&eacute;</strong>), ou vous souffrez d'un trauma qui bouleverse totalement votre vie (<strong>-4 Stabilit&eacute;</strong>).</p>"
+    },
+    "Observe a Situation": {
+      "name": "Observer la Situation",
+      "trigger": "<p><em>Lorsque vous observez une situation</em>, <strong>lancez +Perception</strong>. En cas de succ&egrave;s, vous pouvez poser des questions au ou &agrave; la MJ sur la situation actuelle. Lorsque vous agissez en fonction de ces r&eacute;ponses, vous gagnez <em>+1 &agrave; vos lancers</em>.</p>",
+      "options": "<p><em>Questions:</em></p>\n<ul>\n<li>Quelle est la meilleure fa&ccedil;on de proc&eacute;der?</li>\n<li>Qu'est-ce qui repr&eacute;sente actuellement la plus grande menace?</li>\n<li>Que puis-je utiliser &agrave; mon avantage?</li>\n<li>&Agrave; quoi dois-je faire attention?</li>\n<li>Que me cache-t-on?</li>\n<li>Qu'y a-t-il d'&eacute;trange &agrave; cela?</li>\n</ul>",
+      "completesuccess": "<p>Posez deux questions sur la situation actuelle. Lorsque vous agissez en fonction de ces r&eacute;ponses, gagnez <em>+1 &agrave; vos lancers</em>.</p>",
+      "partialsuccess": "<p>Posez une question sur la situation actuelle. Lorsque vous agissez en fonction de ces r&eacute;ponses, gagnez <em>+1 &agrave; vos lancers</em>.</p>",
+      "failure": "<p>Vous pouvez quand m&ecirc;me poser une question. Mais vous n'obtenez aucun bonus pour cela et vous manquez quelque chose, attirez une attention ind&eacute;sirable ou vous vous exposez &agrave; un danger. Le ou la MJ effectue une Action.</p>"
+    },
+    "Read a Person": {
+      "name": "Lire une Personne",
+      "trigger": "<p><em>Lorsque vous lisez une personne</em>, <strong>lancez +Intuition</strong>. En cas de r&eacute;ussite, vous avez la possibilit&eacute; de poser les questions au personnage, &agrave; tout moment pendant la sc&egrave;ne, tant que vous &ecirc;tes engag&eacute;&middot;e dans une conversation avec celui-ci.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous pouvez poser deux questions:</p><ul><li>Vous mentez?</li><li>Que ressentez-vous en ce moment?</li><li>Que souhaiteriez-vous que je fasse?</li><li>Comment puis-je vous amener &agrave; [...] ?</li></ul>",
+      "partialsuccess": "<p>Vous pouvez poser une question:</p><ul><li>Vous mentez?</li><li>Que ressentez-vous en ce moment?</li><li>Que souhaiteriez-vous que je fasse?</li><li>Comment puis-je vous amener &agrave; [...] ?</li></ul>",
+      "failure": "<p>Vous r&eacute;v&eacute;lez accidentellement vos intentions &agrave; la personne que vous essayez de lire. Dites au ou &agrave; la MJ, au joueur ou &agrave; la joueuse quelles sont-elles. Le ou la MJ effectue une Action.</p>"
+    },
+    "See Through the Illusion": {
+      "name": "Voir à travers l'Illusion",
+      "trigger": "<p><em>Lorsque vous subissez un choc, des blessures ou que vous alt&eacute;rez votre perception par le biais de drogues ou de rituels</em>, <strong>lancez +&Acirc;me</strong> pour <strong>Voir &agrave; travers l'Illusion</strong>.</p>",
+      "options": "",
+      "completesuccess": "<p>Vous percevez les choses telles qu'elles sont.</p>",
+      "partialsuccess": "<p>Vous voyez la R&eacute;alit&eacute;, mais vous influez &eacute;galement sur l'Illusion. Le ou la MJ choisit la cons&eacute;quence:</p>\n<ul>\n<li>Quelque chose vous per&ccedil;oit.</li>\n<li>L'Illusion se d&eacute;chire autour de vous.</li>\n</ul>",
+      "failure": "<p>Le ou la MJ explique ce que vous voyez et effectue une Action.</p>"
+    }
+  }
 }

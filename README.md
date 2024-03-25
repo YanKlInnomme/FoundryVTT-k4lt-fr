@@ -5,13 +5,13 @@
 # Module k4lt-fr pour Foundry VTT
 Améliorer votre expérience de jeu avec ce module complémentaire en version française pour le système de jeu 'KULT: Divinity Lost (4th Edition)' (k4lt) sur Foundry VTT.
 
-![Capture d’écran 2023-06-29 151621](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/81483cdc-7706-4c81-91d9-f6b14c2c5165)
-![Capture d’écran 2023-06-29 151737](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/f1abd228-0030-4aad-8b45-a6a23ef0ea3d)
-![Capture d’écran 2023-06-29 152120](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/d2f26869-e70a-4bd7-abdf-a835bd741c6f)
-![Capture d’écran 2023-06-29 152402](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/d3035bc9-0d0c-46b1-b1cb-072a0934c05d)
-![Capture d’écran 2023-06-29 152252](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/646aa798-fa53-4932-bccf-6abe02faa5a5)
-![Capture d’écran 2023-06-29 170837](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/5c6385e1-1451-4d0d-a9b6-df78fd2d0e4e)
-![Capture d’écran 2023-08-06 180713](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/a5b0f271-cd2d-4448-96f3-c8dabdea56d7)
+![Capture d’écran 2024-03-25 111431](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/a85c3b4e-3d17-4692-a8ab-7437b43ac778)
+![Capture d’écran 2024-03-25 111556](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/eb1e565a-f30b-4536-ab3e-4f5bac35b450)
+![Capture d’écran 2024-03-25 111957](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/9eddbdec-63fb-45f4-9196-67b5dcd23b6c)
+![Capture d’écran 2024-03-25 112340](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/df4109a3-7114-4b8c-a83a-50c98e269b60)
+![Capture d’écran 2024-03-25 112815](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/7b9c00d7-739a-4183-b37c-70e1100f2576)
+![Capture d’écran 2024-03-25 113056](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/c620f401-25b5-4d63-8165-fa90a97447b5)
+![Capture d’écran 2024-03-25 113313](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/3486d953-22e3-42ec-a28f-c38d3b23fce1)
 
 Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir en m'offrant un café sur Buy Me a Coffee (https://www.buymeacoffee.com/yank). Votre geste serait grandement apprécié et contribuerait à soutenir le développement continu. Quoi qu'il en soit, je vous souhaite une expérience enrichissante et divertissante. N'hésitez pas à me contacter pour partager vos commentaires ou signaler tout problème éventuel.
 

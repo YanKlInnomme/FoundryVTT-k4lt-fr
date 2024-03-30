@@ -13,7 +13,7 @@ Améliorer votre expérience de jeu avec ce module complémentaire en version fr
 ![Capture d’écran 2024-03-25 113056](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/c620f401-25b5-4d63-8165-fa90a97447b5)
 ![Capture d’écran 2024-03-25 113313](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/3486d953-22e3-42ec-a28f-c38d3b23fce1)
 
-Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir en m'offrant un café sur Buy Me a Coffee (https://www.buymeacoffee.com/yank). Votre geste serait grandement apprécié et contribuerait à soutenir le développement continu. Quoi qu'il en soit, je vous souhaite une expérience enrichissante et divertissante. N'hésitez pas à me contacter pour partager vos commentaires ou signaler tout problème éventuel.
+Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir en m'offrant un café sur Buy Me a Coffee (https://www.buymeacoffee.com/yank). Votre soutien serait grandement apprécié et contribuerait à la poursuite du développement. Cela me permettra de vous préparer de nouveaux scénarios prêts-à-jouer. Quoi qu'il en soit, j'espère que vous vivrez une expérience enrichissante et agréable. N'hésitez pas à me contacter si vous avez des commentaires ou des questions.
 
 ## Prérequis
 
@@ -27,11 +27,11 @@ Afin de fonctionner ce module nécessite les installations préalables suivantes
 
 Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, autorisé par la [politique de contenu d'Helmgast](https://helmgast.se/en/meta/fan-content-policy). En outre, ce projet inclut :
 
-- **Contenu et logo** : [Kult Divinity Lost] (https://kultdivinitylost.com/) est © 2021 Cabinet Licensing LLC et la traduction française est © 2021 [Arkhane Asylum Publishing](https://arkhane-asylum.fr/). Tous droits réservés. Les parties de ce projet protégées par ce copyright ne peuvent être distribuées commercialement ou librement. Cela inclut les illustrations, le logo et le texte couverts par le droit d'auteur.
+- **Contenu et logo** : KULT et les logos, personnages, noms et ressemblances qui y sont associés sont des marques commerciales ou des marques déposées de Cabinet Licensing LLC. [Kult Divinity Lost](https://kultdivinitylost.com/) est développé et publié par Helmgast AB. [Arkhane Asylum Publishing](https://arkhane-asylum.fr/) est en charge de la traduction et de la distribution commerciale française. Utilisées avec autorisation. Tous droits réservés. Les parties de ce projet protégées par ce copyright ne peuvent être distribuées commercialement ou librement. Cela inclut les illustrations, le logo et le texte couverts par le droit d'auteur.
 
 - **Code source** : Tout le code source _(javascript, css, etc.)_ est sous licence [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-- **Foundry VTT** : Le projet est créé conformément à l'[accord de licence limitée de Foundry VTT concernant le développement de modules](https://foundryvtt.com/article/license/).
+- **Foundry VTT** : Le projet est créé conformément à l'[accord de licence limitée de Foundry VTT concernant le développement de paquets](https://foundryvtt.com/article/license/).
 
 ## Version 6.0.0
  * Création du module 'k4lt-assets' et restructuration globale afin de scinder le module 'k4lt-fr' afin d'en faciliter la maintenance
@@ -124,13 +124,13 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
 # k4lt-fr module for Foundry VTT
 Enhance your gaming experience with this French module for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.
 
-If you appreciate the module and have the means to do so, you can support me by offering me a coffee on Buy Me a Coffee (https://www.buymeacoffee.com/yank). Your gesture would be greatly appreciated and would help support ongoing development. In any case, I wish you an enriching and entertaining experience. Please don't hesitate to contact me to share your comments or report any problems.
+If you like the module and have the means to do so, you can support me by offering me a coffee on Buy Me a Coffee (https://www.buymeacoffee.com/yank). Your support would be greatly appreciated and will aid ongoing development. This will enable me to prepare additional ready-to-play scenarios for you. In any case, I hope you have a rewarding and enjoyable experience. Please feel free to contact me with any comments or issues.
 
 ## Licenses
 
 This digital adaptation is unofficial content from KULT: Divinity Lost, licensed under the [Helmgast Content Policy](https://helmgast.se/en/meta/fan-content-policy). In addition, this project includes:
 
-- **Content and logo**: [Kult Divinity Lost] (https://kultdivinitylost.com/) is © 2021 Cabinet Licensing LLC and the French translation is © 2021 [Arkhane Asylum Publishing](https://arkhane-asylum.fr/). All rights reserved. Portions of this project protected by this copyright may not be distributed commercially or freely. This includes illustrations, logo and text covered by copyright.
+- **Content and logo**: KULT and associated logos, characters, names and likenesses are trademarks or registered trademarks of Cabinet Licensing LLC. [Kult Divinity Lost](https://kultdivinitylost.com/) is developed and published by Helmgast AB. [Arkhane Asylum Publishing](https://arkhane-asylum.fr/) is in charge of French translation and commercial distribution. Used with permission. All rights reserved. Portions of this project protected by this copyright may not be distributed commercially or freely. This includes illustrations, logo and text covered by copyright.
 
 - **Source code**: All source code _(javascript, css, etc.)_ is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 

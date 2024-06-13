@@ -33,6 +33,9 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
 
 - **Foundry VTT** : Le projet est créé conformément à l'[accord de licence limitée de Foundry VTT concernant le développement de paquets](https://foundryvtt.com/article/license/).
 
+## Version 6.1.0
+ * Passage à la version 12 de Foundry VTT
+
 ## Version 6.0.0
  * Création du module 'k4lt-assets' et restructuration globale afin de scinder le module 'k4lt-fr' afin d'en faciliter la maintenance
  * Corrections mineures
@@ -143,6 +146,9 @@ The following requirements are necessary for this module to work :
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
  * The k4lt-assets module (containing the necessary resources)
+
+## Version 6.1.0
+ * Update to Foundry VTT version 12
 
 ## Version 6.0.0
  * Creation of the 'k4lt-assets' module and global restructuring to split the 'k4lt-en' module for easier maintenance.

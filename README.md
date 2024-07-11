@@ -33,6 +33,10 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
 
 - **Foundry VTT** : Le projet est créé conformément à l'[accord de licence limitée de Foundry VTT concernant le développement de paquets](https://foundryvtt.com/article/license/).
 
+## Version 6.2.0
+ * Mise à jour du fichier main.yaml
+ * Mise à jour des cartes des scénarios officiels 'La Galerie des Âmes' et 'Oakwood Heights VF' (ajout des notes de scènes, des régions sans météo et téléporteurs)
+
 ## Version 6.1.0
  * Passage à la version 12 de Foundry VTT
 
@@ -147,6 +151,10 @@ The following requirements are necessary for this module to work :
  * Lib-wrapper module (required for Babele)
  * The k4lt-assets module (containing the necessary resources)
 
+## Version 6.2.0
+ * Update of the main.yaml file
+ * Update of the maps of the official scenarios 'La Galerie des Âmes' and 'Oakwood Heights VF' (added scene notes, regions without weather and teleporters)
+
 ## Version 6.1.0
  * Update to Foundry VTT version 12
 
@@ -158,7 +166,7 @@ The following requirements are necessary for this module to work :
  * main.yaml file updated
 
 ## Version 5.7.1
- * Updated Arkhane Asylum Publishing logo and links (Shop Access, Scenario: Gallery of Souls)
+ * Updated Arkhane Asylum Publishing logo and links (Shop Access, Scenario: La Galerie des Âmes)
 
 ## Version 5.7.0
  * Corrected the translation of the 'Actions' compendium, in particular for the 'Influencer autrui' action, which was incomplete

@@ -33,6 +33,10 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
 
 - **Foundry VTT** : Le projet est créé conformément à l'[accord de licence limitée de Foundry VTT concernant le développement de paquets](https://foundryvtt.com/article/license/).
 
+## Version 6.3.0
+ * Ajout des valeurs d'attributs pour les PNJ dans les scénarios prêts-à-jouer 'La Galerie des Âmes' et 'Oakwood Heights VF'
+ * Suppression d'un token 'Joshua Katz' sur le scène 0 du scénario 'Oakwood Heights VF'
+
 ## Version 6.2.0
  * Mise à jour du fichier main.yaml
  * Mise à jour des cartes des scénarios officiels 'La Galerie des Âmes' et 'Oakwood Heights VF' (ajout des notes de scènes, des régions sans météo et téléporteurs)
@@ -150,6 +154,10 @@ The following requirements are necessary for this module to work :
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
  * The k4lt-assets module (containing the necessary resources)
+
+## Version 6.3.0
+ * Added attribute levels for NPCs in the ready-to-play scenarios 'La Galerie des Âmes' and 'Oakwood Heights VF'
+ * Removed a token 'Joshua Katz' on scene 0 of the 'Oakwood Heights VF' scenario
 
 ## Version 6.2.0
  * Update of the main.yaml file

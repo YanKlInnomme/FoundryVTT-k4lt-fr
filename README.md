@@ -5,13 +5,12 @@
 # Module k4lt-fr pour Foundry VTT
 Améliorer votre expérience de jeu avec ce module complémentaire en version française pour le système de jeu 'KULT: Divinity Lost (4th Edition)' (k4lt) sur Foundry VTT.
 
-![Capture d’écran 2024-03-25 111431](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/a85c3b4e-3d17-4692-a8ab-7437b43ac778)
-![Capture d’écran 2024-03-25 111556](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/eb1e565a-f30b-4536-ab3e-4f5bac35b450)
-![Capture d’écran 2024-03-25 111957](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/9eddbdec-63fb-45f4-9196-67b5dcd23b6c)
-![Capture d’écran 2024-03-25 112340](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/df4109a3-7114-4b8c-a83a-50c98e269b60)
-![Capture d’écran 2024-03-25 112815](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/7b9c00d7-739a-4183-b37c-70e1100f2576)
-![Capture d’écran 2024-03-25 113056](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/c620f401-25b5-4d63-8165-fa90a97447b5)
-![Capture d’écran 2024-03-25 113313](https://github.com/YanKlInnomme/FoundryVTT-k4lt-fr/assets/100078854/3486d953-22e3-42ec-a28f-c38d3b23fce1)
+<img width="1919" height="1005" alt="Capture d'écran 2025-09-16 084300" src="https://github.com/user-attachments/assets/a9dc6a0b-227d-4213-9c4b-07ed620ce2d3" />
+<img width="1919" height="1006" alt="Capture d'écran 2025-09-16 092117" src="https://github.com/user-attachments/assets/c7b51b0a-ae12-4f87-8507-a0bfc39583bc" />
+<img width="1919" height="1007" alt="Capture d'écran 2025-09-16 090318" src="https://github.com/user-attachments/assets/73bd8678-e692-45e3-8850-29184ad1251c" />
+<img width="1919" height="1006" alt="Capture d'écran 2025-09-16 085528" src="https://github.com/user-attachments/assets/c6a11b36-39a7-4e0b-819c-2fcb87ee6c2f" />
+<img width="1919" height="1006" alt="Capture d'écran 2025-09-16 091642" src="https://github.com/user-attachments/assets/67161bb8-5d15-42b4-85f8-60ce0fbe7031" />
+<img width="1919" height="1004" alt="Capture d'écran 2025-09-16 090717" src="https://github.com/user-attachments/assets/8ff88d77-eb53-4981-b135-f9221626aeff" />
 
 Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir en m'offrant un café sur Buy Me a Coffee (https://www.buymeacoffee.com/yank). Votre soutien serait grandement apprécié et contribuerait à la poursuite du développement. Cela me permettra de vous préparer de nouveaux scénarios prêts-à-jouer. Quoi qu'il en soit, j'espère que vous vivrez une expérience enrichissante et agréable. N'hésitez pas à me contacter si vous avez des commentaires ou des questions.
 

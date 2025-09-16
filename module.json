@@ -2,12 +2,12 @@
   "id": "k4lt-fr",
   "title": "KULT: Divinity Lost · Extra FR",
   "description": "Enhance your gaming experience with this French module for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.",
-  "version": "6.3.0",
+  "version": "6.4.1",
   "license": "LICENSE",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12.329",
-    "maximum": "13"
+    "minimum": "13",
+    "verified": "13.348",
+    "maximum": "14"
   },
   "authors": [
     {
@@ -45,6 +45,13 @@
   },
   "esmodules": ["k4lt-fr.js"],
   "styles": ["css/k4lt-fr.css"],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
   "packs": [
     {
       "label": "Tarot de Kult",

@@ -33,6 +33,13 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
 
 - **Foundry VTT** : Le projet est créé conformément à l'[accord de licence limitée de Foundry VTT concernant le développement de paquets](https://foundryvtt.com/article/license/).
 
+## Version 6.4.1
+ * Mise à jour des liens Dépot et Soutien dans l'onglet 'Paramètres'
+ * Correction des relations dans les fiches de PJ du scénario 'La Galerie des Âmes'
+ * Mise à jour des tokens des PJ avec la rotation active et une vision à 220° des scénarios 'La Galerie des Âmes' et 'Oakwood Heights VF'
+ * Mise à jour des noms de navigation des scènes des scénarios 'La Galerie des Âmes' et 'Oakwood Heights VF'
+ * Ajout d'une fonction de régénération automatique des vignettes des scènes à l'importation de l'aventure
+
 ## Version 6.3.0
  * Ajout des valeurs d'attributs pour les PNJ dans les scénarios prêts-à-jouer 'La Galerie des Âmes' et 'Oakwood Heights VF'
  * Suppression d'un token 'Joshua Katz' sur le scène 0 du scénario 'Oakwood Heights VF'
@@ -101,7 +108,6 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
  * Ajout du tarot de Kult: Divinité Perdue (68 lames)
 
  ## Version 3.5.1 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
-
  * Renommage des fichiers de la bande sonore originale Kult Divinité Perdue (/mp3)
 
 ## Version 3.5.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
@@ -110,7 +116,6 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
  * Correctif de traduction (fr.json)
 
 ## Version 3.0.1 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
-
  * Mise à jour pour intégration à la bibliothèque officielle de Foundry VTT
  
 ## Version 3.0.0 (https://github.com/YanKlInnomme/FoundryVTT-kult-divinity-lost-fr)
@@ -154,6 +159,13 @@ The following requirements are necessary for this module to work :
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
  * The k4lt-assets module (containing the necessary resources)
+
+## Version 6.4.1
+ * Updated Deposit and Support links in the 'Settings' tab
+ * Fixed relationships in the PC sheets of the 'La Galerie des Âmes' scenario
+ * Updated PC tokens with active rotation and 220° vision for the 'La Galerie des Âmes' and 'Oakwood Heights VF' scenarios
+ * Updated scene navigation names for the 'La Galerie des Âmes' and 'Oakwood Heights VF' scenarios
+ * Added an automatic scene thumbnail regeneration function upon adventure import
 
 ## Version 6.3.0
  * Added attribute levels for NPCs in the ready-to-play scenarios 'La Galerie des Âmes' and 'Oakwood Heights VF'

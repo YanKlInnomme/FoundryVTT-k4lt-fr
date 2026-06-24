@@ -1,16 +1,17 @@
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-k4lt-fr%2Fmaster%2Fmodule.json&query=%24.compatibility.verified&label=foundry%20vtt&color=%23ee9b3a) ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-k4lt-fr%2Fmaster%2Fmodule.json&query=%24.version&label=version&color=%230f2f2b) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/YanKlInnomme/FoundryVTT-k4lt-fr/total) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-raw/YanKlInnomme/FoundryVTT-k4lt-fr) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed-raw/YanKlInnomme/FoundryVTT-k4lt-fr) ![GitHub forks](https://img.shields.io/github/forks/YanKlInnomme/FoundryVTT-k4lt-fr) ![GitHub Repo stars](https://img.shields.io/github/stars/YanKlInnomme/FoundryVTT-k4lt-fr) [![Static Badge](https://img.shields.io/badge/buy_me_a_coffee-FFDD00?logo=Buy%20Me%20A%20Coffee&logoColor=black)](https://www.buymeacoffee.com/yank)
 
-**See below for the English version**
+<img width="1919" height="1005" alt="Capture d&#39;écran 2026-06-24 152630" src="https://github.com/user-attachments/assets/8fd06eb8-29c5-45d9-a6d4-c1fa6d28aadf" />
+<img width="1915" height="1006" alt="Capture d&#39;écran 2026-06-24 152531" src="https://github.com/user-attachments/assets/21f817b4-8d4f-4f01-a3ab-95d3ad9a6ca7" />
+<img width="1919" height="1006" alt="Capture d&#39;écran 2026-06-24 152313" src="https://github.com/user-attachments/assets/7e2263bb-77f4-4834-9253-093c287ff46b" />
+<img width="1919" height="1007" alt="Capture d&#39;écran 2026-06-24 153618" src="https://github.com/user-attachments/assets/179b4fc0-cc72-4f90-b511-4f214428cb44" />
+<img width="1919" height="1006" alt="Capture d&#39;écran 2026-06-24 153430" src="https://github.com/user-attachments/assets/6544c322-f744-45a8-8875-6b85defcb971" />
+<img width="1919" height="1006" alt="Capture d&#39;écran 2026-06-24 152924" src="https://github.com/user-attachments/assets/b529b638-b72b-4ad9-91df-b4e048e24e1d" />
+<img width="1919" height="1005" alt="Capture d&#39;écran 2026-06-24 152809" src="https://github.com/user-attachments/assets/b1f0cc17-5de0-41a4-b669-7480e39e4d7f" />
+
+[**See below for the English version**](#Module-k4lt-fr-for-Foundry-VTT)
 
 # Module k4lt-fr pour Foundry VTT
 Améliorer votre expérience de jeu avec ce module complémentaire en version française pour le système de jeu 'KULT: Divinity Lost (4th Edition)' (k4lt) sur Foundry VTT.
-
-<img width="1919" height="1005" alt="Capture d'écran 2025-09-16 084300" src="https://github.com/user-attachments/assets/a9dc6a0b-227d-4213-9c4b-07ed620ce2d3" />
-<img width="1919" height="1006" alt="Capture d'écran 2025-09-16 092117" src="https://github.com/user-attachments/assets/c7b51b0a-ae12-4f87-8507-a0bfc39583bc" />
-<img width="1919" height="1007" alt="Capture d'écran 2025-09-16 090318" src="https://github.com/user-attachments/assets/73bd8678-e692-45e3-8850-29184ad1251c" />
-<img width="1919" height="1006" alt="Capture d'écran 2025-09-16 085528" src="https://github.com/user-attachments/assets/c6a11b36-39a7-4e0b-819c-2fcb87ee6c2f" />
-<img width="1919" height="1006" alt="Capture d'écran 2025-09-16 091642" src="https://github.com/user-attachments/assets/67161bb8-5d15-42b4-85f8-60ce0fbe7031" />
-<img width="1919" height="1004" alt="Capture d'écran 2025-09-16 090717" src="https://github.com/user-attachments/assets/8ff88d77-eb53-4981-b135-f9221626aeff" />
 
 Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir en m'offrant un café sur Buy Me a Coffee (https://www.buymeacoffee.com/yank). Votre soutien serait grandement apprécié et contribuerait à la poursuite du développement. Cela me permettra de vous préparer de nouveaux scénarios prêts-à-jouer. Quoi qu'il en soit, j'espère que vous vivrez une expérience enrichissante et agréable. N'hésitez pas à me contacter si vous avez des commentaires ou des questions.
 

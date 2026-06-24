@@ -7,7 +7,17 @@
     "thingsinyourpossession": "system.thingsinyourpossession",
     "relationtotheothercharacters": "system.relationtotheothercharacters",
     "dramatichooks": "system.dramatichooks",
-    "notes": "system.notes"
+    "notes": "system.notes",
+    "items": {
+      "path": "items",
+      "converter": "document",
+      "documentType": "Item",
+      "cardinality": "many",
+      "mapping": {
+        "description": "system.description",
+        "summary": "system.summary"
+      }
+    }
   },
   "entries": {
     "Rebecca Cooper": {
@@ -17,7 +27,22 @@
       "thingsinyourpossession": "",
       "relationtotheothercharacters": "",
       "dramatichooks": "",
-      "notes": ""
+      "notes": "",
+      "items": {
+        "Antiquarian": {
+          "name": "Antiquaire",
+          "description": "<p>Ils achètent, vendent, authentifient et préservent des artefacts rares, des manuscrits oubliés et des curiosités historiques. Des années passées à explorer des collections privées, des demeures abandonnées et des archives cachées les ont exposés à des légendes, des symboles et des mystères rejetés par l'érudition conventionnelle. Certains artefacts portent des histoires. D'autres semblent porter quelque chose de plus.</p>"
+        },
+        "Acquire Forbidden Knowledge": {
+          "name": "Acquérir un savoir interdit",
+          "description": "<p>Vous êtes animée par un besoin insatiable de dévoiler les vérités cachées derrière l'Illusion. Manuscrits rares, artefacts occultes, langues oubliées et rituels interdits : tous vous offrent un aperçu d'une réalité plus vaste. Plus vous en apprenez, plus les questions se multiplient, et plus il devient difficile de faire demi-tour. Vous savez que certains secrets sont dangereux, mais vous ne pouvez pas résister à l'envie de les percer à jour.</p>"
+        },
+        "The Shadow Man": {
+          "name": "L'Homme de l'Ombre",
+          "summary": "L'homme qui en sait beaucoup trop",
+          "description": "<p>YanK l'Innommé semble toujours surgir lorsque vos enquêtes se retrouvent dans une impasse. Il possède des connaissances qui devraient être impossibles et vous fournit souvent exactement l'indice dont vous avez besoin. Vous ne savez rien de ses origines, de ses motivations, ni de la manière dont il acquiert ces connaissances interdites. Pourtant, il semble toujours savoir ce que vous recherchez avant même que vous ne le sachiez vous-même.</p>"
+        }
+      }
     }
   }
 }

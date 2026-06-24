@@ -1,19 +1,19 @@
 {
   "id": "k4lt-fr",
   "title": "KULT: Divinity Lost · Extra FR",
-  "description": "Enhance your gaming experience with this French module for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.",
-  "version": "6.4.1",
+  "description": "Améliorez votre expérience de jeu grâce à ce module en français pour le système de jeu « KULT : Divinity Lost (4e édition) » (k4lt) sur Foundry VTT.",
+  "version": "7.0.0",
   "license": "LICENSE",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13.348",
-    "maximum": "14"
+    "minimum": "14",
+    "verified": "14.364",
+    "maximum": "15"
   },
   "authors": [
     {
-      "name": "YanK",
-      "url": "yank-solutions.fr",
-      "email": "yanklinnomme@gmail.com",
+      "name": "YanK l'Innommé",
+      "url": "https://yanklinnomme.fr",
+      "email": "contact@yanklinnomme.fr",
       "discord": "yanklinnomme"
     }
   ],

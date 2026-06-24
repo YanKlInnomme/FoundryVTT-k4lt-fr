@@ -32,6 +32,10 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
 
 - **Foundry VTT** : Le projet est créé conformément à l'[accord de licence limitée de Foundry VTT concernant le développement de paquets](https://foundryvtt.com/article/license/).
 
+## Version 7.0.0
+ * Mise à jour du module pour la version 14 de Foundry VTT et mise en conformité avec la politique IA
+ * Adaptation des scénarios prêts-à-jouer 'La Galerie des Âmes' et 'Oakwood Heights VF' pour la nouvelle version du système de jeu 'KULT: Divinity Lost (4th Edition)' (k4lt)
+
 ## Version 6.4.1
  * Mise à jour des liens Dépot et Soutien dans l'onglet 'Paramètres'
  * Correction des relations dans les fiches de PJ du scénario 'La Galerie des Âmes'
@@ -158,6 +162,10 @@ The following requirements are necessary for this module to work :
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
  * The k4lt-assets module (containing the necessary resources)
+
+## Version 7.0.0
+ * Updated the module for Foundry VTT version 14 and compliance with the AI policy
+ * Adapted the ready-to-play scenarios 'La Galerie des Âmes' and 'Oakwood Heights VF' for the new version of the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system
 
 ## Version 6.4.1
  * Updated Deposit and Support links in the 'Settings' tab

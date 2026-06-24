@@ -1,3 +1,5 @@
+// k4lt-fr.js
+
 Hooks.on('init', () => {
   if (typeof game.babele !== 'undefined') {
     game.babele.register({
@@ -7,77 +9,92 @@ Hooks.on('init', () => {
     });
   }
 });
-
 Hooks.on("importAdventure", (adventure, data) => {
   kultLogger(`Adventure imported: ${adventure.name}. Waiting 3 seconds before regenerating scene thumbnails...`);
-
   setTimeout(async () => {
     for (const scene of game.scenes.contents) {
       try {
         kultLogger(`Regenerating thumbnail for: ${scene.name}`);
-
         const thumb = await scene.createThumbnail({ img: scene.background.src });
         await scene.update({ thumb: thumb.thumb });
-
       } catch (err) {
         kultLogger(`Error regenerating thumbnail for scene ${scene.name}`, err);
       }
     }
-
     kultLogger("All scene thumbnails have been regenerated after adventure import!");
   }, 3000);
 });
-
-function getCurrentModuleId() {
-  const path = import.meta.url;
-  const match = path.match(/modules\/([^/]+)\//);
-  return match ? match[1] : null;
-}
-
-const MODULE_ID = getCurrentModuleId();
-
-function addModuleLinksToSettings(app, html) {
-  const MODULE_ID = getCurrentModuleId();
-
-  const accessSection = html.querySelector("section.access.flexcol");
-  if (!accessSection) {
-    console.error("No <section class='access flexcol'> found in parameters");
+/* ----------------------------------------- */
+/* SETTINGS LINKS                            */
+/* ----------------------------------------- */
+function addDTLinksToSettings(app, htmlElement) {
+  const html = htmlElement instanceof HTMLElement ? htmlElement : htmlElement?.[0];
+  if (!html) return;
+  const settingsBlocks = [...html.querySelectorAll("section.settings.flexcol")];
+  const targetBlock = settingsBlocks.find(block =>
+    block.querySelector(
+      'button[data-action="openApp"][data-app="configure"]',
+    )
+  );
+  if (!targetBlock) {
+    console.warn("KULT Extra FR | Settings block not found");
     return;
   }
-
-  const section = document.createElement("section");
-  section.classList.add("settings", "flexcol");
-
-  section.innerHTML = `
-    <h4 class="divider">${game.i18n.localize(`${MODULE_ID}.Module.Title`)}</h4>
-  `;
-
-  const linkKeys = [
-    { icon: "fab fa-github", key: "Git" },
-    { icon: "fa-regular fa-mug-hot fa-bounce", key: "Donation" }
-  ];
-
-  for (let i = 0; i < linkKeys.length; i++) {
-    const link = linkKeys[i];
-    const localizedText = game.i18n.localize(`${MODULE_ID}.Links.${link.key}Title`);
-    const localizedURL = game.i18n.localize(`${MODULE_ID}.Links.${link.key}URL`);
-    const linkSection = document.createElement("section");
-    linkSection.classList.add("settings", "flexcol");
-
-    const button = document.createElement("button");
-    button.type = "button";
-    button.innerHTML = `<i class="${link.icon}"></i> ${localizedText} <sup><i class="fa-light fa-up-right-from-square"></i></sup>`;
-
-    button.addEventListener("click", ev => {
-      ev.preventDefault();
-      window.open(localizedURL, "_blank");
-    });
-
-    linkSection.appendChild(button);
-    section.appendChild(linkSection);
+  const buttons = targetBlock.querySelectorAll(
+    'button[data-action="openApp"]',
+  );
+  if (!buttons.length) {
+    console.warn("KULT Extra FR | No settings buttons found");
+    return;
   }
-
-  accessSection.parentNode.insertBefore(section, accessSection.nextSibling);
+  const lastButton = buttons[buttons.length - 1];
+  if (targetBlock.querySelector(".dt-links")) return;
+  const section = document.createElement("section");
+  section.classList.add(
+    "settings",
+    "flexcol",
+    "dt-links",
+  );
+  section.innerHTML = `
+    <h4 class="divider" style="margin-top: 1rem;">
+      ${game.i18n.localize("k4lt-fr.Module.Title")}
+    </h4>
+  `;
+  const links = [
+    {
+      icon: "fab fa-github",
+      key: "Git",
+    },
+    {
+      icon: "fa-regular fa-mug-hot fa-bounce",
+      key: "Donation",
+    },
+  ];
+  for (const { icon, key } of links) {
+    const label = game.i18n.localize(
+      `k4lt-fr.Links.${key}Title`,
+    );
+    const url = game.i18n.localize(
+      `k4lt-fr.Links.${key}URL`,
+    );
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.innerHTML = `
+      <i class="${icon}"></i>
+      ${label}
+      <sup>
+        <i class="fa-light fa-up-right-from-square"></i>
+      </sup>
+    `;
+    btn.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      window.open(url, "_blank");
+    });
+    section.appendChild(btn);
+  }
+  targetBlock.insertBefore(
+    section,
+    lastButton.nextSibling,
+  );
 }
-
-Hooks.on("renderSettings", addModuleLinksToSettings);
+Hooks.on("renderSettings", addDTLinksToSettings);

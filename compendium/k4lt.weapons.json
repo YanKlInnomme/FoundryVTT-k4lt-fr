@@ -1,0 +1,61 @@
+{
+  "label": "Armes",
+  "mapping": {
+    "name": "name",
+    "attack1": "system.attacks.0.name",
+    "harm1": "system.attacks.0.harm",
+    "ammo1": "system.attacks.0.ammoCost",
+    "effect1a": "system.attacks.0.effect",
+    "effect1b": "system.attacks.0.description",
+    "attack2": "system.attacks.1.name",
+    "harm2": "system.attacks.1.harm",
+    "ammo2": "system.attacks.1.ammoCost",
+    "effect2a": "system.attacks.1.effect",
+    "effect2b": "system.attacks.1.description",
+    "attack3": "system.attacks.2.name",
+    "harm3": "system.attacks.2.harm",
+    "ammo3": "system.attacks.2.ammoCost",
+    "effect3a": "system.attacks.2.effect",
+    "effect3b": "system.attacks.2.description",
+    "attack4": "system.attacks.3.name",
+    "harm4": "system.attacks.3.harm",
+    "ammo4": "system.attacks.3.ammoCost",
+    "effect4a": "system.attacks.3.effect",
+    "effect4b": "system.attacks.3.description",
+    "attack5": "system.attacks.4.name",
+    "harm5": "system.attacks.4.harm",
+    "ammo5": "system.attacks.4.ammoCost",
+    "effect5a": "system.attacks.4.effect",
+    "effect5b": "system.attacks.4.description"
+  },
+  "folders": {},
+  "entries": {
+    "Unarmed": {
+      "name": "Désarmé·e",
+      "attack1": "Coups de poing, coups de pied et coups bas",
+      "harm1": 1,
+      "attack2": "Immobilisation",
+      "effect2a": "vous contrôlez la cible jusqu'à ce qu'elle se libère",
+      "attack3": "Repousser",
+      "effect3a": "vous créez de la distance entre vous et la cible par une projection, une charge ou une poussée",
+      "attack4": "Désarmement",
+      "effect4a": "vous retirez à votre adversaire un objet qu'il tient en main",
+      "attack5": "Attaque à outrance",
+      "harm5": 2,
+      "effect5a": "vous vous concentrez uniquement sur l'élimination de votre cible, sans vous soucier de votre propre sécurité"
+    },
+    "Glock 19": {
+      "name": "Glock 19",
+      "attack1": "Tir instinctif",
+      "harm1": 2,
+      "ammo1": 1,
+      "attack2": "Tir appuyé",
+      "harm2": 3,
+      "ammo2": 2,
+      "attack3": "Tirs enchaînés",
+      "harm3": 2,
+      "ammo3": 3,
+      "effect3a": "touchez jusqu'à une cible supplémentaire"
+    }
+  }
+}

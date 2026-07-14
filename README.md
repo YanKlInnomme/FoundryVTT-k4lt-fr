@@ -33,6 +33,16 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
 
 - **Foundry VTT** : Le projet est créé conformément à l'[accord de licence limitée de Foundry VTT concernant le développement de paquets](https://foundryvtt.com/article/license/).
 
+## Version 7.1.0
+ * Mise à jour du scénarion 'La Galerie des Âmes':
+    - Ajout des fiches de personnages pour les PNJs suivants : Bertha Roslin, Carita Schiller, Christian Starcker, Mr. Pickett, Gardien du parc et Agent de police
+    - Ajout des tokens PNJs sur les scènes correspondantes
+    - Ajout de lumières sur les scènes
+ * Mise à jour du scénario 'Oakwood Heights VF':
+    - Ajout des fiches de personnages pour les PNJs suivants : Les Quatre, Amy, Clark Glover, Detroit News, Dominic, Jerome Allen et Lieutenant Pierce
+    - Mise à jour des relations sur les fiches PJs
+    - Rétablissement du lien token/acteur pour Preston Miles
+
 ## Version 7.0.0
  * Mise à jour du module pour la version 14 de Foundry VTT et mise en conformité avec la politique IA
  * Adaptation des scénarios prêts-à-jouer 'La Galerie des Âmes' et 'Oakwood Heights VF' pour la nouvelle version du système de jeu 'KULT: Divinity Lost (4th Edition)' (k4lt)
@@ -144,7 +154,7 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
 # k4lt-fr module for Foundry VTT
 Enhance your gaming experience with this French module for the 'KULT: Divinity Lost (4th Edition)' (k4lt) game system on Foundry VTT.
 
-If you like the module and have the means to do so, you can support me by offering me a coffee on Buy Me a Coffee (https://www.buymeacoffee.com/yank). Your support would be greatly appreciated and will aid ongoing development. This will enable me to prepare additional ready-to-play scenarios for you. In any case, I hope you have a rewarding and enjoyable experience. Please feel free to contact me with any comments or issues.
+If you enjoy this module and are in a position to do so, you can support my work by buying me a coffee on Buy Me a Coffee (https://www.buymeacoffee.com/yank). Your support is greatly appreciated and helps fund the continued development of this project. Either way, I hope you enjoy using it. If you have any comments, suggestions, or questions, please don't hesitate to get in touch.
 
 ## Licenses
 
@@ -163,6 +173,16 @@ The following requirements are necessary for this module to work :
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
  * The k4lt-assets module (containing the necessary resources)
+
+## Version 7.1.0
+ * Updated the 'La Galerie des Âmes' scenario:
+    - Added character sheets for the following NPCs: Bertha Roslin, Carita Schiller, Christian Starcker, Mr. Pickett, Park Guard and Police Officer
+    - Added NPC tokens on the corresponding scenes
+    - Added lights on the scenes
+ * Updated the 'Oakwood Heights VF' scenario:
+    - Added character sheets for the following NPCs: The Four, Amy, Clark Glover, Detroit News, Dominic, Jerome Allen and Lieutenant Pierce
+    - Updated relationships on PC sheets
+    - Restored token/actor link for Preston Miles
 
 ## Version 7.0.0
  * Updated the module for Foundry VTT version 14 and compliance with the AI policy

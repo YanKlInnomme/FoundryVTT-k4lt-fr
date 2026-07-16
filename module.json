@@ -2,11 +2,11 @@
   "id": "k4lt-fr",
   "title": "KULT: Divinity Lost · Extra FR",
   "description": "Améliorez votre expérience de jeu grâce à ce module en français pour le système de jeu « KULT : Divinity Lost (4e édition) » (k4lt) sur Foundry VTT.",
-  "version": "7.1.0",
+  "version": "7.1.1",
   "license": "LICENSE",
   "compatibility": {
     "minimum": "14",
-    "verified": "14.364",
+    "verified": "14.365",
     "maximum": "15"
   },
   "authors": [

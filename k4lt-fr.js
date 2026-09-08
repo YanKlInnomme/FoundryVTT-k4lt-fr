@@ -1,5 +1,26 @@
 // k4lt-fr.js
 
+async function ensureEchoAdventure() {
+  if (!game.user?.isGM) return;
+  const pack = game.packs.get("k4lt-fr.scenarios-officiels");
+  if (!pack) return console.error("KULT Extra FR | Pack Scénarios Officiels introuvable.");
+  const index = await pack.getIndex({ fields: ["name"] });
+  if (index.some(entry => entry.name === "Écho du Passé")) return;
+  let wasLocked = pack.locked ?? pack.metadata?.locked ?? false;
+  try {
+    const response = await fetch("modules/k4lt-fr/data/echo-du-passe.json");
+    if (!response.ok) throw new Error(`Impossible de charger les données de l'aventure (${response.status})`);
+    const data = await response.json();
+    if (wasLocked) await pack.configure({ locked: false });
+    await Adventure.implementation.createDocuments([data], { pack: pack.collection, keepId: true });
+    ui.notifications.info("KULT Extra FR | Écho du Passé ajouté aux Scénarios Officiels.");
+  } catch (error) {
+    console.error("KULT Extra FR | Impossible d'ajouter Écho du Passé.", error);
+    ui.notifications.error("KULT Extra FR | Échec de l'ajout d'Écho du Passé. Consultez la console.");
+  } finally {
+    if (wasLocked && !pack.locked) await pack.configure({ locked: true });
+  }
+}
 Hooks.on('init', () => {
   if (typeof game.babele !== 'undefined') {
     game.babele.register({

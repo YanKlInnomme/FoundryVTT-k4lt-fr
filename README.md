@@ -33,6 +33,9 @@ Cette adaptation numérique est un contenu non officiel de KULT: Divinity Lost, 
 
 - **Foundry VTT** : Le projet est créé conformément à l'[accord de licence limitée de Foundry VTT concernant le développement de paquets](https://foundryvtt.com/article/license/).
 
+## Version 7.2.1
+ * Ajout du scénario prêts-à-jouer 'Écho du passé'
+
 ## Version 7.1.1
  * Mise à jour mineure sur les fiches de PNJs des scénarios prêts-à-jouer 'La Galerie des Âmes' et 'Oakwood Heights VF'
 
@@ -176,6 +179,9 @@ The following requirements are necessary for this module to work :
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
  * The k4lt-assets module (containing the necessary resources)
+
+## Version 7.2.1
+ * Added the ready-to-play scenario 'Écho du passé'
 
 ## Version 7.1.1
  * Minor update on NPC sheets of the ready-to-play scenarios 'La Galerie des Âmes' and 'Oakwood Heights VF'
